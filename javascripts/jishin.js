@@ -18,7 +18,7 @@ var feed = new google.feeds.Feed("http://feed.tenki.jp/component/static_api/rss/
 			container.innerHTML=useFeed; 
 			
   		}else{
-		container.innerHTML =  "æ“¾o—ˆ‚Ü‚¹‚ñ‚Å‚µ‚½" ; 
+		container.innerHTML =  "å–å¾—å‡ºæ¥ã¾ã›ã‚“ã§ã—ãŸ" ; 
 		}
 	}); 
 } 
@@ -42,7 +42,7 @@ var feed = new google.feeds.Feed("http://feed.tenki.jp/component/static_api/rss/
 			container.innerHTML=useFeed; 
 			
   		}else{
-		container.innerHTML =  "æ“¾o—ˆ‚Ü‚¹‚ñ‚Å‚µ‚½"; 
+		container.innerHTML =  "å–å¾—å‡ºæ¥ã¾ã›ã‚“ã§ã—ãŸ"; 
 		}
 	}); 
 } 

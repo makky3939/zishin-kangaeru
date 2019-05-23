@@ -1,13 +1,13 @@
 /*-------------------------------------------------------------------------
 			Photo.js	
 	
-	Copyright (C) 2012 kĞ‚É‚Â‚¢‚Äl‚¦‚éƒTƒCƒg All Rights Reserved. by Makky
+	Copyright (C) 2012 éœ‡ç½ã«ã¤ã„ã¦è€ƒãˆã‚‹ã‚µã‚¤ãƒˆ All Rights Reserved. by Makky
 ----------------------------------------------------------------------------*/
 
 
 
 /*
-search:key‚ğŒ³‚Éjson.listã‚Å‚Ì”Ô’n‚ğŒŸõ
+search:keyã‚’å…ƒã«json.listä¸Šã§ã®ç•ªåœ°ã‚’æ¤œç´¢
 ---------------------------------------*/
 function search(key){
 	var i = 0;
@@ -19,45 +19,45 @@ function search(key){
 }
 
 /*
-writehead:Headerî•ñ‚ğo—Í
+writehead:Headeræƒ…å ±ã‚’å‡ºåŠ›
 ---------------------------------------*/
 function writehead(){
 	/*document.write('<h1>'+json.list[keyNumber].jname+'</h1>');
-	document.write('<div class="left">‰æ‘œ’ñ‹ŸFŒv'+eval("json."+key+".spots.length")+'–‡<br>');
+	document.write('<div class="left">ç”»åƒæä¾›ï¼šè¨ˆ'+eval("json."+key+".spots.length")+'æš<br>');
 	for(var i=0; i<eval("json."+key+".data.length");i++){
 		document.write('<li>'+eval("json."+key+".data[i].donor")+'</li>');
 	}
 	if( json.list[keyNumber].by != 'none'){
-	document.write('<br><div class="face">æŞÒ‚ÌŠ´‘zF('+json.list[keyNumber].byj+')<table><tr>');
+	document.write('<br><div class="face">å–æè€…ã®æ„Ÿæƒ³ï¼š('+json.list[keyNumber].byj+')<table><tr>');
 	document.write('<td><img src="img/face/'+json.list[keyNumber].by+'.jpg" width="120" height="170" ></td><td>');
 	document.write('<p>'+eval("json."+key+".comment")+'</p>');
 	document.write('</td></tr></table></div>');
 	}else{
-	document.write('<br><br><br><p>‚±‚Ì’n‹æ‚ÌkĞó‹µ‚Å‚·‚ªA’nŒ³‚Ì•ûX‚É“–‚Ì–‚È‚Ç•·‚«‚Ü‚µ‚½‚ªC‚â‚Í‚èAŠX‚ÌlX‚Í‹Á‚­‚Ù‚Ç‹ê˜J<br>‚³‚ê‚½‚æ‚¤‚Å‚·B‚±‚Ì’n‹æ‚àC„’B‚ªl‚¦‚Ä‚¢‚½ˆÈã‚É’nk‚Ì”íŠQ‚Í‘å‚«‚­CÄ”­‚µ‚½‚Æ‚«‚É—âÃ‚És“®‚Å‚«‚é‚æ<br>‚¤SŠ|‚¯‚é‚×‚«‚¾‚Æv‚¢‚Ü‚µ‚½B</p>');
+	document.write('<br><br><br><p>ã“ã®åœ°åŒºã®éœ‡ç½çŠ¶æ³ã§ã™ãŒã€åœ°å…ƒã®æ–¹ã€…ã«å½“æ™‚ã®äº‹ãªã©èãã¾ã—ãŸãŒï¼Œã‚„ã¯ã‚Šã€è¡—ã®äººã€…ã¯é©šãã»ã©è‹¦åŠ´<br>ã•ã‚ŒãŸã‚ˆã†ã§ã™ã€‚ã“ã®åœ°åŒºã‚‚ï¼Œç§é”ãŒè€ƒãˆã¦ã„ãŸä»¥ä¸Šã«åœ°éœ‡ã®è¢«å®³ã¯å¤§ããï¼Œå†ç™ºã—ãŸã¨ãã«å†·é™ã«è¡Œå‹•ã§ãã‚‹ã‚ˆ<br>ã†å¿ƒæ›ã‘ã‚‹ã¹ãã ã¨æ€ã„ã¾ã—ãŸã€‚</p>');
 	}
 	document.write('</div><div class="right"><img src="img/photo/'+json.list[keyNumber].name+'/'+json.list[keyNumber].name+'.jpg"/></div>');
 	document.write('<br><br>');
-	$("title").text(json.list[keyNumber].jname + "-Photo:kĞ‚É‚Â‚¢‚Äl‚¦‚éƒTƒCƒg");*/
+	$("title").text(json.list[keyNumber].jname + "-Photo:éœ‡ç½ã«ã¤ã„ã¦è€ƒãˆã‚‹ã‚µã‚¤ãƒˆ");*/
 	
 	document.write('<a href="photo.html">back</a><h1>'+json.list[keyNumber].jname+'</h1>');
-	document.write('<div class="left">‰æ‘œ’ñ‹ŸFŒv'+eval("json."+key+".spots.length")+'–‡<br>');
+	document.write('<div class="left">ç”»åƒæä¾›ï¼šè¨ˆ'+eval("json."+key+".spots.length")+'æš<br>');
 	for(var i=0; i<eval("json."+key+".data.length");i++){
 		document.write('<li>'+eval("json."+key+".data[i].donor")+'</li>');
 	}
 	if( json.list[keyNumber].by != 'none'){
-	document.write('<br><div class="face">æŞÒ‚ÌŠ´‘zF('+json.list[keyNumber].byj+')<table><tr>');
+	document.write('<br><div class="face">å–æè€…ã®æ„Ÿæƒ³ï¼š('+json.list[keyNumber].byj+')<table><tr>');
 	//document.write('<td><img src="img/face/'+json.list[keyNumber].by+'.jpg" width="120" height="170" ></td>');
 	document.write('<td><p>'+eval("json."+key+".comment")+'</p>');
 	document.write('</td></tr></table></div>');
 	}else{
-	document.write('<br><br><br><p>‚±‚Ì’n‹æ‚ÌkĞó‹µ‚Å‚·‚ªA’nŒ³‚Ì•ûX‚É“–‚Ì–‚È‚Ç•·‚«‚Ü‚µ‚½‚ªC‚â‚Í‚èAŠX‚ÌlX‚Í‹Á‚­‚Ù‚Ç‹ê˜J<br>‚³‚ê‚½‚æ‚¤‚Å‚·B‚±‚Ì’n‹æ‚àC„’B‚ªl‚¦‚Ä‚¢‚½ˆÈã‚É’nk‚Ì”íŠQ‚Í‘å‚«‚­CÄ”­‚µ‚½‚Æ‚«‚É—âÃ‚És“®‚Å‚«‚é‚æ<br>‚¤SŠ|‚¯‚é‚×‚«‚¾‚Æv‚¢‚Ü‚µ‚½B</p>');
+	document.write('<br><br><br><p>ã“ã®åœ°åŒºã®éœ‡ç½çŠ¶æ³ã§ã™ãŒã€åœ°å…ƒã®æ–¹ã€…ã«å½“æ™‚ã®äº‹ãªã©èãã¾ã—ãŸãŒï¼Œã‚„ã¯ã‚Šã€è¡—ã®äººã€…ã¯é©šãã»ã©è‹¦åŠ´<br>ã•ã‚ŒãŸã‚ˆã†ã§ã™ã€‚ã“ã®åœ°åŒºã‚‚ï¼Œç§é”ãŒè€ƒãˆã¦ã„ãŸä»¥ä¸Šã«åœ°éœ‡ã®è¢«å®³ã¯å¤§ããï¼Œå†ç™ºã—ãŸã¨ãã«å†·é™ã«è¡Œå‹•ã§ãã‚‹ã‚ˆ<br>ã†å¿ƒæ›ã‘ã‚‹ã¹ãã ã¨æ€ã„ã¾ã—ãŸã€‚</p>');
 	}
 	//document.write('</div><div class="right"><img src="img/photo/'+json.list[keyNumber].name+'/'+json.list[keyNumber].name+'.jpg"/></div>');
 	document.write('<br><br>');
 }
 
 /*
-writeImggrid:‰æ‘œGrid‚ğo—Í
+writeImggrid:ç”»åƒGridã‚’å‡ºåŠ›
 ---------------------------------------*/
 function writeImggrid(){
 	var status;
@@ -65,11 +65,11 @@ function writeImggrid(){
 	/*for(var j=1; j<=eval("json."+key+".spots.length"); j++){
 		var spot = eval("json."+key+".spots[j-1]");
 			if(spot.status == 1){
-				status = 'kĞ“–';
+				status = 'éœ‡ç½å½“æ™‚';
 			}else{
-				status = 'Œ»İ';
+				status = 'ç¾åœ¨';
 			}
-	document.write('<a class="fancy" data-fancybox-type="image" data-fancybox-group="'+spot.group+'" href="img/photo/'+json.list[keyNumber].name+'/'+spot.id+'.jpg" title="'+spot.code+'@'+spot.name+' '+status+'‚Ì—lq">');
+	document.write('<a class="fancy" data-fancybox-type="image" data-fancybox-group="'+spot.group+'" href="img/photo/'+json.list[keyNumber].name+'/'+spot.id+'.jpg" title="'+spot.code+'ã€€'+spot.name+' '+status+'ã®æ§˜å­">');
 	document.write('<div class="photgrid">');
 	document.write('<div class="cap">');
 	document.write('<img src="img/photo/'+json.list[keyNumber].name+'/' + spot.id + '.jpg" width="239" height="210"/>');
@@ -81,11 +81,11 @@ function writeImggrid(){
 	for(var j=1; j<=eval("json."+key+".spots.length"); j++){
 		var spot = eval("json."+key+".spots[j-1]");
 			if(spot.status == 1){
-				status = 'kĞ“–';
+				status = 'éœ‡ç½å½“æ™‚';
 			}else{
-				status = 'Œ»İ';
+				status = 'ç¾åœ¨';
 			}
-	document.write('<a class="fancy" data-fancybox-type="image" data-fancybox-group="'+spot.group+'" href="img/photo/'+json.list[keyNumber].name+'/'+spot.id+'.jpg" title="'+spot.code+'@'+spot.name+' '+status+'‚Ì—lq">');
+	document.write('<a class="fancy" data-fancybox-type="image" data-fancybox-group="'+spot.group+'" href="img/photo/'+json.list[keyNumber].name+'/'+spot.id+'.jpg" title="'+spot.code+'ã€€'+spot.name+' '+status+'ã®æ§˜å­">');
 	document.write('<div class="photgrid">');
 	document.write('<div class="cap">');
 	document.write('<img src="img/photo/'+json.list[keyNumber].name+'/' + spot.id + '.jpg" width="239" height="210"/>');
@@ -96,35 +96,35 @@ function writeImggrid(){
 }
 
 /*
-writelist:s’¬‘ºƒŠƒXƒg‚ğo—Í
+writelist:å¸‚ç”ºæ‘ãƒªã‚¹ãƒˆã‚’å‡ºåŠ›
 ---------------------------------------*/
 function writelist(){
 	var count_img = 0;
 	for(var i=0; i<json.list.length; i++){
 	
 		if(json.list[i].name == 'ami'){
-		document.write('<br><div class="point">‚»‚Ì‘¼‚Ì‰æ‘œ</div><br>');
+		document.write('<br><div class="point">ãã®ä»–ã®ç”»åƒ</div><br>');
 		}
 		document.write('<a href="photo_'+json.list[i].name+'.html"><div class="content_menu">');
 		document.write('<h2>'+json.list[i].jname+'</h2><div>');
 		//if(i <  20 ){
-		//document.write('æŞÒF'+json.list[i].byj+'@');
+		//document.write('å–æè€…ï¼š'+json.list[i].byj+'ã€€');
 		//}
-		document.write('‰æ‘œF'+eval("json."+json.list[i].name+".spots.length")+'–‡</div>');
+		document.write('ç”»åƒï¼š'+eval("json."+json.list[i].name+".spots.length")+'æš</div>');
 		document.write('</div>');
 		document.write('</a><hr>');
 		count_img = count_img + eval("json."+json.list[i].name+".spots.length");
 	}
-	document.getElementById('imgcounter').innerHTML= '‰æ‘œ‘”F'+count_img+'–‡';
-	document.getElementById('imgcontent').innerHTML= 'æŞ’nˆæF'+json.list.length+'‰ÓŠ';
+	document.getElementById('imgcounter').innerHTML= 'ç”»åƒç·æ•°ï¼š'+count_img+'æš';
+	document.getElementById('imgcontent').innerHTML= 'å–æåœ°åŸŸï¼š'+json.list.length+'ç®‡æ‰€';
 }
 
 /*
 		document.write('<a href="photo_'+json.list[i].name+'.html"><div class="listgrid"><div class="cap">');
 		document.write('<img src="img/photo/'+json.list[i].name+'/'+eval("json."+json.list[i].name+".spots[0].id")+'.jpg" width="490" height="380" class="imgcap"><br>');	
 		document.write('<h1>'+json.list[i].jname+'</h1><br>');
-		document.write('<div>æŞÒF'+json.list[i].byj+'@');
-		document.write('‰æ‘œF'+eval("json."+json.list[i].name+".spots.length")+'–‡</div><br>');
+		document.write('<div>å–æè€…ï¼š'+json.list[i].byj+'ã€€');
+		document.write('ç”»åƒï¼š'+eval("json."+json.list[i].name+".spots.length")+'æš</div><br>');
 		document.write('</div></div>');
 		document.write('</a>');
 */
@@ -153,7 +153,7 @@ function attachInfoWindow(num) {
 	mc.push(marker);
 	google.maps.event.addListener(marker, 'click', function (e) {
     infowindow.open(map, marker);
-	infowindow.content = '‚±‚±‚Í<a href="photo_'+spot.name+'.html">'+spot.jname+'</a>‚Å‚·';
+	infowindow.content = 'ã“ã“ã¯<a href="photo_'+spot.name+'.html">'+spot.jname+'</a>ã§ã™';
 	});
 	}
 }
@@ -180,7 +180,7 @@ function attachInfoWindow(num) {
 	mc.push(marker);
 	//google.maps.event.addListener(marker, 'click', function (e) {
     //infowindow.open(map, marker);
-	//infowindow.content = '‚±‚±‚Í<a href="photo_'+spot.name+'.html">'+spot.jname+'</a>‚Å‚·';
+	//infowindow.content = 'ã“ã“ã¯<a href="photo_'+spot.name+'.html">'+spot.jname+'</a>ã§ã™';
 	//});
 	}
 }
@@ -194,24 +194,24 @@ function attachInfoWindow(num) {
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-/*--------------------‰æ‘œ‘—¿DataBase---------------------------------------------
+/*--------------------ç”»åƒè³‡æ–™DataBase---------------------------------------------
 var json = 
 {
 	"list":
 		[
-		{"jname":"s’¬‘º–¼","name":"s’¬‘º–¼","by":"’S“–Ò–¼","byj":"’S“–Ò–¼"},
-		{"jname":"s’¬‘º–¼","name":"s’¬‘º–¼","by":"’S“–Ò–¼","byj":"’S“–Ò–¼"}
+		{"jname":"å¸‚ç”ºæ‘å","name":"å¸‚ç”ºæ‘å","by":"æ‹…å½“è€…å","byj":"æ‹…å½“è€…å"},
+		{"jname":"å¸‚ç”ºæ‘å","name":"å¸‚ç”ºæ‘å","by":"æ‹…å½“è€…å","byj":"æ‹…å½“è€…å"}
 		],
-	"s’¬‘º–¼":{
+	"å¸‚ç”ºæ‘å":{
 		"spots": [
-			{"id":"1","name":"–¼‘O","code":"ZŠ","status":"1","group":"a"},
-			{"id":"2","name":"–¼‘O","code":"ZŠ","status":"0","group":"b"}
+			{"id":"1","name":"åå‰","code":"ä½æ‰€","status":"1","group":"a"},
+			{"id":"2","name":"åå‰","code":"ä½æ‰€","status":"0","group":"b"}
 		],	
 		"data":[
-			{"donor":"’ñ‹ŸÒ"},
-			{"donor":"’ñ‹ŸÒ"}
+			{"donor":"æä¾›è€…"},
+			{"donor":"æä¾›è€…"}
 		],
-		"comment":"ƒeƒLƒXƒg"
+		"comment":"ãƒ†ã‚­ã‚¹ãƒˆ"
 	}
 };
 --------------------------------------------------------------------------------*/
@@ -221,884 +221,884 @@ var json =
 {
 	"list":
 		[
-		//{"jname":"“ìO—¤’¬","name":"minamisanriku","by":"3_kobayashi","byj":"Masaki.K."},
-		//{"jname":"‹CåÀs","name":"kesennuma","by":"3_kobayashi","byj":"Masaki.K."},
-		//{"jname":"å‘äs","name":"sendai","by":"3_kobayashi","byj":"Masaki.K."},
+		//{"jname":"å—ä¸‰é™¸ç”º","name":"minamisanriku","by":"3_kobayashi","byj":"Masaki.K."},
+		//{"jname":"æ°—ä»™æ²¼å¸‚","name":"kesennuma","by":"3_kobayashi","byj":"Masaki.K."},
+		//{"jname":"ä»™å°å¸‚","name":"sendai","by":"3_kobayashi","byj":"Masaki.K."},
 		
-		{"jname":"ˆî•~s","name":"inasiki","by":"1_kamihara","byj":"Takumi.K.","lat":"35.956568","lng":"140.323918"},
-		//{"jname":"ˆïé’¬","name":"ibarakimati","by":"2_suzuki","byj":"Yumi.S."},
-		{"jname":"‘åô’¬","name":"oarai","by":"3_kobayashi","byj":"Masaki.K.","lat":"36.313186","lng":"140.575021"},
-		{"jname":"Š}ŠÔs","name":"kasama","by":"2_suzuki","byj":"Yumi.S.","lat":"36.348038","lng":"140.297419"},
-		//{"jname":"‚©‚·‚İ‚ª‚¤‚çs","name":"kasumigaura","by":"2_suzuki","byj":"Yumi.S."},
-		{"jname":"–kˆïés","name":"kitaibaraki","by":"1_minami","byj":"Kaori.M.","lat":"36.801867","lng":"140.751048"},
-		{"jname":"÷ìs","name":"sakuragawa","by":"1_kobayashi","byj":"Masamune.K.","lat":"36.327296","lng":"140.090397"},
-		{"jname":"‰ºÈs","name":"simotuma","by":"1_suzuki","byj":"Kyouka.S.","lat":"36.191646","lng":"139.967485"},
-		{"jname":"í‘s","name":"jyoso","by":"1_suzuki","byj":"Kyouka.S.","lat":"36.032998","lng":"139.99799"},
-		{"jname":"é—¢’¬","name":"shirosato","by":"1_kobayashi","byj":"Masamune.K.","lat":"36.479293","lng":"140.376195"},
-		{"jname":"‚”‹s","name":"takahagi","by":"1_minami","byj":"Kaori.M.","lat":"36.713747","lng":"140.709546"},
-		{"jname":"’}¼s","name":"tikusei","by":"1_suzuki","byj":"Kyouka.S.","lat":"36.320658","lng":"139.98151"},
-		{"jname":"“y‰Ys","name":"tutiura","by":"1_kamihara","byj":"Takumi.K.","lat":"36.071827","lng":"140.195968"},
-		{"jname":"â“Œs","name":"bandou","by":"1_suzuki","byj":"Kyouka.S.","lat":"36.057981","lng":"139.886753"},
-		//{"jname":"“ú—§s","name":"hitati","by":"1_suzuki","byj":"Kyouka.S."},
-		{"jname":"í—¤‘¾“cs","name":"hitachioota","by":"1_minami","byj":"Kaori.M.","lat":"36.538295","lng":"140.530951"},
-		{"jname":"í—¤‘å‹{s","name":"hitatioomiya","by":"1_minami","byj":"Kaori.M.","lat":"36.542555","lng":"140.410968"},
-		{"jname":"‚Ğ‚½‚¿‚È‚©s","name":"hitachinaka","by":"1_kobayashi","byj":"Masamune.K.","lat":"36.396553","lng":"140.534607"},
-		{"jname":"–g“cs","name":"hokota","by":"1_kobayashi","byj":"Masamune.K.","lat":"36.158606","lng":"140.516547"},
-		{"jname":"…ŒËs","name":"mito","by":"2_suzuki","byj":"Yumi.S.","lat":"36.365869","lng":"140.471203"}
+		{"jname":"ç¨²æ•·å¸‚","name":"inasiki","by":"1_kamihara","byj":"Takumi.K.","lat":"35.956568","lng":"140.323918"},
+		//{"jname":"èŒ¨åŸç”º","name":"ibarakimati","by":"2_suzuki","byj":"Yumi.S."},
+		{"jname":"å¤§æ´—ç”º","name":"oarai","by":"3_kobayashi","byj":"Masaki.K.","lat":"36.313186","lng":"140.575021"},
+		{"jname":"ç¬ é–“å¸‚","name":"kasama","by":"2_suzuki","byj":"Yumi.S.","lat":"36.348038","lng":"140.297419"},
+		//{"jname":"ã‹ã™ã¿ãŒã†ã‚‰å¸‚","name":"kasumigaura","by":"2_suzuki","byj":"Yumi.S."},
+		{"jname":"åŒ—èŒ¨åŸå¸‚","name":"kitaibaraki","by":"1_minami","byj":"Kaori.M.","lat":"36.801867","lng":"140.751048"},
+		{"jname":"æ¡œå·å¸‚","name":"sakuragawa","by":"1_kobayashi","byj":"Masamune.K.","lat":"36.327296","lng":"140.090397"},
+		{"jname":"ä¸‹å¦»å¸‚","name":"simotuma","by":"1_suzuki","byj":"Kyouka.S.","lat":"36.191646","lng":"139.967485"},
+		{"jname":"å¸¸ç·å¸‚","name":"jyoso","by":"1_suzuki","byj":"Kyouka.S.","lat":"36.032998","lng":"139.99799"},
+		{"jname":"åŸé‡Œç”º","name":"shirosato","by":"1_kobayashi","byj":"Masamune.K.","lat":"36.479293","lng":"140.376195"},
+		{"jname":"é«˜è©å¸‚","name":"takahagi","by":"1_minami","byj":"Kaori.M.","lat":"36.713747","lng":"140.709546"},
+		{"jname":"ç­‘è¥¿å¸‚","name":"tikusei","by":"1_suzuki","byj":"Kyouka.S.","lat":"36.320658","lng":"139.98151"},
+		{"jname":"åœŸæµ¦å¸‚","name":"tutiura","by":"1_kamihara","byj":"Takumi.K.","lat":"36.071827","lng":"140.195968"},
+		{"jname":"å‚æ±å¸‚","name":"bandou","by":"1_suzuki","byj":"Kyouka.S.","lat":"36.057981","lng":"139.886753"},
+		//{"jname":"æ—¥ç«‹å¸‚","name":"hitati","by":"1_suzuki","byj":"Kyouka.S."},
+		{"jname":"å¸¸é™¸å¤ªç”°å¸‚","name":"hitachioota","by":"1_minami","byj":"Kaori.M.","lat":"36.538295","lng":"140.530951"},
+		{"jname":"å¸¸é™¸å¤§å®®å¸‚","name":"hitatioomiya","by":"1_minami","byj":"Kaori.M.","lat":"36.542555","lng":"140.410968"},
+		{"jname":"ã²ãŸã¡ãªã‹å¸‚","name":"hitachinaka","by":"1_kobayashi","byj":"Masamune.K.","lat":"36.396553","lng":"140.534607"},
+		{"jname":"é‰¾ç”°å¸‚","name":"hokota","by":"1_kobayashi","byj":"Masamune.K.","lat":"36.158606","lng":"140.516547"},
+		{"jname":"æ°´æˆ¸å¸‚","name":"mito","by":"2_suzuki","byj":"Yumi.S.","lat":"36.365869","lng":"140.471203"}
 
-		//{"jname":"ˆ¢Œ©’¬","name":"ami","by":"none","byj":"none"},
-		//{"jname":"­“ˆs","name":"kasima","by":"none","byj":"none"},
-		//{"jname":"‰Í“à’¬","name":"kawauti","by":"none","byj":"none"},
-		//{"jname":"‚Â‚­‚Î‚İ‚ç‚¢s","name":"tukubamirai","by":"none","byj":"none"},
-		//{"jname":"s•ûs","name":"namegata","by":"none","byj":"none"},	
-		//{"jname":"ç’Js","name":"moriya","by":"none","byj":"none"}
+		//{"jname":"é˜¿è¦‹ç”º","name":"ami","by":"none","byj":"none"},
+		//{"jname":"é¹¿å¶‹å¸‚","name":"kasima","by":"none","byj":"none"},
+		//{"jname":"æ²³å†…ç”º","name":"kawauti","by":"none","byj":"none"},
+		//{"jname":"ã¤ãã°ã¿ã‚‰ã„å¸‚","name":"tukubamirai","by":"none","byj":"none"},
+		//{"jname":"è¡Œæ–¹å¸‚","name":"namegata","by":"none","byj":"none"},	
+		//{"jname":"å®ˆè°·å¸‚","name":"moriya","by":"none","byj":"none"}
 		],
 
 
 	"oarai":{
 		"spots": [
-			{"id":"9","name":"‘åô’¬ q‹óÊ^","code":"‘åô’¬ q‹óÊ^","status":"1","group":"0","lat":"36.322041","lng":"140.578111"},
-			{"id":"5","name":"ƒtƒFƒŠ[ƒ^[ƒ~ƒiƒ‹•t‹ß","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬`’†‰›2","status":"1","group":"0","lat":"36.332828","lng":"140.565236"},
-			/*{"id":"6","name":"‘åôƒ}ƒŠƒ“ƒ^ƒ[","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬`’†‰›10”Ô’n","status":"1","group":"a"},
-			{"id":"3","name":"‘åôƒ}ƒŠƒ“ƒ^ƒ[","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬`’†‰›10”Ô’n","status":"1","group":"a"},
-			{"id":"38","name":"‘åôƒ}ƒŠƒ“ƒ^ƒ[","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬`’†‰›10”Ô’n","status":"0","group":"a"},
-			{"id":"29","name":"ŠC–å‹´","code":"@‚Ğ‚½‚¿‚È‚©sŠC–å’¬-‘åô’¬ˆé•l’¬@˜Hü@Œ§“¹108†","status":"0","group":"b"},
-			{"id":"30","name":"ŠC–å‹´","code":"@‚Ğ‚½‚¿‚È‚©sŠC–å’¬-‘åô’¬ˆé•l’¬@˜Hü@Œ§“¹108†","status":"0","group":"b"},
-			{"id":"31","name":"ŠC–å‹´","code":"@‚Ğ‚½‚¿‚È‚©sŠC–å’¬-‘åô’¬ˆé•l’¬@˜Hü@Œ§“¹108†","status":"0","group":"b"},
-			{"id":"32","name":"ŠC–å‹´","code":"@‚Ğ‚½‚¿‚È‚©sŠC–å’¬-‘åô’¬ˆé•l’¬@˜Hü@Œ§“¹108†","status":"0","group":"b"},
-			{"id":"33","name":"ŠC–å‹´","code":"@‚Ğ‚½‚¿‚È‚©sŠC–å’¬-‘åô’¬ˆé•l’¬@˜Hü@Œ§“¹108†","status":"0","group":"b"},
-			{"id":"34","name":"ŠC–å‹´","code":"@‚Ğ‚½‚¿‚È‚©sŠC–å’¬-‘åô’¬ˆé•l’¬@˜Hü@Œ§“¹108†","status":"0","group":"b"},
-			{"id":"4","name":"‘åô’¬–ğê","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬ˆé•l’¬ 6881-275","status":"1","group":"c"},
-			{"id":"7","name":"‘åô’¬–ğê","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬ˆé•l’¬ 6881-275","status":"1","group":"c"},
-			{"id":"8","name":"‘åô’¬–ğê","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬ˆé•l’¬ 6881-275","status":"1","group":"c"},
-			{"id":"35","name":"‘åô’¬–ğê","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬ˆé•l’¬ 6881-275","status":"0","group":"c"},
-			{"id":"36","name":"‘åô’¬–ğê","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬ˆé•l’¬ 6881-275","status":"0","group":"c"},
-			{"id":"37","name":"‘åô’¬–ğê","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬ˆé•l’¬ 6881-275","status":"0","group":"c"},
-			{"id":"2","name":"•¶‰»ƒZƒ“ƒ^[","code":"‘åô’¬ˆé•l’¬6881-88","status":"1","group":"d"},
-			{"id":"10","name":"‹™`‚Ì—lq","code":"‘åô’¬‹™`","status":"1","group":"e"},
-			{"id":"11","name":"‹™`‚Ì—lq","code":"‘åô’¬‹™`","status":"1","group":"e"},
-			{"id":"12","name":"‹™`‚Ì—lq","code":"‘åô’¬‹™`","status":"1","group":"e"},
-			{"id":"13","name":"‹™`‚Ì—lq","code":"‘åô’¬‹™`","status":"1","group":"e"},
-			{"id":"20","name":"‹™`‚Ì—lq","code":"‘åô’¬‹™`","status":"0","group":"e"},
-			{"id":"21","name":"‹™`‚Ì—lq","code":"‘åô’¬‹™`","status":"0","group":"e"},
-			{"id":"22","name":"‹™`‚Ì—lq","code":"‘åô’¬‹™`","status":"0","group":"e"},
-			{"id":"23","name":"‹™`‚Ì—lq","code":"‘åô’¬‹™`","status":"0","group":"e"},
-			{"id":"24","name":"‹™`‚Ì—lq","code":"‘åô’¬‹™`","status":"0","group":"e"},
-			{"id":"18","name":"‹™`‚Ì—lq","code":"‘åô’¬‹™`","status":"0","group":"e"},
-			{"id":"40","name":"‘åô‚í‚­‚í‚­‰ÈŠwŠÙ ","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬`’†‰›‚P‚Q”Ô’n","status":"0","group":"f"},
-			{"id":"41","name":"‘åô‚í‚­‚í‚­‰ÈŠwŠÙ ","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬`’†‰›‚P‚Q”Ô’n","status":"0","group":"f"},
-			{"id":"16","name":"‹›sê","code":"‘åô’¬‹›sê“à","status":"1","group":"g"},
-			{"id":"19","name":"‹›sê","code":"‘åô’¬‹›sê“à","status":"0","group":"g"},
-			{"id":"14","name":"‘åôƒŠƒ][ƒgƒAƒEƒgƒŒƒbƒg","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬`’†‰›‚P‚P-‚Q","status":"1","group":"h"},
-			{"id":"15","name":"‘åôƒŠƒ][ƒgƒAƒEƒgƒŒƒbƒg","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬`’†‰›‚P‚P-‚Q","status":"1","group":"h"},
-			{"id":"17","name":"‘åôƒŠƒ][ƒgƒAƒEƒgƒŒƒbƒg","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬`’†‰›‚P‚P-‚Q","status":"1","group":"h"},
-			{"id":"27","name":"ƒZƒuƒ“ƒCƒŒƒuƒ“‘åôŠCŠİ“X","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬ˆé•l’¬‚W‚Q‚T‚R-‚R‚X","status":"0","group":"i"},
-			{"id":"44","name":"ƒZƒuƒ“ƒCƒŒƒuƒ“‘åôŠCŠİ“X","code":"ˆïéŒ§“ŒˆïéŒS‘åô’¬ˆé•l’¬‚W‚Q‚T‚R-‚R‚X","status":"1","group":"i"},
-			{"id":"1","name":"Œ§“¹2†ü‰ˆ‚¢‚Ì—lq","code":"Œ§“¹2†ü‰ˆ‚¢","status":"1","group":"j"},
-			{"id":"25","name":"Œ§“¹2†ü‰ˆ‚¢‚Ì—lq","code":"Œ§“¹2†ü‰ˆ‚¢","status":"0","group":"j"},
-			{"id":"26","name":"Œ§“¹2†ü‰ˆ‚¢‚Ì—lq","code":"Œ§“¹2†ü‰ˆ‚¢","status":"0","group":"j"},
-			{"id":"28","name":"Œ§“¹2†ü‰ˆ‚¢‚Ì—lq","code":"Œ§“¹2†ü‰ˆ‚¢","status":"0","group":"j"},
-			{"id":"39","name":"‘åôƒTƒ“ƒr[ƒ`","code":"‚Éİ’u‚³‚ê‚½”ğ“ï•W¯","status":"0","group":"k"},*/
-			{"id":"42","name":"•½‘¾˜Y•l","code":"ŠCŠİ´‘|‚Ì—lq","status":"0","group":"l","lat":"36.322871","lng":"140.546697"},
-			{"id":"43","name":"•½‘¾˜Y•l","code":"ŠCŠİ´‘|‚Ì—lq","status":"0","group":"l","lat":"36.303367","lng":"140.548242"}
+			{"id":"9","name":"å¤§æ´—ç”º èˆªç©ºå†™çœŸ","code":"å¤§æ´—ç”º èˆªç©ºå†™çœŸ","status":"1","group":"0","lat":"36.322041","lng":"140.578111"},
+			{"id":"5","name":"ãƒ•ã‚§ãƒªãƒ¼ã‚¿ãƒ¼ãƒŸãƒŠãƒ«ä»˜è¿‘","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºæ¸¯ä¸­å¤®2","status":"1","group":"0","lat":"36.332828","lng":"140.565236"},
+			/*{"id":"6","name":"å¤§æ´—ãƒãƒªãƒ³ã‚¿ãƒ¯ãƒ¼","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºæ¸¯ä¸­å¤®10ç•ªåœ°","status":"1","group":"a"},
+			{"id":"3","name":"å¤§æ´—ãƒãƒªãƒ³ã‚¿ãƒ¯ãƒ¼","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºæ¸¯ä¸­å¤®10ç•ªåœ°","status":"1","group":"a"},
+			{"id":"38","name":"å¤§æ´—ãƒãƒªãƒ³ã‚¿ãƒ¯ãƒ¼","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºæ¸¯ä¸­å¤®10ç•ªåœ°","status":"0","group":"a"},
+			{"id":"29","name":"æµ·é–€æ©‹","code":"ã€€ã²ãŸã¡ãªã‹å¸‚æµ·é–€ç”º-å¤§æ´—ç”ºç£¯æµœç”ºã€€è·¯ç·šã€€çœŒé“108å·","status":"0","group":"b"},
+			{"id":"30","name":"æµ·é–€æ©‹","code":"ã€€ã²ãŸã¡ãªã‹å¸‚æµ·é–€ç”º-å¤§æ´—ç”ºç£¯æµœç”ºã€€è·¯ç·šã€€çœŒé“108å·","status":"0","group":"b"},
+			{"id":"31","name":"æµ·é–€æ©‹","code":"ã€€ã²ãŸã¡ãªã‹å¸‚æµ·é–€ç”º-å¤§æ´—ç”ºç£¯æµœç”ºã€€è·¯ç·šã€€çœŒé“108å·","status":"0","group":"b"},
+			{"id":"32","name":"æµ·é–€æ©‹","code":"ã€€ã²ãŸã¡ãªã‹å¸‚æµ·é–€ç”º-å¤§æ´—ç”ºç£¯æµœç”ºã€€è·¯ç·šã€€çœŒé“108å·","status":"0","group":"b"},
+			{"id":"33","name":"æµ·é–€æ©‹","code":"ã€€ã²ãŸã¡ãªã‹å¸‚æµ·é–€ç”º-å¤§æ´—ç”ºç£¯æµœç”ºã€€è·¯ç·šã€€çœŒé“108å·","status":"0","group":"b"},
+			{"id":"34","name":"æµ·é–€æ©‹","code":"ã€€ã²ãŸã¡ãªã‹å¸‚æµ·é–€ç”º-å¤§æ´—ç”ºç£¯æµœç”ºã€€è·¯ç·šã€€çœŒé“108å·","status":"0","group":"b"},
+			{"id":"4","name":"å¤§æ´—ç”ºå½¹å ´","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºç£¯æµœç”º 6881-275","status":"1","group":"c"},
+			{"id":"7","name":"å¤§æ´—ç”ºå½¹å ´","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºç£¯æµœç”º 6881-275","status":"1","group":"c"},
+			{"id":"8","name":"å¤§æ´—ç”ºå½¹å ´","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºç£¯æµœç”º 6881-275","status":"1","group":"c"},
+			{"id":"35","name":"å¤§æ´—ç”ºå½¹å ´","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºç£¯æµœç”º 6881-275","status":"0","group":"c"},
+			{"id":"36","name":"å¤§æ´—ç”ºå½¹å ´","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºç£¯æµœç”º 6881-275","status":"0","group":"c"},
+			{"id":"37","name":"å¤§æ´—ç”ºå½¹å ´","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºç£¯æµœç”º 6881-275","status":"0","group":"c"},
+			{"id":"2","name":"æ–‡åŒ–ã‚»ãƒ³ã‚¿ãƒ¼","code":"å¤§æ´—ç”ºç£¯æµœç”º6881-88","status":"1","group":"d"},
+			{"id":"10","name":"æ¼æ¸¯ã®æ§˜å­","code":"å¤§æ´—ç”ºæ¼æ¸¯","status":"1","group":"e"},
+			{"id":"11","name":"æ¼æ¸¯ã®æ§˜å­","code":"å¤§æ´—ç”ºæ¼æ¸¯","status":"1","group":"e"},
+			{"id":"12","name":"æ¼æ¸¯ã®æ§˜å­","code":"å¤§æ´—ç”ºæ¼æ¸¯","status":"1","group":"e"},
+			{"id":"13","name":"æ¼æ¸¯ã®æ§˜å­","code":"å¤§æ´—ç”ºæ¼æ¸¯","status":"1","group":"e"},
+			{"id":"20","name":"æ¼æ¸¯ã®æ§˜å­","code":"å¤§æ´—ç”ºæ¼æ¸¯","status":"0","group":"e"},
+			{"id":"21","name":"æ¼æ¸¯ã®æ§˜å­","code":"å¤§æ´—ç”ºæ¼æ¸¯","status":"0","group":"e"},
+			{"id":"22","name":"æ¼æ¸¯ã®æ§˜å­","code":"å¤§æ´—ç”ºæ¼æ¸¯","status":"0","group":"e"},
+			{"id":"23","name":"æ¼æ¸¯ã®æ§˜å­","code":"å¤§æ´—ç”ºæ¼æ¸¯","status":"0","group":"e"},
+			{"id":"24","name":"æ¼æ¸¯ã®æ§˜å­","code":"å¤§æ´—ç”ºæ¼æ¸¯","status":"0","group":"e"},
+			{"id":"18","name":"æ¼æ¸¯ã®æ§˜å­","code":"å¤§æ´—ç”ºæ¼æ¸¯","status":"0","group":"e"},
+			{"id":"40","name":"å¤§æ´—ã‚ãã‚ãç§‘å­¦é¤¨ ","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºæ¸¯ä¸­å¤®ï¼‘ï¼’ç•ªåœ°","status":"0","group":"f"},
+			{"id":"41","name":"å¤§æ´—ã‚ãã‚ãç§‘å­¦é¤¨ ","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºæ¸¯ä¸­å¤®ï¼‘ï¼’ç•ªåœ°","status":"0","group":"f"},
+			{"id":"16","name":"é­šå¸‚å ´","code":"å¤§æ´—ç”ºé­šå¸‚å ´å†…","status":"1","group":"g"},
+			{"id":"19","name":"é­šå¸‚å ´","code":"å¤§æ´—ç”ºé­šå¸‚å ´å†…","status":"0","group":"g"},
+			{"id":"14","name":"å¤§æ´—ãƒªã‚¾ãƒ¼ãƒˆã‚¢ã‚¦ãƒˆãƒ¬ãƒƒãƒˆ","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºæ¸¯ä¸­å¤®ï¼‘ï¼‘-ï¼’","status":"1","group":"h"},
+			{"id":"15","name":"å¤§æ´—ãƒªã‚¾ãƒ¼ãƒˆã‚¢ã‚¦ãƒˆãƒ¬ãƒƒãƒˆ","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºæ¸¯ä¸­å¤®ï¼‘ï¼‘-ï¼’","status":"1","group":"h"},
+			{"id":"17","name":"å¤§æ´—ãƒªã‚¾ãƒ¼ãƒˆã‚¢ã‚¦ãƒˆãƒ¬ãƒƒãƒˆ","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºæ¸¯ä¸­å¤®ï¼‘ï¼‘-ï¼’","status":"1","group":"h"},
+			{"id":"27","name":"ã‚»ãƒ–ãƒ³ã‚¤ãƒ¬ãƒ–ãƒ³å¤§æ´—æµ·å²¸åº—","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºç£¯æµœç”ºï¼˜ï¼’ï¼•ï¼“-ï¼“ï¼™","status":"0","group":"i"},
+			{"id":"44","name":"ã‚»ãƒ–ãƒ³ã‚¤ãƒ¬ãƒ–ãƒ³å¤§æ´—æµ·å²¸åº—","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡å¤§æ´—ç”ºç£¯æµœç”ºï¼˜ï¼’ï¼•ï¼“-ï¼“ï¼™","status":"1","group":"i"},
+			{"id":"1","name":"çœŒé“2å·ç·šæ²¿ã„ã®æ§˜å­","code":"çœŒé“2å·ç·šæ²¿ã„","status":"1","group":"j"},
+			{"id":"25","name":"çœŒé“2å·ç·šæ²¿ã„ã®æ§˜å­","code":"çœŒé“2å·ç·šæ²¿ã„","status":"0","group":"j"},
+			{"id":"26","name":"çœŒé“2å·ç·šæ²¿ã„ã®æ§˜å­","code":"çœŒé“2å·ç·šæ²¿ã„","status":"0","group":"j"},
+			{"id":"28","name":"çœŒé“2å·ç·šæ²¿ã„ã®æ§˜å­","code":"çœŒé“2å·ç·šæ²¿ã„","status":"0","group":"j"},
+			{"id":"39","name":"å¤§æ´—ã‚µãƒ³ãƒ“ãƒ¼ãƒ","code":"ã«è¨­ç½®ã•ã‚ŒãŸé¿é›£æ¨™è­˜","status":"0","group":"k"},*/
+			{"id":"42","name":"å¹³å¤ªéƒæµœ","code":"æµ·å²¸æ¸…æƒã®æ§˜å­","status":"0","group":"l","lat":"36.322871","lng":"140.546697"},
+			{"id":"43","name":"å¹³å¤ªéƒæµœ","code":"æµ·å²¸æ¸…æƒã®æ§˜å­","status":"0","group":"l","lat":"36.303367","lng":"140.548242"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"},
-			{"donor":"‘åô’¬–ğê"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"},
+			{"donor":"å¤§æ´—ç”ºå½¹å ´"}
 		],
-		"comment":"æŞ‚ğs‚¤‚É‚ ‚½‚èAB‰e‚Ì‹–‰Â‚âkĞ’¼Œã‚Ì‰æ‘œ‘—¿‚Ì’ñ‹Ÿ‚µ‚Ä’¸‚«Š´Ó‚µ‚Ä‚¢‚Ü‚·B‘åô’¬‚Í‘¾•½—m‚É–Ê‚µ‚Ä‚¢‚é‚Ì‚Å’Ã”g‚É‚æ‚é”íŠQA‚Ü‚½A‚‘¬‘B˜F‚ª‘¶İ‚·‚é‚±‚Æ‚à‚ ‚èA‚æ‚è‚ ‚ç‚ä‚éó‹µ‚É‚¨‚¢‚Ä—âÃ‚È‘Î‰‚ª‹‚ß‚ç‚ê‚é’¬‚Å‚ ‚é‚Æv‚¢‚Ü‚·BkĞ’¼ŒãAŠ¢âI‚È‚Ç‚ªW‚ß‚ç‚ê‚Ä‚¢‚½ŠCŠİ•t‹ß‚Í®”õ‚³‚êA’Ã”g‚ª”­¶‚µ‚½Û‚É”ğ“ïŒo˜H‚Ö—U“±‚·‚é‚½‚ß‚ÌŠÅ”Â‚ªİ’u‚³‚ê‚Ü‚µ‚½B‚Ü‚½A•ö‚ê‚½Œš•¨‚â“¹˜H‚È‚Ç‚Ì•œ‹Œ‚à‹}‘¬‚És‚í‚ê‚Ä‚¢‚Ü‚·B"
+		"comment":"å–æã‚’è¡Œã†ã«ã‚ãŸã‚Šã€æ’®å½±ã®è¨±å¯ã‚„éœ‡ç½ç›´å¾Œã®ç”»åƒè³‡æ–™ã®æä¾›ã—ã¦é ‚ãæ„Ÿè¬ã—ã¦ã„ã¾ã™ã€‚å¤§æ´—ç”ºã¯å¤ªå¹³æ´‹ã«é¢ã—ã¦ã„ã‚‹ã®ã§æ´¥æ³¢ã«ã‚ˆã‚‹è¢«å®³ã€ã¾ãŸã€é«˜é€Ÿå¢—æ®–ç‚‰ãŒå­˜åœ¨ã™ã‚‹ã“ã¨ã‚‚ã‚ã‚Šã€ã‚ˆã‚Šã‚ã‚‰ã‚†ã‚‹çŠ¶æ³ã«ãŠã„ã¦å†·é™ãªå¯¾å¿œãŒæ±‚ã‚ã‚‰ã‚Œã‚‹ç”ºã§ã‚ã‚‹ã¨æ€ã„ã¾ã™ã€‚éœ‡ç½ç›´å¾Œã€ç“¦ç¤«ãªã©ãŒé›†ã‚ã‚‰ã‚Œã¦ã„ãŸæµ·å²¸ä»˜è¿‘ã¯æ•´å‚™ã•ã‚Œã€æ´¥æ³¢ãŒç™ºç”Ÿã—ãŸéš›ã«é¿é›£çµŒè·¯ã¸èª˜å°ã™ã‚‹ãŸã‚ã®çœ‹æ¿ãŒè¨­ç½®ã•ã‚Œã¾ã—ãŸã€‚ã¾ãŸã€å´©ã‚ŒãŸå»ºç‰©ã‚„é“è·¯ãªã©ã®å¾©æ—§ã‚‚æ€¥é€Ÿã«è¡Œã‚ã‚Œã¦ã„ã¾ã™ã€‚"
 	},
 
 	"ami":{
 		"spots": [
-		{"id":"1","name":"ˆ¢Œ©’¬1","code":"ˆ¢Œ©’¬1","status":"1","group":"a"},
-		{"id":"2","name":"ˆ¢Œ©’¬2","code":"ˆ¢Œ©’¬2","status":"1","group":"a"},
-		{"id":"3","name":"ˆ¢Œ©’¬3","code":"ˆ¢Œ©’¬3","status":"1","group":"a"},
-		{"id":"4","name":"ˆ¢Œ©’¬4","code":"ˆ¢Œ©’¬4","status":"1","group":"a"},
-		{"id":"5","name":"ˆ¢Œ©’¬5","code":"ˆ¢Œ©’¬5","status":"1","group":"a"},
-		{"id":"6","name":"ˆ¢Œ©’¬6","code":"ˆ¢Œ©’¬6","status":"1","group":"a"},
-		{"id":"7","name":"ˆ¢Œ©’¬7","code":"ˆ¢Œ©’¬7","status":"1","group":"a"},
-		{"id":"8","name":"ˆ¢Œ©’¬8","code":"ˆ¢Œ©’¬8","status":"1","group":"a"},
-		{"id":"9","name":"ˆ¢Œ©’¬9","code":"ˆ¢Œ©’¬9","status":"1","group":"a"}
+		{"id":"1","name":"é˜¿è¦‹ç”º1","code":"é˜¿è¦‹ç”º1","status":"1","group":"a"},
+		{"id":"2","name":"é˜¿è¦‹ç”º2","code":"é˜¿è¦‹ç”º2","status":"1","group":"a"},
+		{"id":"3","name":"é˜¿è¦‹ç”º3","code":"é˜¿è¦‹ç”º3","status":"1","group":"a"},
+		{"id":"4","name":"é˜¿è¦‹ç”º4","code":"é˜¿è¦‹ç”º4","status":"1","group":"a"},
+		{"id":"5","name":"é˜¿è¦‹ç”º5","code":"é˜¿è¦‹ç”º5","status":"1","group":"a"},
+		{"id":"6","name":"é˜¿è¦‹ç”º6","code":"é˜¿è¦‹ç”º6","status":"1","group":"a"},
+		{"id":"7","name":"é˜¿è¦‹ç”º7","code":"é˜¿è¦‹ç”º7","status":"1","group":"a"},
+		{"id":"8","name":"é˜¿è¦‹ç”º8","code":"é˜¿è¦‹ç”º8","status":"1","group":"a"},
+		{"id":"9","name":"é˜¿è¦‹ç”º9","code":"é˜¿è¦‹ç”º9","status":"1","group":"a"}
 		],	
 		"data":[
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"‚±‚±‚ÉƒeƒLƒXƒg"
+		"comment":"ã“ã“ã«ãƒ†ã‚­ã‚¹ãƒˆ"
 	},
 	
 	
 	"bandou":{
 		"spots": [
-		{"id":"1","name":"â“Œs–îì“¹˜H‰ˆ‚¢","code":"ˆïéŒ§â“Œs–îì3004-177•t‹ß","status":"1","group":"a"},
-		{"id":"1a","name":"â“Œs–îì“¹˜H‰ˆ‚¢","code":"ˆïéŒ§â“Œs–îì3004-177•t‹ß","status":"0","group":"a"},
-		{"id":"2","name":"Šâˆä7†‹´","code":"ˆïéŒ§â“ŒsØh1056-1•t‹ß","status":"1","group":"b"},
-		{"id":"2a","name":"Šâˆä7†‹´","code":"ˆïéŒ§â“ŒsØh1056-1•t‹ß","status":"0","group":"b"},
-		{"id":"3","name":"Šâˆä8†‹´","code":"ˆïéŒ§â“ŒsØh1001•t‹ß","status":"1","group":"b"},
-		{"id":"3a","name":"Šâˆä8†‹´","code":"ˆïéŒ§â“ŒsØh1001•t‹ß","status":"0","group":"b"},
-		{"id":"4","name":"â“Œs–ğŠŠâˆä’¡É","code":"ˆïéŒ§â“ŒsŠâˆä4365","status":"1","group":"c"},
-		{"id":"4a","name":"â“Œs–ğŠŠâˆä’¡É","code":"ˆïéŒ§â“ŒsŠâˆä4365","status":"0","group":"c"},
-		{"id":"5","name":"â“Œs–ğŠŠâˆä’¡É","code":"ˆïéŒ§â“ŒsŠâˆä4365","status":"1","group":"c"},
-		{"id":"5a","name":"â“Œs–ğŠŠâˆä’¡É","code":"ˆïéŒ§â“ŒsŠâˆä4365","status":"0","group":"c"},
-		{"id":"6","name":"â“Œs–ğŠŠâˆä’¡É","code":"ˆïéŒ§â“ŒsŠâˆä4365","status":"1","group":"c"},
-		{"id":"7","name":"â“ŒÁ–h","code":"ˆïéŒ§â“Œs•Ó“c644-2","status":"1","group":"c"},
-		{"id":"7a","name":"â“ŒÁ–h","code":"ˆïéŒ§â“Œs•Ó“c644-2","status":"0","group":"c"},
-		{"id":"8","name":"¼m˜Aì‰ˆ","code":"ˆïéŒ§â“Œs¶qV“c1183•t‹ß","status":"1","group":"d"},
-		{"id":"8a","name":"¼m˜Aì‰ˆ","code":"ˆïéŒ§â“Œs¶qV“c1183•t‹ß","status":"0","group":"d"}
+		{"id":"1","name":"å‚æ±å¸‚çŸ¢ä½œé“è·¯æ²¿ã„","code":"èŒ¨åŸçœŒå‚æ±å¸‚çŸ¢ä½œ3004-177ä»˜è¿‘","status":"1","group":"a"},
+		{"id":"1a","name":"å‚æ±å¸‚çŸ¢ä½œé“è·¯æ²¿ã„","code":"èŒ¨åŸçœŒå‚æ±å¸‚çŸ¢ä½œ3004-177ä»˜è¿‘","status":"0","group":"a"},
+		{"id":"2","name":"å²©äº•7å·æ©‹","code":"èŒ¨åŸçœŒå‚æ±å¸‚å€Ÿå®¿1056-1ä»˜è¿‘","status":"1","group":"b"},
+		{"id":"2a","name":"å²©äº•7å·æ©‹","code":"èŒ¨åŸçœŒå‚æ±å¸‚å€Ÿå®¿1056-1ä»˜è¿‘","status":"0","group":"b"},
+		{"id":"3","name":"å²©äº•8å·æ©‹","code":"èŒ¨åŸçœŒå‚æ±å¸‚å€Ÿå®¿1001ä»˜è¿‘","status":"1","group":"b"},
+		{"id":"3a","name":"å²©äº•8å·æ©‹","code":"èŒ¨åŸçœŒå‚æ±å¸‚å€Ÿå®¿1001ä»˜è¿‘","status":"0","group":"b"},
+		{"id":"4","name":"å‚æ±å¸‚å½¹æ‰€å²©äº•åºèˆ","code":"èŒ¨åŸçœŒå‚æ±å¸‚å²©äº•4365","status":"1","group":"c"},
+		{"id":"4a","name":"å‚æ±å¸‚å½¹æ‰€å²©äº•åºèˆ","code":"èŒ¨åŸçœŒå‚æ±å¸‚å²©äº•4365","status":"0","group":"c"},
+		{"id":"5","name":"å‚æ±å¸‚å½¹æ‰€å²©äº•åºèˆ","code":"èŒ¨åŸçœŒå‚æ±å¸‚å²©äº•4365","status":"1","group":"c"},
+		{"id":"5a","name":"å‚æ±å¸‚å½¹æ‰€å²©äº•åºèˆ","code":"èŒ¨åŸçœŒå‚æ±å¸‚å²©äº•4365","status":"0","group":"c"},
+		{"id":"6","name":"å‚æ±å¸‚å½¹æ‰€å²©äº•åºèˆ","code":"èŒ¨åŸçœŒå‚æ±å¸‚å²©äº•4365","status":"1","group":"c"},
+		{"id":"7","name":"å‚æ±æ¶ˆé˜²ç½²","code":"èŒ¨åŸçœŒå‚æ±å¸‚è¾ºç”°644-2","status":"1","group":"c"},
+		{"id":"7a","name":"å‚æ±æ¶ˆé˜²ç½²","code":"èŒ¨åŸçœŒå‚æ±å¸‚è¾ºç”°644-2","status":"0","group":"c"},
+		{"id":"8","name":"è¥¿ä»é€£å·æ²¿","code":"èŒ¨åŸçœŒå‚æ±å¸‚ç”Ÿå­æ–°ç”°1183ä»˜è¿‘","status":"1","group":"d"},
+		{"id":"8a","name":"è¥¿ä»é€£å·æ²¿","code":"èŒ¨åŸçœŒå‚æ±å¸‚ç”Ÿå­æ–°ç”°1183ä»˜è¿‘","status":"0","group":"d"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"„‚ÍC8Œ19“ú‚Éâ“Œs‚És‚Á‚ÄæŞ‚ğ‚µ‚Ä‚«‚Ü‚µ‚½Bâ“Œs‚Í“Á‚ÉkĞ‚Ì”íŠQ‚ª‘å‚«‚©‚Á‚½‚æ‚¤‚ÅCkĞ‘O‚Æˆá‚¤Œš•¨‚ªŒš‚Ä‚ç‚ê‚Ä‚¢‚é‚Æ‚±‚ë‚à‚ ‚èC“P‹‚µ‚Ä‚¢‚éŠ‚ª‘½‚¢‚È‚Æ‚¢‚¤ˆóÛ‚ğó‚¯‚Ü‚µ‚½BkĞ‚Å”íŠQ‚ğó‚¯‚½“¹˜H‚ÍãY—í‚É•Ü‘•‚³‚êA•œ‹»‚Íi‚ñ‚Å‚¢‚é‚æ‚¤‚ÉŠ´‚¶‚Ü‚µ‚½B"
+		"comment":"ç§ã¯ï¼Œ8æœˆ19æ—¥ã«å‚æ±å¸‚ã«è¡Œã£ã¦å–æã‚’ã—ã¦ãã¾ã—ãŸã€‚å‚æ±å¸‚ã¯ç‰¹ã«éœ‡ç½ã®è¢«å®³ãŒå¤§ãã‹ã£ãŸã‚ˆã†ã§ï¼Œéœ‡ç½å‰ã¨é•ã†å»ºç‰©ãŒå»ºã¦ã‚‰ã‚Œã¦ã„ã‚‹ã¨ã“ã‚ã‚‚ã‚ã‚Šï¼Œæ’¤å»ã—ã¦ã„ã‚‹æ‰€ãŒå¤šã„ãªã¨ã„ã†å°è±¡ã‚’å—ã‘ã¾ã—ãŸã€‚éœ‡ç½ã§è¢«å®³ã‚’å—ã‘ãŸé“è·¯ã¯ç¶ºéº—ã«èˆ—è£…ã•ã‚Œã€å¾©èˆˆã¯é€²ã‚“ã§ã„ã‚‹ã‚ˆã†ã«æ„Ÿã˜ã¾ã—ãŸã€‚"
 	},
 	
 	
 	"hitachinaka":{
 		"spots": [
-		{"id":"01","name":"’n•û‰µ”„sê•t‹ß","code":"˜a“c’¬3’š–Ú11-11","status":"1","group":"a"},
-		{"id":"02","name":"’n•û‰µ”„sê•t‹ß","code":"˜a“c’¬3’š–Ú11-11","status":"1","group":"a"},
-		{"id":"03","name":"’n•û‰µ”„sê•t‹ß","code":"˜a“c’¬3’š–Ú11-11","status":"1","group":"a"},
-		{"id":"001","name":"’n•û‰µ”„sê•t‹ß","code":"˜a“c’¬3’š–Ú11-11","status":"1","group":"a"},
-		{"id":"000","name":"’n•û‰µ”„sê•t‹ß","code":"˜a“c’¬3’š–Ú11-11","status":"0","group":"a"},
-		{"id":"003","name":"’n•û‰µ”„sê•t‹ß","code":"˜a“c’¬3’š–Ú11-11","status":"1","group":"a"},
-		{"id":"002","name":"’n•û‰µ”„sê•t‹ß","code":"˜a“c’¬3’š–Ú11-11","status":"0","group":"a"},
-		{"id":"005","name":"’n•û‰µ”„sê•t‹ß","code":"˜a“c’¬3’š–Ú11-11","status":"1","group":"a"},
-		{"id":"006","name":"’n•û‰µ”„sê•t‹ß","code":"˜a“c’¬3’š–Ú11-11","status":"0","group":"a"},
-		{"id":"007","name":"’n•û‰µ”„sê•t‹ß","code":"˜a“c’¬3’š–Ú11-11","status":"1","group":"a"},
-		{"id":"017","name":"’n•û‰µ”„sê•t‹ß","code":"˜a“c’¬3’š–Ú11-11","status":"0","group":"a"},
-		{"id":"04","name":"‚³‚©‚¦H“°","code":"–©–{’¬22-3","status":"1","group":"b"},
-		{"id":"05","name":"‚³‚©‚¦H“°","code":"–©–{’¬22-3","status":"1","group":"b"},
-		{"id":"06","name":"˜a“c’¬–¯‰Æ","code":"˜a“c’¬1’š–Ú1-5","status":"1","group":"c"},
-		{"id":"07","name":"˜a“c’¬–¯‰Æ","code":"˜a“c’¬1’š–Ú1-5","status":"1","group":"c"},
-		{"id":"014","name":"“aR’¬“¹˜H","code":"“aR’¬1’š–Ú1-1","status":"1","group":"d"},
-		{"id":"015","name":"“aR’¬“¹˜H","code":"“aR’¬1’š–Ú1-1","status":"1","group":"d"},
-		{"id":"0001","name":"“aR’¬“¹˜H","code":"“aR’¬1’š–Ú1-1","status":"0","group":"d"},
-		{"id":"0002","name":"“aR’¬“¹˜H","code":"“aR’¬1’š–Ú1-1","status":"0","group":"d"},
-		{"id":"0003","name":"‹™‹¦‘qŒÉ","code":"‹‹v•Û1’š–Ú11-34","status":"1","group":"e"},
-		{"id":"013","name":"‹™‹¦‘qŒÉ","code":"‹‹v•Û1’š–Ú11-34","status":"0","group":"e"},
-		{"id":"0004","name":"ŠC–å’¬‚Ó‚ê‚ ‚¢Œö‰€•t‹ß","code":"ŠC–å’¬1’š–Ú16-16","status":"1","group":"f"},
-		{"id":"010","name":"ŠC–å’¬‚Ó‚ê‚ ‚¢Œö‰€•t‹ß","code":"ŠC–å’¬1’š–Ú16-16","status":"0","group":"f"},
-		{"id":"0005","name":"ŠC–å’¬‚Ó‚ê‚ ‚¢Œö‰€•t‹ß","code":"ŠC–å’¬1’š–Ú16-16","status":"1","group":"f"},
-		{"id":"011","name":"ŠC–å’¬‚Ó‚ê‚ ‚¢Œö‰€•t‹ß","code":"ŠC–å’¬1’š–Ú16-16","status":"0","group":"f"},
-		{"id":"0006","name":"ŠC–å’¬‚Ó‚ê‚ ‚¢Œö‰€•t‹ß","code":"ŠC–å’¬1’š–Ú16-16","status":"1","group":"f"},
-		{"id":"012","name":"ŠC–å’¬‚Ó‚ê‚ ‚¢Œö‰€•t‹ß","code":"ŠC–å’¬1’š–Ú16-16","status":"0","group":"f"}
+		{"id":"01","name":"åœ°æ–¹å¸å£²å¸‚å ´ä»˜è¿‘","code":"å’Œç”°ç”º3ä¸ç›®11-11","status":"1","group":"a"},
+		{"id":"02","name":"åœ°æ–¹å¸å£²å¸‚å ´ä»˜è¿‘","code":"å’Œç”°ç”º3ä¸ç›®11-11","status":"1","group":"a"},
+		{"id":"03","name":"åœ°æ–¹å¸å£²å¸‚å ´ä»˜è¿‘","code":"å’Œç”°ç”º3ä¸ç›®11-11","status":"1","group":"a"},
+		{"id":"001","name":"åœ°æ–¹å¸å£²å¸‚å ´ä»˜è¿‘","code":"å’Œç”°ç”º3ä¸ç›®11-11","status":"1","group":"a"},
+		{"id":"000","name":"åœ°æ–¹å¸å£²å¸‚å ´ä»˜è¿‘","code":"å’Œç”°ç”º3ä¸ç›®11-11","status":"0","group":"a"},
+		{"id":"003","name":"åœ°æ–¹å¸å£²å¸‚å ´ä»˜è¿‘","code":"å’Œç”°ç”º3ä¸ç›®11-11","status":"1","group":"a"},
+		{"id":"002","name":"åœ°æ–¹å¸å£²å¸‚å ´ä»˜è¿‘","code":"å’Œç”°ç”º3ä¸ç›®11-11","status":"0","group":"a"},
+		{"id":"005","name":"åœ°æ–¹å¸å£²å¸‚å ´ä»˜è¿‘","code":"å’Œç”°ç”º3ä¸ç›®11-11","status":"1","group":"a"},
+		{"id":"006","name":"åœ°æ–¹å¸å£²å¸‚å ´ä»˜è¿‘","code":"å’Œç”°ç”º3ä¸ç›®11-11","status":"0","group":"a"},
+		{"id":"007","name":"åœ°æ–¹å¸å£²å¸‚å ´ä»˜è¿‘","code":"å’Œç”°ç”º3ä¸ç›®11-11","status":"1","group":"a"},
+		{"id":"017","name":"åœ°æ–¹å¸å£²å¸‚å ´ä»˜è¿‘","code":"å’Œç”°ç”º3ä¸ç›®11-11","status":"0","group":"a"},
+		{"id":"04","name":"ã•ã‹ãˆé£Ÿå ‚","code":"æ¹Šæœ¬ç”º22-3","status":"1","group":"b"},
+		{"id":"05","name":"ã•ã‹ãˆé£Ÿå ‚","code":"æ¹Šæœ¬ç”º22-3","status":"1","group":"b"},
+		{"id":"06","name":"å’Œç”°ç”ºæ°‘å®¶","code":"å’Œç”°ç”º1ä¸ç›®1-5","status":"1","group":"c"},
+		{"id":"07","name":"å’Œç”°ç”ºæ°‘å®¶","code":"å’Œç”°ç”º1ä¸ç›®1-5","status":"1","group":"c"},
+		{"id":"014","name":"æ®¿å±±ç”ºé“è·¯","code":"æ®¿å±±ç”º1ä¸ç›®1-1","status":"1","group":"d"},
+		{"id":"015","name":"æ®¿å±±ç”ºé“è·¯","code":"æ®¿å±±ç”º1ä¸ç›®1-1","status":"1","group":"d"},
+		{"id":"0001","name":"æ®¿å±±ç”ºé“è·¯","code":"æ®¿å±±ç”º1ä¸ç›®1-1","status":"0","group":"d"},
+		{"id":"0002","name":"æ®¿å±±ç”ºé“è·¯","code":"æ®¿å±±ç”º1ä¸ç›®1-1","status":"0","group":"d"},
+		{"id":"0003","name":"æ¼å”å€‰åº«","code":"ç‰›ä¹…ä¿1ä¸ç›®11-34","status":"1","group":"e"},
+		{"id":"013","name":"æ¼å”å€‰åº«","code":"ç‰›ä¹…ä¿1ä¸ç›®11-34","status":"0","group":"e"},
+		{"id":"0004","name":"æµ·é–€ç”ºãµã‚Œã‚ã„å…¬åœ’ä»˜è¿‘","code":"æµ·é–€ç”º1ä¸ç›®16-16","status":"1","group":"f"},
+		{"id":"010","name":"æµ·é–€ç”ºãµã‚Œã‚ã„å…¬åœ’ä»˜è¿‘","code":"æµ·é–€ç”º1ä¸ç›®16-16","status":"0","group":"f"},
+		{"id":"0005","name":"æµ·é–€ç”ºãµã‚Œã‚ã„å…¬åœ’ä»˜è¿‘","code":"æµ·é–€ç”º1ä¸ç›®16-16","status":"1","group":"f"},
+		{"id":"011","name":"æµ·é–€ç”ºãµã‚Œã‚ã„å…¬åœ’ä»˜è¿‘","code":"æµ·é–€ç”º1ä¸ç›®16-16","status":"0","group":"f"},
+		{"id":"0006","name":"æµ·é–€ç”ºãµã‚Œã‚ã„å…¬åœ’ä»˜è¿‘","code":"æµ·é–€ç”º1ä¸ç›®16-16","status":"1","group":"f"},
+		{"id":"012","name":"æµ·é–€ç”ºãµã‚Œã‚ã„å…¬åœ’ä»˜è¿‘","code":"æµ·é–€ç”º1ä¸ç›®16-16","status":"0","group":"f"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"}
+			{"donor":"å€‹äººæ’®å½±"}
 		],
-		"comment":"‚Ğ‚½‚¿‚È‚©s‚Å‚Í’Ã”g‚Ì”íŠQ‚àŒ©‚ç‚êAŠC‰ˆ‚¢‚Å‚Í‘å‚«‚È”íŠQ‚ª‚ ‚Á‚½‚æ‚¤‚Å‚·B’nk‚ª”­¶‚µ‚½ÛAŠC‚Ì•t‹ß‚ÉZ‚ñ‚Å‚¢‚él‚Í’Ã”g‚Ìî•ñ‚ğ‚·‚®”cˆ¬‚·‚é•K—v‚ª‚ ‚é‚ÆŠ´‚¶‚Ü‚µ‚½B‚Ü‚½A”ğ“ïŒo˜H‚ğ“ú Šm”F‚·‚é‚×‚«‚¾‚ÆŠ´‚¶‚Ü‚µ‚½B"
+		"comment":"ã²ãŸã¡ãªã‹å¸‚ã§ã¯æ´¥æ³¢ã®è¢«å®³ã‚‚è¦‹ã‚‰ã‚Œã€æµ·æ²¿ã„ã§ã¯å¤§ããªè¢«å®³ãŒã‚ã£ãŸã‚ˆã†ã§ã™ã€‚åœ°éœ‡ãŒç™ºç”Ÿã—ãŸéš›ã€æµ·ã®ä»˜è¿‘ã«ä½ã‚“ã§ã„ã‚‹äººã¯æ´¥æ³¢ã®æƒ…å ±ã‚’ã™ãæŠŠæ¡ã™ã‚‹å¿…è¦ãŒã‚ã‚‹ã¨æ„Ÿã˜ã¾ã—ãŸã€‚ã¾ãŸã€é¿é›£çµŒè·¯ã‚’æ—¥é ƒç¢ºèªã™ã‚‹ã¹ãã ã¨æ„Ÿã˜ã¾ã—ãŸã€‚"
 	},
 	
 	
 	"hitachioota":{
 		"spots": [
-		{"id":"1","name":"•ôR’†ŠwZ","code":"ˆïéŒ§í—¤‘¾“csˆé•”’¬1620","status":"1","group":"a"},
-		{"id":"2","name":"•ôR’†ŠwZ","code":"ˆïéŒ§í—¤‘¾“csˆé•”’¬1620","status":"1","group":"a"},
-		{"id":"3","name":"¼RŒ¤CŠ","code":"ˆïˆïéŒ§í—¤‘¾“csˆî–Ø’¬1699-ƒC","status":"1","group":"a"},
-		{"id":"4","name":"¼RŒ¤CŠ","code":"ˆïˆïéŒ§í—¤‘¾“csˆî–Ø’¬1699-ƒC","status":"1","group":"a"},
-		{"id":"5","name":"•ôR’†ŠwZ","code":"ˆïéŒ§í—¤‘¾“csˆé•”’¬1620","status":"1","group":"a"},
-		{"id":"6","name":"“¹˜H‚Ì—lq","code":"ˆïéŒ§í—¤‘¾“cs¬‘ò’¬","status":"0","group":"a"},
-		{"id":"7","name":"“¹˜H‚Ì—lq","code":"ˆïéŒ§í—¤‘¾“cs¬‘ò’¬","status":"0","group":"a"},
-		{"id":"8","name":"•ôR’†ŠwZ","code":"ˆïéŒ§í—¤‘¾“csˆé•”’¬1620","status":"1","group":"a"},
-		{"id":"9","name":"•ôR’†ŠwZ","code":"ˆïéŒ§í—¤‘¾“csˆé•”’¬1620","status":"1","group":"a"},
-		{"id":"10","name":"“¹˜H‚Ì—lq","code":"ˆïéŒ§í—¤‘¾“cs¬‘ò’¬","status":"0","group":"a"},
-		{"id":"11","name":"“¹˜H‚Ì—lq","code":"ˆïéŒ§í—¤‘¾“cs¬‘ò’¬","status":"0","group":"a"},
-		{"id":"12","name":"“¹˜H‚Ì—lq","code":"ˆïéŒ§í—¤‘¾“cs¬‘ò’¬","status":"0","group":"a"},
-		{"id":"13","name":"•ôR’†ŠwZ","code":"ˆïéŒ§í—¤‘¾“csˆé•”’¬1620","status":"1","group":"a"},
-		{"id":"14","name":"•ôR’†ŠwZ","code":"ˆïéŒ§í—¤‘¾“csˆé•”’¬1620","status":"1","group":"a"},
-		{"id":"15","name":"•ôR’†ŠwZ","code":"ˆïéŒ§í—¤‘¾“csˆé•”’¬1620","status":"1","group":"a"},
-		{"id":"16","name":"¼RŒ¤CŠ","code":"ˆïéŒ§í—¤‘¾“csˆî–Ø’¬1699-ƒC","status":"1","group":"a"},
-		{"id":"17","name":"¼RŒ¤CŠ","code":"ˆïéŒ§í—¤‘¾“csˆî–Ø’¬1699-ƒC","status":"1","group":"a"},
-		{"id":"18","name":"¼RŒ¤CŠ","code":"ˆïéŒ§í—¤‘¾“csˆî–Ø’¬1699-ƒC","status":"1","group":"a"},
-		{"id":"19","name":"¼RŒ¤CŠ","code":"ˆïéŒ§í—¤‘¾“csˆî–Ø’¬1699-ƒC","status":"1","group":"a"},
-		{"id":"20","name":"¼RŒ¤CŠ","code":"ˆïéŒ§í—¤‘¾“csˆî–Ø’¬1699-ƒC","status":"1","group":"a"},
-		{"id":"21","name":"¼RŒ¤CŠ","code":"ˆïéŒ§í—¤‘¾“csˆî–Ø’¬1699-ƒC","status":"1","group":"a"},
-		{"id":"22","name":"¼RŒ¤CŠ","code":"ˆïéŒ§í—¤‘¾“csˆî–Ø’¬1699-ƒC","status":"1","group":"a"}
+		{"id":"1","name":"å³°å±±ä¸­å­¦æ ¡","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç£¯éƒ¨ç”º1620","status":"1","group":"a"},
+		{"id":"2","name":"å³°å±±ä¸­å­¦æ ¡","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç£¯éƒ¨ç”º1620","status":"1","group":"a"},
+		{"id":"3","name":"è¥¿å±±ç ”ä¿®æ‰€","code":"èŒ¨èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç¨²æœ¨ç”º1699-ã‚¤","status":"1","group":"a"},
+		{"id":"4","name":"è¥¿å±±ç ”ä¿®æ‰€","code":"èŒ¨èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç¨²æœ¨ç”º1699-ã‚¤","status":"1","group":"a"},
+		{"id":"5","name":"å³°å±±ä¸­å­¦æ ¡","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç£¯éƒ¨ç”º1620","status":"1","group":"a"},
+		{"id":"6","name":"é“è·¯ã®æ§˜å­","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚å°æ²¢ç”º","status":"0","group":"a"},
+		{"id":"7","name":"é“è·¯ã®æ§˜å­","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚å°æ²¢ç”º","status":"0","group":"a"},
+		{"id":"8","name":"å³°å±±ä¸­å­¦æ ¡","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç£¯éƒ¨ç”º1620","status":"1","group":"a"},
+		{"id":"9","name":"å³°å±±ä¸­å­¦æ ¡","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç£¯éƒ¨ç”º1620","status":"1","group":"a"},
+		{"id":"10","name":"é“è·¯ã®æ§˜å­","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚å°æ²¢ç”º","status":"0","group":"a"},
+		{"id":"11","name":"é“è·¯ã®æ§˜å­","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚å°æ²¢ç”º","status":"0","group":"a"},
+		{"id":"12","name":"é“è·¯ã®æ§˜å­","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚å°æ²¢ç”º","status":"0","group":"a"},
+		{"id":"13","name":"å³°å±±ä¸­å­¦æ ¡","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç£¯éƒ¨ç”º1620","status":"1","group":"a"},
+		{"id":"14","name":"å³°å±±ä¸­å­¦æ ¡","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç£¯éƒ¨ç”º1620","status":"1","group":"a"},
+		{"id":"15","name":"å³°å±±ä¸­å­¦æ ¡","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç£¯éƒ¨ç”º1620","status":"1","group":"a"},
+		{"id":"16","name":"è¥¿å±±ç ”ä¿®æ‰€","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç¨²æœ¨ç”º1699-ã‚¤","status":"1","group":"a"},
+		{"id":"17","name":"è¥¿å±±ç ”ä¿®æ‰€","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç¨²æœ¨ç”º1699-ã‚¤","status":"1","group":"a"},
+		{"id":"18","name":"è¥¿å±±ç ”ä¿®æ‰€","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç¨²æœ¨ç”º1699-ã‚¤","status":"1","group":"a"},
+		{"id":"19","name":"è¥¿å±±ç ”ä¿®æ‰€","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç¨²æœ¨ç”º1699-ã‚¤","status":"1","group":"a"},
+		{"id":"20","name":"è¥¿å±±ç ”ä¿®æ‰€","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç¨²æœ¨ç”º1699-ã‚¤","status":"1","group":"a"},
+		{"id":"21","name":"è¥¿å±±ç ”ä¿®æ‰€","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç¨²æœ¨ç”º1699-ã‚¤","status":"1","group":"a"},
+		{"id":"22","name":"è¥¿å±±ç ”ä¿®æ‰€","code":"èŒ¨åŸçœŒå¸¸é™¸å¤ªç”°å¸‚ç¨²æœ¨ç”º1699-ã‚¤","status":"1","group":"a"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"í—¤‘¾“cs—§•ôR’†ŠwZ"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"å¸¸é™¸å¤ªç”°å¸‚ç«‹å³°å±±ä¸­å­¦æ ¡"}
 		],
-		"comment":"kĞ“–‰‚Í‰tó‰»‚µ‚Ä‚¢‚é’nˆæ‚ª‘½‚©‚Á‚½‚Ì‚Å‚·‚ªAŒ»İ‚Í•œ‹Œ‚µ‚Ä‚¨‚èA‚Ú‚±‚Ú‚±‚É‚È‚Á‚Ä‚¢‚½“¹˜H‚à¡‚ÍŒ³‚Ìó‘Ô‚É–ß‚Á‚Ä‚¢‚Ü‚·B’nk‚ª‚ ‚Á‚½“ú‚Í‚İ‚ñ‚ÈA‰½‚ª‹N‚±‚Á‚½‚©•ª‚©‚ç‚¸A¬—‚µ‚Ä‚¢‚Ü‚µ‚½B”ğ“ï‚·‚é‚Æ‚«‚É‚Í—âÃ‚É‚È‚Á‚Ä—‚¿’…‚¢‚Ä”ğ“ï‚·‚é‚±‚Æ‚ª‘åØ‚¾‚Æv‚¢‚Ü‚µ‚½B"
+		"comment":"éœ‡ç½å½“åˆã¯æ¶²çŠ¶åŒ–ã—ã¦ã„ã‚‹åœ°åŸŸãŒå¤šã‹ã£ãŸã®ã§ã™ãŒã€ç¾åœ¨ã¯å¾©æ—§ã—ã¦ãŠã‚Šã€ã¼ã“ã¼ã“ã«ãªã£ã¦ã„ãŸé“è·¯ã‚‚ä»Šã¯å…ƒã®çŠ¶æ…‹ã«æˆ»ã£ã¦ã„ã¾ã™ã€‚åœ°éœ‡ãŒã‚ã£ãŸæ—¥ã¯ã¿ã‚“ãªã€ä½•ãŒèµ·ã“ã£ãŸã‹åˆ†ã‹ã‚‰ãšã€æ··ä¹±ã—ã¦ã„ã¾ã—ãŸã€‚é¿é›£ã™ã‚‹ã¨ãã«ã¯å†·é™ã«ãªã£ã¦è½ã¡ç€ã„ã¦é¿é›£ã™ã‚‹ã“ã¨ãŒå¤§åˆ‡ã ã¨æ€ã„ã¾ã—ãŸã€‚"
 	},
 	
 	
 	
 	"hitati":{
 		"spots": [
-		{"id":"1","name":"ˆïéŒ§“ú—§s‰ÍŒ´q’¬3’š–Ú28","code":"ˆïéŒ§“ú—§s‰ÍŒ´q’¬3’š–Ú28","status":"1","group":"a"},
-		{"id":"1a","name":"ˆïéŒ§“ú—§s‰ÍŒ´q’¬3’š–Ú28","code":"ˆïéŒ§“ú—§s‰ÍŒ´q’¬3’š–Ú28","status":"0","group":"a"},
-		{"id":"2","name":"ˆïéŒ§“ú—§s‰ÍŒ´q’¬3’š–Ú28","code":"ˆïéŒ§“ú—§s‰ÍŒ´q’¬3’š–Ú28","status":"1","group":"a"},
-		{"id":"2a","name":"ˆïéŒ§“ú—§s‰ÍŒ´q’¬3’š–Ú28","code":"ˆïéŒ§“ú—§s‰ÍŒ´q’¬3’š–Ú28","status":"0","group":"a"},
-		{"id":"3","name":"ˆïéŒ§“ú—§s‰ÍŒ´q’¬3’š–Ú28","code":"ˆïéŒ§“ú—§s‰ÍŒ´q’¬3’š–Ú28","status":"1","group":"a"},
-		{"id":"3a","name":"ˆïéŒ§“ú—§s‰ÍŒ´q’¬3’š–Ú28","code":"ˆïéŒ§“ú—§s‰ÍŒ´q’¬3’š–Ú28","status":"0","group":"a"},
-		{"id":"4","name":"ˆïéŒ§“ú—§sz–K’¬1’š–Ú2","code":"ˆïéŒ§“ú—§sz–K’¬1’š–Ú2","status":"1","group":"b"},
-		{"id":"4a","name":"ˆïéŒ§“ú—§sz–K’¬1’š–Ú2","code":"ˆïéŒ§“ú—§sz–K’¬1’š–Ú2","status":"0","group":"b"},
-		{"id":"5","name":"ˆïéŒ§“ú—§sz–K’¬1’š–Ú12","code":"ˆïéŒ§“ú—§sz–K’¬1’š–Ú12","status":"1","group":"b"},
-		{"id":"5aa","name":"ˆïéŒ§“ú—§sz–K’¬1’š–Ú12","code":"ˆïéŒ§“ú—§sz–K’¬1’š–Ú12","status":"0","group":"b"},
-		{"id":"6","name":"ˆïéŒ§“ú—§s‰ï£’¬1’š–Ú11","code":"ˆïéŒ§“ú—§s‰ï£’¬1’š–Ú11","status":"1","group":"b"},
-		{"id":"6aa","name":"ˆïéŒ§“ú—§s‰ï£’¬1’š–Ú11","code":"ˆïéŒ§“ú—§s‰ï£’¬1’š–Ú11","status":"0","group":"b"},
-		{"id":"21","name":"‘•ª‹@ŠíƒGƒ“ƒWƒjƒAƒŠƒ“ƒO","code":"ˆïéŒ§“ú—§s‘•ª’¬1","status":"1","group":"b"},
-		{"id":"21a","name":"‘•ª‹@ŠíƒGƒ“ƒWƒjƒAƒŠƒ“ƒO","code":"ˆïéŒ§“ú—§s‘•ª’¬1","status":"0","group":"b"},
-		{"id":"7","name":"ˆïéŒ§“ú—§sìKŠC…—ê","code":"ˆïéŒ§“ú—§sìKŠC…—ê","status":"1","group":"c"},
-		{"id":"7a","name":"ˆïéŒ§“ú—§sìKŠC…—ê","code":"ˆïéŒ§“ú—§sìKŠC…—ê","status":"0","group":"c"},
-		{"id":"14","name":"–@˜h‰@","code":"ˆïéŒ§“ú—§s\‰¤’¬—F•”1990–@˜h‰@","status":"1","group":"c"},
-		{"id":"14a","name":"–@˜h‰@","code":"ˆïéŒ§“ú—§s\‰¤’¬—F•”1990–@˜h‰@","status":"0","group":"c"},
-		{"id":"15","name":"‚¨‚³‚©‚È¾İÀ°“ü‚èŒû•t‹ß","code":"ˆïéŒ§“ú—§s‹vœ’¬‚¨‚³‚©‚È¾İÀ°“ü‚èŒû•t‹ß","status":"1","group":"d"},
-		{"id":"15a","name":"‚¨‚³‚©‚È¾İÀ°“ü‚èŒû•t‹ß","code":"ˆïéŒ§“ú—§s‹vœ’¬‚¨‚³‚©‚È¾İÀ°“ü‚èŒû•t‹ß","status":"0","group":"d"},
-		{"id":"16","name":"‹vœ‹™`","code":"ˆïéŒ§“ú—§s‹vœ’¬‹™`","status":"1","group":"d"},
-		{"id":"16a","name":"‹vœ‹™`","code":"ˆïéŒ§“ú—§s‹vœ’¬‹™`","status":"0","group":"d"}
+		{"id":"1","name":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚æ²³åŸå­ç”º3ä¸ç›®28","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚æ²³åŸå­ç”º3ä¸ç›®28","status":"1","group":"a"},
+		{"id":"1a","name":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚æ²³åŸå­ç”º3ä¸ç›®28","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚æ²³åŸå­ç”º3ä¸ç›®28","status":"0","group":"a"},
+		{"id":"2","name":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚æ²³åŸå­ç”º3ä¸ç›®28","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚æ²³åŸå­ç”º3ä¸ç›®28","status":"1","group":"a"},
+		{"id":"2a","name":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚æ²³åŸå­ç”º3ä¸ç›®28","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚æ²³åŸå­ç”º3ä¸ç›®28","status":"0","group":"a"},
+		{"id":"3","name":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚æ²³åŸå­ç”º3ä¸ç›®28","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚æ²³åŸå­ç”º3ä¸ç›®28","status":"1","group":"a"},
+		{"id":"3a","name":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚æ²³åŸå­ç”º3ä¸ç›®28","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚æ²³åŸå­ç”º3ä¸ç›®28","status":"0","group":"a"},
+		{"id":"4","name":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚è«è¨ªç”º1ä¸ç›®2","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚è«è¨ªç”º1ä¸ç›®2","status":"1","group":"b"},
+		{"id":"4a","name":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚è«è¨ªç”º1ä¸ç›®2","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚è«è¨ªç”º1ä¸ç›®2","status":"0","group":"b"},
+		{"id":"5","name":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚è«è¨ªç”º1ä¸ç›®12","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚è«è¨ªç”º1ä¸ç›®12","status":"1","group":"b"},
+		{"id":"5aa","name":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚è«è¨ªç”º1ä¸ç›®12","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚è«è¨ªç”º1ä¸ç›®12","status":"0","group":"b"},
+		{"id":"6","name":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚ä¼šç€¬ç”º1ä¸ç›®11","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚ä¼šç€¬ç”º1ä¸ç›®11","status":"1","group":"b"},
+		{"id":"6aa","name":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚ä¼šç€¬ç”º1ä¸ç›®11","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚ä¼šç€¬ç”º1ä¸ç›®11","status":"0","group":"b"},
+		{"id":"21","name":"å›½åˆ†æ©Ÿå™¨ã‚¨ãƒ³ã‚¸ãƒ‹ã‚¢ãƒªãƒ³ã‚°","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚å›½åˆ†ç”º1","status":"1","group":"b"},
+		{"id":"21a","name":"å›½åˆ†æ©Ÿå™¨ã‚¨ãƒ³ã‚¸ãƒ‹ã‚¢ãƒªãƒ³ã‚°","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚å›½åˆ†ç”º1","status":"0","group":"b"},
+		{"id":"7","name":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚å·å°»æµ·æ°´æµ´å ´","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚å·å°»æµ·æ°´æµ´å ´","status":"1","group":"c"},
+		{"id":"7a","name":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚å·å°»æµ·æ°´æµ´å ´","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚å·å°»æµ·æ°´æµ´å ´","status":"0","group":"c"},
+		{"id":"14","name":"æ³•é·²é™¢","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚åç‹ç”ºå‹éƒ¨1990æ³•é·²é™¢","status":"1","group":"c"},
+		{"id":"14a","name":"æ³•é·²é™¢","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚åç‹ç”ºå‹éƒ¨1990æ³•é·²é™¢","status":"0","group":"c"},
+		{"id":"15","name":"ãŠã•ã‹ãªã‚»ãƒ³ã‚¿ãƒ¼å…¥ã‚Šå£ä»˜è¿‘","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚ä¹…æ…ˆç”ºãŠã•ã‹ãªã‚»ãƒ³ã‚¿ãƒ¼å…¥ã‚Šå£ä»˜è¿‘","status":"1","group":"d"},
+		{"id":"15a","name":"ãŠã•ã‹ãªã‚»ãƒ³ã‚¿ãƒ¼å…¥ã‚Šå£ä»˜è¿‘","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚ä¹…æ…ˆç”ºãŠã•ã‹ãªã‚»ãƒ³ã‚¿ãƒ¼å…¥ã‚Šå£ä»˜è¿‘","status":"0","group":"d"},
+		{"id":"16","name":"ä¹…æ…ˆæ¼æ¸¯","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚ä¹…æ…ˆç”ºæ¼æ¸¯","status":"1","group":"d"},
+		{"id":"16a","name":"ä¹…æ…ˆæ¼æ¸¯","code":"èŒ¨åŸçœŒæ—¥ç«‹å¸‚ä¹…æ…ˆç”ºæ¼æ¸¯","status":"0","group":"d"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"6Œ17“ú‚É–K‚ê‚Ü‚µ‚½B’Ã”g‚Ì‰e‹¿‚Å‹x‹Æ‚ğ‚µ‚Ä‚¢‚½‚¨“X‚È‚Ç‚ÍŒ³’Ê‚è‚Ì‰c‹Æ‚ğ‚µ‚Ä‚¢‚Ü‚µ‚½B‚µ‚©‚µA‰Æ‚âˆê•”‚Ì‚¨“X‚Í‚¾‚ê‚àZ‚ñ‚Å‚¢‚È‚©‚Á‚½‚è“P‹‚³‚ê‚Ä‚¢‚½‚è‚µ‚½‚Æ‚±‚ë‚à‘½‚­A’nk‚â’Ã”g‚Ì”íŠQ‚Í‘å‚«‚©‚Á‚½‚Ì‚¾‚Æv‚¢‚Ü‚µ‚½B‚Ù‚Æ‚ñ‚Ç‚Ì“¹˜H‚ªŒ³’Ê‚è‚É‚È‚Á‚Ä‚¢‚Ü‚µ‚½B"
+		"comment":"6æœˆ17æ—¥ã«è¨ªã‚Œã¾ã—ãŸã€‚æ´¥æ³¢ã®å½±éŸ¿ã§ä¼‘æ¥­ã‚’ã—ã¦ã„ãŸãŠåº—ãªã©ã¯å…ƒé€šã‚Šã®å–¶æ¥­ã‚’ã—ã¦ã„ã¾ã—ãŸã€‚ã—ã‹ã—ã€å®¶ã‚„ä¸€éƒ¨ã®ãŠåº—ã¯ã ã‚Œã‚‚ä½ã‚“ã§ã„ãªã‹ã£ãŸã‚Šæ’¤å»ã•ã‚Œã¦ã„ãŸã‚Šã—ãŸã¨ã“ã‚ã‚‚å¤šãã€åœ°éœ‡ã‚„æ´¥æ³¢ã®è¢«å®³ã¯å¤§ãã‹ã£ãŸã®ã ã¨æ€ã„ã¾ã—ãŸã€‚ã»ã¨ã‚“ã©ã®é“è·¯ãŒå…ƒé€šã‚Šã«ãªã£ã¦ã„ã¾ã—ãŸã€‚"
 	},
 	
 	
 	
 	"hitatioomiya":{
 		"spots": [
-		{"id":"1","name":"Œä‘OR¬ŠwZ","code":"ˆïéŒ§í—¤‘å‹{s–ìŒû3217","status":"1","group":"a"},
-		{"id":"2","name":"b_Ğ","code":"ˆïéŒ§í—¤‘å‹{s‰º’¬219","status":"1","group":"a"},
-		{"id":"3","name":"ƒƒ[ƒz[ƒ‹","code":"ˆïéŒ§í—¤‘å‹{s’†•x’¬3135-6","status":"1","group":"a"},
-		{"id":"4","name":"ƒƒ[ƒz[ƒ‹","code":"ˆïéŒ§í—¤‘å‹{s’†•x’¬3135-6","status":"1","group":"a"},
-		{"id":"5","name":"Á–h–{•”","code":"ˆïéŒ§í—¤‘å‹{s‰W‰ê’¬621","status":"1","group":"a"},
-		{"id":"6","name":"“¹˜H‚Ì—lq","code":"ˆïéŒ§í—¤‘å‹{s¬–ì’n“à","status":"1","group":"a"},
-		{"id":"7","name":"“¹˜H‚Ì—lq","code":"ˆïéŒ§í—¤‘å‹{s¬ê’n“à","status":"1","group":"a"},
-		{"id":"8","name":"“¹˜H‚Ì—lq","code":"ˆïéŒ§í—¤‘å‹{s‰ºŠâ£’n“à","status":"1","group":"a"},
-		{"id":"9","name":"“¹˜H‚Ì—lq","code":"ˆïéŒ§í—¤‘å‹{s‰ºŠâ£“à","status":"1","group":"a"}
+		{"id":"1","name":"å¾¡å‰å±±å°å­¦æ ¡","code":"èŒ¨åŸçœŒå¸¸é™¸å¤§å®®å¸‚é‡å£3217","status":"1","group":"a"},
+		{"id":"2","name":"ç”²ç¥ç¤¾","code":"èŒ¨åŸçœŒå¸¸é™¸å¤§å®®å¸‚ä¸‹ç”º219","status":"1","group":"a"},
+		{"id":"3","name":"ãƒ­ã‚¼ãƒ›ãƒ¼ãƒ«","code":"èŒ¨åŸçœŒå¸¸é™¸å¤§å®®å¸‚ä¸­å¯Œç”º3135-6","status":"1","group":"a"},
+		{"id":"4","name":"ãƒ­ã‚¼ãƒ›ãƒ¼ãƒ«","code":"èŒ¨åŸçœŒå¸¸é™¸å¤§å®®å¸‚ä¸­å¯Œç”º3135-6","status":"1","group":"a"},
+		{"id":"5","name":"æ¶ˆé˜²æœ¬éƒ¨","code":"èŒ¨åŸçœŒå¸¸é™¸å¤§å®®å¸‚å§¥è³€ç”º621","status":"1","group":"a"},
+		{"id":"6","name":"é“è·¯ã®æ§˜å­","code":"èŒ¨åŸçœŒå¸¸é™¸å¤§å®®å¸‚å°é‡åœ°å†…","status":"1","group":"a"},
+		{"id":"7","name":"é“è·¯ã®æ§˜å­","code":"èŒ¨åŸçœŒå¸¸é™¸å¤§å®®å¸‚å°å ´åœ°å†…","status":"1","group":"a"},
+		{"id":"8","name":"é“è·¯ã®æ§˜å­","code":"èŒ¨åŸçœŒå¸¸é™¸å¤§å®®å¸‚ä¸‹å²©ç€¬åœ°å†…","status":"1","group":"a"},
+		{"id":"9","name":"é“è·¯ã®æ§˜å­","code":"èŒ¨åŸçœŒå¸¸é™¸å¤§å®®å¸‚ä¸‹å²©ç€¬å†…","status":"1","group":"a"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"í—¤‘å‹{s‚É‚Í8Œ21“ú‚É–K‚ê‚Ü‚µ‚½‚ªA‚©‚È‚è•œ‹Œ‚µ‚Ä‚¢‚é—lq‚Å‚µ‚½Bs–ğŠ‚Ì•û‚©‚ç’ñ‹Ÿ‚µ‚Ä‚à‚ç‚Á‚½‰æ‘œ‚É‚ÍŒš•¨‚Ì”íŠQ‚ª‘½‚­–Ú—§‚¿‚Ü‚µ‚½B"
+		"comment":"å¸¸é™¸å¤§å®®å¸‚ã«ã¯8æœˆ21æ—¥ã«è¨ªã‚Œã¾ã—ãŸãŒã€ã‹ãªã‚Šå¾©æ—§ã—ã¦ã„ã‚‹æ§˜å­ã§ã—ãŸã€‚å¸‚å½¹æ‰€ã®æ–¹ã‹ã‚‰æä¾›ã—ã¦ã‚‚ã‚‰ã£ãŸç”»åƒã«ã¯å»ºç‰©ã®è¢«å®³ãŒå¤šãç›®ç«‹ã¡ã¾ã—ãŸã€‚"
 	},
 	
 	"hokota":{
 		"spots": [
-		{"id":"014","name":"‘‡Œö‰€‘ÌˆçŠÙ","code":"“–ŠÔ2331","status":"1","group":"a"},
-		{"id":"001","name":"‘‡Œö‰€‘ÌˆçŠÙ","code":"“–ŠÔ2331","status":"0","group":"a"},
-		{"id":"015","name":"ˆ®–k¬ŠwZ","code":"“cè3852","status":"1","group":"b"},
-		{"id":"007","name":"ˆ®–k¬ŠwZ","code":"“cè3852","status":"0","group":"b"},
-		{"id":"016","name":"s—§}‘ŠÙ","code":"–g“c1444-1","status":"1","group":"c"},
-		{"id":"004","name":"s—§}‘ŠÙ","code":"–g“c1444-1","status":"0","group":"c"},
-		{"id":"012","name":"s—§‘æ“ñ•ÛˆçŠ","code":"–g“c148","status":"1","group":"c"},
-		{"id":"017","name":"s—§‘æ“ñ•ÛˆçŠ","code":"–g“c148","status":"1","group":"c"},
-		{"id":"006","name":"s—§‘æ“ñ•ÛˆçŠ","code":"–g“c148","status":"0","group":"c"},
-		{"id":"005","name":"s—§‘æ“ñ•ÛˆçŠ","code":"–g“c148","status":"0","group":"c"},
-		{"id":"018","name":"•xm‹´ü•Ó","code":"–g“c2299","status":"1","group":"c"},
-		{"id":"013","name":"•xm‹´ü•Ó","code":"–g“c2299","status":"1","group":"c"},
-		{"id":"002","name":"•xm‹´ü•Ó","code":"–g“c2299","status":"0","group":"c"},
-		{"id":"003","name":"•xm‹´ü•Ó","code":"–g“c2299","status":"0","group":"c"},
-		{"id":"019","name":"­s‘å‹´ü•Ó","code":"D’n‹æ","status":"1","group":"d"},
-		{"id":"010","name":"­s‘å‹´ü•Ó","code":"D’n‹æ","status":"0","group":"d"},
-		{"id":"000","name":"—‹_Ğ","code":"”ŒF689","status":"1","group":"e"},
-		{"id":"008","name":"—‹_Ğ","code":"”ŒF689","status":"0","group":"e"},
-		{"id":"011","name":"‘å˜a“c¬ŠwZ","code":"‘å˜a“c1018-3","status":"1","group":"f"}
+		{"id":"014","name":"ç·åˆå…¬åœ’ä½“è‚²é¤¨","code":"å½“é–“2331","status":"1","group":"a"},
+		{"id":"001","name":"ç·åˆå…¬åœ’ä½“è‚²é¤¨","code":"å½“é–“2331","status":"0","group":"a"},
+		{"id":"015","name":"æ—­åŒ—å°å­¦æ ¡","code":"ç”°å´3852","status":"1","group":"b"},
+		{"id":"007","name":"æ—­åŒ—å°å­¦æ ¡","code":"ç”°å´3852","status":"0","group":"b"},
+		{"id":"016","name":"å¸‚ç«‹å›³æ›¸é¤¨","code":"é‰¾ç”°1444-1","status":"1","group":"c"},
+		{"id":"004","name":"å¸‚ç«‹å›³æ›¸é¤¨","code":"é‰¾ç”°1444-1","status":"0","group":"c"},
+		{"id":"012","name":"å¸‚ç«‹ç¬¬äºŒä¿è‚²æ‰€","code":"é‰¾ç”°148","status":"1","group":"c"},
+		{"id":"017","name":"å¸‚ç«‹ç¬¬äºŒä¿è‚²æ‰€","code":"é‰¾ç”°148","status":"1","group":"c"},
+		{"id":"006","name":"å¸‚ç«‹ç¬¬äºŒä¿è‚²æ‰€","code":"é‰¾ç”°148","status":"0","group":"c"},
+		{"id":"005","name":"å¸‚ç«‹ç¬¬äºŒä¿è‚²æ‰€","code":"é‰¾ç”°148","status":"0","group":"c"},
+		{"id":"018","name":"å¯Œå£«æ©‹å‘¨è¾º","code":"é‰¾ç”°2299","status":"1","group":"c"},
+		{"id":"013","name":"å¯Œå£«æ©‹å‘¨è¾º","code":"é‰¾ç”°2299","status":"1","group":"c"},
+		{"id":"002","name":"å¯Œå£«æ©‹å‘¨è¾º","code":"é‰¾ç”°2299","status":"0","group":"c"},
+		{"id":"003","name":"å¯Œå£«æ©‹å‘¨è¾º","code":"é‰¾ç”°2299","status":"0","group":"c"},
+		{"id":"019","name":"é¹¿è¡Œå¤§æ©‹å‘¨è¾º","code":"æœ­åœ°åŒº","status":"1","group":"d"},
+		{"id":"010","name":"é¹¿è¡Œå¤§æ©‹å‘¨è¾º","code":"æœ­åœ°åŒº","status":"0","group":"d"},
+		{"id":"000","name":"é›·ç¥ç¤¾","code":"æŸç†Š689","status":"1","group":"e"},
+		{"id":"008","name":"é›·ç¥ç¤¾","code":"æŸç†Š689","status":"0","group":"e"},
+		{"id":"011","name":"å¤§å’Œç”°å°å­¦æ ¡","code":"å¤§å’Œç”°1018-3","status":"1","group":"f"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"},
-			{"donor":"–g“cs–ğŠ"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"},
+			{"donor":"é‰¾ç”°å¸‚å½¹æ‰€"}
 		],
-		"comment":"–g“cs‚Å‚Í’nŠ„‚ê‚È‚Ç”íŠQ‚Ì‘å‚«‚¢êŠ‚à‘½‚­Œ©‚ç‚ê‚Ü‚µ‚½‚ªAŒö‹¤‚Ì{İ‚Í–w‚Ç‚ÌêŠ‚ÅC•œ‚ªŠ®—¹‚µ‚Ä‚¢‚Ü‚µ‚½B‘ÌˆçŠÙ‚È‚Ç‚Å‚Í“Vˆä”Â‚ª—‚¿‚é”íŠQ‚ª‚ ‚èA’nk‚ª‹N‚±‚Á‚½‚É‚Í“ª•”‚ğ‚·‚®‚É•ÛŒì‚·‚é‚×‚«‚¾‚ÆŠ´‚¶‚Ü‚µ‚½B"
+		"comment":"é‰¾ç”°å¸‚ã§ã¯åœ°å‰²ã‚Œãªã©è¢«å®³ã®å¤§ãã„å ´æ‰€ã‚‚å¤šãè¦‹ã‚‰ã‚Œã¾ã—ãŸãŒã€å…¬å…±ã®æ–½è¨­ã¯æ®†ã©ã®å ´æ‰€ã§ä¿®å¾©ãŒå®Œäº†ã—ã¦ã„ã¾ã—ãŸã€‚ä½“è‚²é¤¨ãªã©ã§ã¯å¤©äº•æ¿ãŒè½ã¡ã‚‹è¢«å®³ãŒã‚ã‚Šã€åœ°éœ‡ãŒèµ·ã“ã£ãŸæ™‚ã«ã¯é ­éƒ¨ã‚’ã™ãã«ä¿è­·ã™ã‚‹ã¹ãã ã¨æ„Ÿã˜ã¾ã—ãŸã€‚"
 	},
 	
 	"ibarakimati":{
 		"spots": [
-		{"id":"1","name":"‚‹´","code":"Œ§“¹18†•t‹ß","status":"1","group":"a"},
-		{"id":"12","name":"‚‹´","code":"Œ§“¹18†•t‹ß","status":"0","group":"a"},
-		{"id":"4","name":"‘‡•ŸƒƒZƒ“ƒ^[‚ä‚¤‚ä‚¤ŠÙ","code":"ˆïéŒ§“ŒˆïéŒSˆïé’¬¬’ç1037?1","status":"1","group":"a"},
-		{"id":"11","name":"‘‡•ŸƒƒZƒ“ƒ^[‚ä‚¤‚ä‚¤ŠÙ","code":"ˆïéŒ§“ŒˆïéŒSˆïé’¬¬’ç1037?1","status":"0","group":"a"},
-		{"id":"6","name":"ˆïé’¬Á–h–{•”","code":"ˆïéŒ§“ŒˆïéŒSˆïé’¬‘åš¬’ç1037-1","status":"1","group":"a"},
-		{"id":"8","name":"Ÿ¿À©‘RŒö‰€","code":"ˆïéŒ§“ŒˆïéŒSˆïé’¬’†Îè2263","status":"1","group":"b"},
-		{"id":"2","name":"Ÿ¿À©‘RŒö‰€","code":"ˆïéŒ§“ŒˆïéŒSˆïé’¬’†Îè2263","status":"1","group":"b"},
-		{"id":"7","name":"‘O’JŒö–¯ŠÙ•t‹ß","code":"ˆïéŒ§“ŒˆïéŒSˆïé’¬‰ºÎè","status":"1","group":"b"},
-		{"id":"9","name":"L‰YŒö‰€’“Ôê","code":"ˆïéŒ§“ŒˆïéŒSˆïé’¬‰ºÎè1651","status":"1","group":"b"},
-		{"id":"5","name":"÷‹u’†ŠwZ@‘ÌˆçŠÙ","code":"ˆïéŒ§“ŒˆïéŒSˆïé’¬‰œ’J862","status":"1","group":"c"},
-		{"id":"3","name":"’·‰ª—§‘Ì","code":"ˆïéŒ§…ŒËs¬’¬","status":"1","group":"c"},
-		{"id":"13","name":"’·‰ª—§‘Ì","code":"ˆïéŒ§…ŒËs¬’¬","status":"0","group":"c"},
-		{"id":"10","name":"ƒTƒCƒNƒŠƒ“ƒOƒ[ƒh","code":"ˆïéŒ§“ŒˆïéŒSˆïé’¬’·‰ª","status":"1","group":"c"}
+		{"id":"1","name":"é«˜æ©‹","code":"çœŒé“18å·ä»˜è¿‘","status":"1","group":"a"},
+		{"id":"12","name":"é«˜æ©‹","code":"çœŒé“18å·ä»˜è¿‘","status":"0","group":"a"},
+		{"id":"4","name":"ç·åˆç¦ç¥‰ã‚»ãƒ³ã‚¿ãƒ¼ã‚†ã†ã‚†ã†é¤¨","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡èŒ¨åŸç”ºå°å ¤1037?1","status":"1","group":"a"},
+		{"id":"11","name":"ç·åˆç¦ç¥‰ã‚»ãƒ³ã‚¿ãƒ¼ã‚†ã†ã‚†ã†é¤¨","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡èŒ¨åŸç”ºå°å ¤1037?1","status":"0","group":"a"},
+		{"id":"6","name":"èŒ¨åŸç”ºæ¶ˆé˜²æœ¬éƒ¨","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡èŒ¨åŸç”ºå¤§å­—å°å ¤1037-1","status":"1","group":"a"},
+		{"id":"8","name":"æ¶¸æ²¼è‡ªç„¶å…¬åœ’","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡èŒ¨åŸç”ºä¸­çŸ³å´2263","status":"1","group":"b"},
+		{"id":"2","name":"æ¶¸æ²¼è‡ªç„¶å…¬åœ’","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡èŒ¨åŸç”ºä¸­çŸ³å´2263","status":"1","group":"b"},
+		{"id":"7","name":"å‰è°·å…¬æ°‘é¤¨ä»˜è¿‘","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡èŒ¨åŸç”ºä¸‹çŸ³å´","status":"1","group":"b"},
+		{"id":"9","name":"åºƒæµ¦å…¬åœ’é§è»Šå ´","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡èŒ¨åŸç”ºä¸‹çŸ³å´1651","status":"1","group":"b"},
+		{"id":"5","name":"æ¡œä¸˜ä¸­å­¦æ ¡ã€€ä½“è‚²é¤¨","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡èŒ¨åŸç”ºå¥¥è°·862","status":"1","group":"c"},
+		{"id":"3","name":"é•·å²¡ç«‹ä½“","code":"èŒ¨åŸçœŒæ°´æˆ¸å¸‚å°å¹ç”º","status":"1","group":"c"},
+		{"id":"13","name":"é•·å²¡ç«‹ä½“","code":"èŒ¨åŸçœŒæ°´æˆ¸å¸‚å°å¹ç”º","status":"0","group":"c"},
+		{"id":"10","name":"ã‚µã‚¤ã‚¯ãƒªãƒ³ã‚°ãƒ­ãƒ¼ãƒ‰","code":"èŒ¨åŸçœŒæ±èŒ¨åŸéƒ¡èŒ¨åŸç”ºé•·å²¡","status":"1","group":"c"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"8Œ‰º{‚É–K–â‚µ‚Ü‚µ‚½‚ªA“¹˜H‚â‹´‚È‚ÇAlX‚Ì¶ŠˆŠÂ‹«‚Í–w‚Ç•œ‹ŒÏ‚İ‚Å‚µ‚½BæŞ‚ğ‚·‚é‚É‚àˆÚ“®‚É¢‚é‚±‚Æ‚Í‚ ‚è‚Ü‚¹‚ñ‚Å‚µ‚½B"
+		"comment":"8æœˆä¸‹æ—¬ã«è¨ªå•ã—ã¾ã—ãŸãŒã€é“è·¯ã‚„æ©‹ãªã©ã€äººã€…ã®ç”Ÿæ´»ç’°å¢ƒã¯æ®†ã©å¾©æ—§æ¸ˆã¿ã§ã—ãŸã€‚å–æã‚’ã™ã‚‹æ™‚ã«ã‚‚ç§»å‹•ã«å›°ã‚‹ã“ã¨ã¯ã‚ã‚Šã¾ã›ã‚“ã§ã—ãŸã€‚"
 	},
 	
 	"inasiki":{
 		"spots": [
-		{"id":"01","name":"RV’“Ôê","code":"ˆî•~s¼‘ã1403”Ô’n •t‹ß","status":"0","group":"a"},
-		{"id":"1","name":"RV’“Ôê","code":"ˆî•~s¼‘ã1403”Ô’n •t‹ß","status":"1","group":"a"},
-		{"id":"02","name":"­“‡_Ğ","code":"ˆî•~s–{V309”Ô’n •t‹ß","status":"0","group":"b"},
-		{"id":"2","name":"­“‡_Ğ","code":"ˆî•~s–{V309”Ô’n •t‹ß","status":"1","group":"b"},
-		{"id":"04","name":"…‹½‘å‹´Û","code":"ˆî•~s¼‘ã1661”Ô’n1 •t‹ß","status":"0","group":"c"},
-		{"id":"4","name":"…‹½‘å‹´Û","code":"ˆî•~s¼‘ã1661”Ô’n1 •t‹ß","status":"1","group":"c"},
-		{"id":"06","name":"V—˜ªì‰ÍŒû ‰EŠİ","code":"ˆî•~s–{V52”Ô’n8 •t‹ß","status":"0","group":"d"},
-		{"id":"6","name":"V—˜ªì‰ÍŒû ‰EŠİ","code":"ˆî•~s–{V52”Ô’n8 •t‹ß","status":"1","group":"d"},
-		{"id":"08","name":"V—˜ªì‰ÍŒû ¶Šİ","code":"ˆî•~s•‚“‡8322”Ô’n •t‹ß","status":"0","group":"e"},
-		{"id":"12","name":"V—˜ªì‰ÍŒû ¶Šİ","code":"ˆî•~s•‚“‡8322”Ô’n •t‹ß","status":"1","group":"e"},
-		{"id":"9","name":"V—˜ªì‰ÍŒû ‰EŠİ","code":"ˆî•~s–{V52”Ô’n10 •t‹ß","status":"1","group":"f"},
-		{"id":"09","name":"V—˜ªì‰ÍŒû ‰EŠİ","code":"ˆî•~s–{V52”Ô’n10 •t‹ß","status":"0","group":"f"},
-		{"id":"10","name":"V—˜ªì‰ÍŒû ‰EŠİ","code":"ˆî•~s–{V52”Ô’n10 •t‹ß","status":"0","group":"f"}
+		{"id":"01","name":"å±±æ–°é§è»Šå ´","code":"ç¨²æ•·å¸‚è¥¿ä»£1403ç•ªåœ° ä»˜è¿‘","status":"0","group":"a"},
+		{"id":"1","name":"å±±æ–°é§è»Šå ´","code":"ç¨²æ•·å¸‚è¥¿ä»£1403ç•ªåœ° ä»˜è¿‘","status":"1","group":"a"},
+		{"id":"02","name":"é¹¿å³¶ç¥ç¤¾","code":"ç¨²æ•·å¸‚æœ¬æ–°309ç•ªåœ° ä»˜è¿‘","status":"0","group":"b"},
+		{"id":"2","name":"é¹¿å³¶ç¥ç¤¾","code":"ç¨²æ•·å¸‚æœ¬æ–°309ç•ªåœ° ä»˜è¿‘","status":"1","group":"b"},
+		{"id":"04","name":"æ°´éƒ·å¤§æ©‹éš›","code":"ç¨²æ•·å¸‚è¥¿ä»£1661ç•ªåœ°1 ä»˜è¿‘","status":"0","group":"c"},
+		{"id":"4","name":"æ°´éƒ·å¤§æ©‹éš›","code":"ç¨²æ•·å¸‚è¥¿ä»£1661ç•ªåœ°1 ä»˜è¿‘","status":"1","group":"c"},
+		{"id":"06","name":"æ–°åˆ©æ ¹å·æ²³å£ å³å²¸","code":"ç¨²æ•·å¸‚æœ¬æ–°52ç•ªåœ°8 ä»˜è¿‘","status":"0","group":"d"},
+		{"id":"6","name":"æ–°åˆ©æ ¹å·æ²³å£ å³å²¸","code":"ç¨²æ•·å¸‚æœ¬æ–°52ç•ªåœ°8 ä»˜è¿‘","status":"1","group":"d"},
+		{"id":"08","name":"æ–°åˆ©æ ¹å·æ²³å£ å·¦å²¸","code":"ç¨²æ•·å¸‚æµ®å³¶8322ç•ªåœ° ä»˜è¿‘","status":"0","group":"e"},
+		{"id":"12","name":"æ–°åˆ©æ ¹å·æ²³å£ å·¦å²¸","code":"ç¨²æ•·å¸‚æµ®å³¶8322ç•ªåœ° ä»˜è¿‘","status":"1","group":"e"},
+		{"id":"9","name":"æ–°åˆ©æ ¹å·æ²³å£ å³å²¸","code":"ç¨²æ•·å¸‚æœ¬æ–°52ç•ªåœ°10 ä»˜è¿‘","status":"1","group":"f"},
+		{"id":"09","name":"æ–°åˆ©æ ¹å·æ²³å£ å³å²¸","code":"ç¨²æ•·å¸‚æœ¬æ–°52ç•ªåœ°10 ä»˜è¿‘","status":"0","group":"f"},
+		{"id":"10","name":"æ–°åˆ©æ ¹å·æ²³å£ å³å²¸","code":"ç¨²æ•·å¸‚æœ¬æ–°52ç•ªåœ°10 ä»˜è¿‘","status":"0","group":"f"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"‚±‚Ì’n‹æ‚ÌkĞó‹µ‚Å‚·‚ªA’nŒ³‚Ì•ûX‚É“–‚Ì–‚È‚Ç•·‚«‚Ü‚µ‚½‚ªC‚â‚Í‚èAŠX‚ÌlX‚Í‹Á‚­‚Ù‚Ç‹ê˜J‚³‚ê‚½‚æ‚¤‚Å‚·B‚±‚Ì’n‹æ‚àC–l‚ªl‚¦‚Ä‚¢‚½ˆÈã‚É’nk‚Ì”íŠQ‚Í‘å‚«‚­CÄ”­‚µ‚½‚Æ‚«‚É—âÃ‚És“®‚Å‚«‚é‚æ‚¤SŠ|‚¯‚é‚×‚«‚¾‚Æv‚¢‚Ü‚µ‚½B"
+		"comment":"ã“ã®åœ°åŒºã®éœ‡ç½çŠ¶æ³ã§ã™ãŒã€åœ°å…ƒã®æ–¹ã€…ã«å½“æ™‚ã®äº‹ãªã©èãã¾ã—ãŸãŒï¼Œã‚„ã¯ã‚Šã€è¡—ã®äººã€…ã¯é©šãã»ã©è‹¦åŠ´ã•ã‚ŒãŸã‚ˆã†ã§ã™ã€‚ã“ã®åœ°åŒºã‚‚ï¼Œåƒ•ãŒè€ƒãˆã¦ã„ãŸä»¥ä¸Šã«åœ°éœ‡ã®è¢«å®³ã¯å¤§ããï¼Œå†ç™ºã—ãŸã¨ãã«å†·é™ã«è¡Œå‹•ã§ãã‚‹ã‚ˆã†å¿ƒæ›ã‘ã‚‹ã¹ãã ã¨æ€ã„ã¾ã—ãŸã€‚"
 	},
 	
 	
 	"jyoso":{
 		"spots": [
-		{"id":"1","name":"‘‡•ŸƒƒZƒ“ƒ^[","code":"ˆïéŒ§í‘sVÎ‰º4365","status":"1","group":"a"},
-		{"id":"1a","name":"‘‡•ŸƒƒZƒ“ƒ^[","code":"ˆïéŒ§í‘sVÎ‰º4365","status":"0","group":"a"},
-		{"id":"2","name":"‘‡•ŸƒƒZƒ“ƒ^[","code":"ˆïéŒ§í‘sVÎ‰º4365","status":"1","group":"a"},
-		{"id":"2a","name":"‘‡•ŸƒƒZƒ“ƒ^[","code":"ˆïéŒ§í‘sVÎ‰º4365","status":"0","group":"a"},
-		{"id":"5","name":"Œ§“¹24†ü‰ˆ‚¢","code":"ˆïéŒ§í‘sŒüÎ‰º299","status":"1","group":"a"},
-		{"id":"5a","name":"Œ§“¹24†ü‰ˆ‚¢","code":"ˆïéŒ§í‘sŒüÎ‰º299","status":"0","group":"a"},
-		{"id":"5aa","name":"Œ§“¹24†ü‰ˆ‚¢","code":"ˆïéŒ§í‘sŒüÎ‰º299","status":"0","group":"a"},
-		{"id":"9","name":"í‘s–ğŠÎ‰º’¡Éi‹Œ–ğêj","code":"ˆïéŒ§VÎ‰º576-2","status":"1","group":"a"},
-		{"id":"9a","name":"í‘s–ğŠÎ‰º’¡Éi‹Œ–ğêj","code":"ˆïéŒ§VÎ‰º576-2","status":"0","group":"a"},
-		{"id":"3","name":"íŒõ›","code":"ˆïéŒ§í‘sá‹{ŒË1053","status":"1","group":"b"},
-		{"id":"3a","name":"íŒõ›","code":"ˆïéŒ§í‘sá‹{ŒË1053","status":"0","group":"b"},
-		{"id":"4","name":"í‘s–ğŠ","code":"ˆïéŒ§í‘s…ŠC“¹z–K’¬3222-3","status":"1","group":"c"},
-		{"id":"4a","name":"í‘s–ğŠ","code":"ˆïéŒ§í‘s…ŠC“¹z–K’¬3222-3","status":"0","group":"c"},
-		{"id":"6","name":"s—§Î‰º¼’†ŠwZ","code":"ˆïéŒ§í‘s™R910-1","status":"1","group":"d"},
-		{"id":"7","name":"s—§Î‰º¼’†ŠwZ","code":"ˆïéŒ§í‘s™R910-1","status":"1","group":"d"},
-		{"id":"8","name":"s—§Î‰º¼’†ŠwZ","code":"ˆïéŒ§í‘s™R910-1","status":"1","group":"d"},
-		{"id":"8a","name":"s—§Î‰º¼’†ŠwZ","code":"ˆïéŒ§í‘s™R910-1","status":"0","group":"d"}
+		{"id":"1","name":"ç·åˆç¦ç¥‰ã‚»ãƒ³ã‚¿ãƒ¼","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚æ–°çŸ³ä¸‹4365","status":"1","group":"a"},
+		{"id":"1a","name":"ç·åˆç¦ç¥‰ã‚»ãƒ³ã‚¿ãƒ¼","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚æ–°çŸ³ä¸‹4365","status":"0","group":"a"},
+		{"id":"2","name":"ç·åˆç¦ç¥‰ã‚»ãƒ³ã‚¿ãƒ¼","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚æ–°çŸ³ä¸‹4365","status":"1","group":"a"},
+		{"id":"2a","name":"ç·åˆç¦ç¥‰ã‚»ãƒ³ã‚¿ãƒ¼","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚æ–°çŸ³ä¸‹4365","status":"0","group":"a"},
+		{"id":"5","name":"çœŒé“24å·ç·šæ²¿ã„","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚å‘çŸ³ä¸‹299","status":"1","group":"a"},
+		{"id":"5a","name":"çœŒé“24å·ç·šæ²¿ã„","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚å‘çŸ³ä¸‹299","status":"0","group":"a"},
+		{"id":"5aa","name":"çœŒé“24å·ç·šæ²¿ã„","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚å‘çŸ³ä¸‹299","status":"0","group":"a"},
+		{"id":"9","name":"å¸¸ç·å¸‚å½¹æ‰€çŸ³ä¸‹åºèˆï¼ˆæ—§å½¹å ´ï¼‰","code":"èŒ¨åŸçœŒæ–°çŸ³ä¸‹576-2","status":"1","group":"a"},
+		{"id":"9a","name":"å¸¸ç·å¸‚å½¹æ‰€çŸ³ä¸‹åºèˆï¼ˆæ—§å½¹å ´ï¼‰","code":"èŒ¨åŸçœŒæ–°çŸ³ä¸‹576-2","status":"0","group":"a"},
+		{"id":"3","name":"å¸¸å…‰å¯º","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚è‹¥å®®æˆ¸1053","status":"1","group":"b"},
+		{"id":"3a","name":"å¸¸å…‰å¯º","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚è‹¥å®®æˆ¸1053","status":"0","group":"b"},
+		{"id":"4","name":"å¸¸ç·å¸‚å½¹æ‰€","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚æ°´æµ·é“è«è¨ªç”º3222-3","status":"1","group":"c"},
+		{"id":"4a","name":"å¸¸ç·å¸‚å½¹æ‰€","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚æ°´æµ·é“è«è¨ªç”º3222-3","status":"0","group":"c"},
+		{"id":"6","name":"å¸‚ç«‹çŸ³ä¸‹è¥¿ä¸­å­¦æ ¡","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚æ‰å±±910-1","status":"1","group":"d"},
+		{"id":"7","name":"å¸‚ç«‹çŸ³ä¸‹è¥¿ä¸­å­¦æ ¡","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚æ‰å±±910-1","status":"1","group":"d"},
+		{"id":"8","name":"å¸‚ç«‹çŸ³ä¸‹è¥¿ä¸­å­¦æ ¡","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚æ‰å±±910-1","status":"1","group":"d"},
+		{"id":"8a","name":"å¸‚ç«‹çŸ³ä¸‹è¥¿ä¸­å­¦æ ¡","code":"èŒ¨åŸçœŒå¸¸ç·å¸‚æ‰å±±910-1","status":"0","group":"d"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"„‚ÍC8Œ19“ú‚Éí‘s‚És‚Á‚ÄæŞ‚ğ‚µ‚Ä‚«‚Ü‚µ‚½Bí‘s‚Ì’†ŠwZ‚ÍZÉ‚ª‚·‚×‚Ä“P‹‚³‚ê—§‚Ä’¼‚³‚ê‚Ä‚¢‚Ü‚µ‚½B‰ó‚ê‚Ä‚µ‚Ü‚Á‚½‹´‚à“P‹‚³‚êV‚µ‚¢‹´‚É‚È‚Á‚Ä‚¨‚èAŒ³‚Ì’¬•À‚İ‚Æ‚Í‘å‚«‚­•Ï‚í‚é‚Æ‚±‚ë‚ª‘½‚¢‚ÆŠ´‚¶‚Ü‚µ‚½B‚Ü‚¾’†ŠwZ‚È‚Ç‚ÍŠ®¬‚µ‚Ä‚¢‚È‚­Š®‘S‚É‚Í•œ‹»‚µ‚Ä‚¢‚È‚¢—lq‚Å‚µ‚½BŠC‰ˆ‚¢‚¾‚¯‚Å‚Í‚È‚­kĞ‚©‚ç”äŠr“I‰“‚¢êŠ‚Å‚àkĞ‚Ì”íŠQ‚Í‹y‚ñ‚Å‚¢‚éŒ»À‚ğ’m‚è‚Ü‚µ‚½B"
+		"comment":"ç§ã¯ï¼Œ8æœˆ19æ—¥ã«å¸¸ç·å¸‚ã«è¡Œã£ã¦å–æã‚’ã—ã¦ãã¾ã—ãŸã€‚å¸¸ç·å¸‚ã®ä¸­å­¦æ ¡ã¯æ ¡èˆãŒã™ã¹ã¦æ’¤å»ã•ã‚Œç«‹ã¦ç›´ã•ã‚Œã¦ã„ã¾ã—ãŸã€‚å£Šã‚Œã¦ã—ã¾ã£ãŸæ©‹ã‚‚æ’¤å»ã•ã‚Œæ–°ã—ã„æ©‹ã«ãªã£ã¦ãŠã‚Šã€å…ƒã®ç”ºä¸¦ã¿ã¨ã¯å¤§ããå¤‰ã‚ã‚‹ã¨ã“ã‚ãŒå¤šã„ã¨æ„Ÿã˜ã¾ã—ãŸã€‚ã¾ã ä¸­å­¦æ ¡ãªã©ã¯å®Œæˆã—ã¦ã„ãªãå®Œå…¨ã«ã¯å¾©èˆˆã—ã¦ã„ãªã„æ§˜å­ã§ã—ãŸã€‚æµ·æ²¿ã„ã ã‘ã§ã¯ãªãéœ‡ç½ã‹ã‚‰æ¯”è¼ƒçš„é ã„å ´æ‰€ã§ã‚‚éœ‡ç½ã®è¢«å®³ã¯åŠã‚“ã§ã„ã‚‹ç¾å®Ÿã‚’çŸ¥ã‚Šã¾ã—ãŸã€‚"
 	},
 	
 	
 	"kasama":{
 		"spots": [
-		/*{"id":"1","name":"Š}ŠÔs–ğŠ@Š}ŠÔsŠ","code":"ˆïéŒ§Š}ŠÔsÎˆä717","status":"1","group":"a"},
-		{"id":"6","name":"ƒP[ƒYƒfƒ“ƒLŠ}ŠÔ“X•t‹ß","code":"ˆïéŒ§Š}ŠÔsÎˆä2090","status":"1","group":"a"},
-		{"id":"3","name":"Š}ŠÔ}‘ŠÙ","code":"ˆïéŒ§Š}ŠÔsÎˆä2023?1","status":"1","group":"a"},
-		{"id":"10","name":"Š}ŠÔ}‘ŠÙ","code":"ˆïéŒ§Š}ŠÔsÎˆä2023?1","status":"0","group":"a"},
-		{"id":"2","name":"Š}ŠÔs–ğŠ@–{Š“ñŠK","code":"ˆïéŒ§Š}ŠÔs’†‰›3’š–Ú2-1","status":"1","group":"b"},
-		{"id":"11","name":"Š}ŠÔs–ğŠ –{Š“ñŠK","code":"ˆïéŒ§Š}ŠÔs’†‰›3’š–Ú2-1","status":"0","group":"b"},*/
-		{"id":"4","name":"—F•”“ñ’†","code":"ˆïéŒ§Š}ŠÔsˆ®’¬510?1","status":"1","group":"c","lat":"36.376791","lng":"140.286776"},
-		{"id":"5","name":"HŒ|‚Ì‹u","code":"ˆïéŒ§Š}ŠÔsŠ}ŠÔ2388?1","status":"1","group":"d","lat":"36.348315","lng":"140.334497"},
-		{"id":"7","name":"Š}ŠÔ¬ƒOƒ‰ƒEƒ“ƒh","code":"ˆïéŒ§Š}ŠÔsŠ}ŠÔ2688","status":"1","group":"d","lat":"36.359928","lng":"140.252443"}
+		/*{"id":"1","name":"ç¬ é–“å¸‚å½¹æ‰€ã€€ç¬ é–“å¸‚æ‰€","code":"èŒ¨åŸçœŒç¬ é–“å¸‚çŸ³äº•717","status":"1","group":"a"},
+		{"id":"6","name":"ã‚±ãƒ¼ã‚ºãƒ‡ãƒ³ã‚­ç¬ é–“åº—ä»˜è¿‘","code":"èŒ¨åŸçœŒç¬ é–“å¸‚çŸ³äº•2090","status":"1","group":"a"},
+		{"id":"3","name":"ç¬ é–“å›³æ›¸é¤¨","code":"èŒ¨åŸçœŒç¬ é–“å¸‚çŸ³äº•2023?1","status":"1","group":"a"},
+		{"id":"10","name":"ç¬ é–“å›³æ›¸é¤¨","code":"èŒ¨åŸçœŒç¬ é–“å¸‚çŸ³äº•2023?1","status":"0","group":"a"},
+		{"id":"2","name":"ç¬ é–“å¸‚å½¹æ‰€ã€€æœ¬æ‰€äºŒéš","code":"èŒ¨åŸçœŒç¬ é–“å¸‚ä¸­å¤®3ä¸ç›®2-1","status":"1","group":"b"},
+		{"id":"11","name":"ç¬ é–“å¸‚å½¹æ‰€ æœ¬æ‰€äºŒéš","code":"èŒ¨åŸçœŒç¬ é–“å¸‚ä¸­å¤®3ä¸ç›®2-1","status":"0","group":"b"},*/
+		{"id":"4","name":"å‹éƒ¨äºŒä¸­","code":"èŒ¨åŸçœŒç¬ é–“å¸‚æ—­ç”º510?1","status":"1","group":"c","lat":"36.376791","lng":"140.286776"},
+		{"id":"5","name":"å·¥èŠ¸ã®ä¸˜","code":"èŒ¨åŸçœŒç¬ é–“å¸‚ç¬ é–“2388?1","status":"1","group":"d","lat":"36.348315","lng":"140.334497"},
+		{"id":"7","name":"ç¬ é–“å°ã‚°ãƒ©ã‚¦ãƒ³ãƒ‰","code":"èŒ¨åŸçœŒç¬ é–“å¸‚ç¬ é–“2688","status":"1","group":"d","lat":"36.359928","lng":"140.252443"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"‚¨–~ŠúŠÔ‚ÉA‰æ‘œ‚ğæ‚è‚É–K–â‚µ‚Ü‚µ‚½BŠ}ŠÔs–ğŠEŠ}ŠÔsŠ‚Í“Á‚ÉŒš•¨‚Ì‘¹‚ª‚Ğ‚Ç‚­Aæ‚è‰ó‚µ‚ÄX’n‚É‚È‚Á‚Ä‚¢‚Ü‚µ‚½B–{Š‚Ì•û‚Å‚àH–’†‚Ì‰ÓŠ‚ª‚ ‚èAŒ»İAs–ğŠ‚Ì•û‚ª‹Î–±‚ğ‚µ‚Ä‚¢‚éŒš•¨‚Ì“Vˆä‚à”zŠÇ‚Ş‚«o‚µ‚Ìó‘Ô‚Å‚µ‚½B‰w•t‹ß‚Í”äŠr“I•œ‹Œ‚µ‚Ä‚¢‚é‚à‚Ì‚ÌAH–’†‚Ì“¹˜H‚âAæ‚è‰ó‚µE“|‰ó‚È‚Ç‚ÅŒš•¨‚ª‚È‚­‚È‚Á‚½Œã‚ÌX’n‚È‚Ç‚àŒ©ó‚¯‚ç‚êA‚Ü‚¾‚Ü‚¾•œ‹»“r’†‚Å‚ ‚éˆóÛ‚ğó‚¯‚Ü‚µ‚½B"
+		"comment":"ãŠç›†æœŸé–“ã«ã€ç”»åƒã‚’å–ã‚Šã«è¨ªå•ã—ã¾ã—ãŸã€‚ç¬ é–“å¸‚å½¹æ‰€ãƒ»ç¬ é–“å¸‚æ‰€ã¯ç‰¹ã«å»ºç‰©ã®æå‚·ãŒã²ã©ãã€å–ã‚Šå£Šã—ã¦æ›´åœ°ã«ãªã£ã¦ã„ã¾ã—ãŸã€‚æœ¬æ‰€ã®æ–¹ã§ã‚‚å·¥äº‹ä¸­ã®ç®‡æ‰€ãŒã‚ã‚Šã€ç¾åœ¨ã€å¸‚å½¹æ‰€ã®æ–¹ãŒå‹¤å‹™ã‚’ã—ã¦ã„ã‚‹å»ºç‰©ã®å¤©äº•ã‚‚é…ç®¡ã‚€ãå‡ºã—ã®çŠ¶æ…‹ã§ã—ãŸã€‚é§…ä»˜è¿‘ã¯æ¯”è¼ƒçš„å¾©æ—§ã—ã¦ã„ã‚‹ã‚‚ã®ã®ã€å·¥äº‹ä¸­ã®é“è·¯ã‚„ã€å–ã‚Šå£Šã—ãƒ»å€’å£Šãªã©ã§å»ºç‰©ãŒãªããªã£ãŸå¾Œã®æ›´åœ°ãªã©ã‚‚è¦‹å—ã‘ã‚‰ã‚Œã€ã¾ã ã¾ã å¾©èˆˆé€”ä¸­ã§ã‚ã‚‹å°è±¡ã‚’å—ã‘ã¾ã—ãŸã€‚"
 	},
 	
 	
 	"kasima":{
 		"spots": [
-		{"id":"1","name":"ŠCŠİ‰ˆ‚¢‚ÌZ‹“à","code":"ŠCŠİ‰ˆ‚¢‚ÌZ‹“à","status":"1","group":"a"},
-		{"id":"2","name":"­“ˆs¬‹{ì’n‹æ","code":"­“ˆs¬‹{ì’n‹æ","status":"1","group":"a"},
-		{"id":"3","name":"­“ˆs’·²’n‹æ","code":"­“ˆs’·²’n‹æ","status":"1","group":"a"},
-		{"id":"4","name":"­“ˆs‘––’n‹æ","code":"­“ˆs‘––’n‹æ","status":"1","group":"a"},
-		{"id":"5","name":"”_“¹‚Ìó‹µ","code":"”_“¹‚Ìó‹µ","status":"1","group":"a"},
-		{"id":"6","name":"‰º’ÃŠC…—ê•t‹ß","code":"‰º’ÃŠC…—ê•t‹ß","status":"1","group":"a"},
-		{"id":"7","name":"ŠC‰ˆ‚¢‚ÌZ‹‚Ìó‘Ô","code":"ŠC‰ˆ‚¢‚ÌZ‹‚Ìó‘Ô","status":"1","group":"a"},
-		{"id":"8","name":"•½ˆäŠCŠİ•t‹ß","code":"•½ˆäŠCŠİ•t‹ß","status":"1","group":"a"},
-		{"id":"9","name":"­“ˆs¬‹{ì’n‹æ","code":"­“ˆs¬‹{ì’n‹æ","status":"1","group":"a"},
-		{"id":"10","name":"­“ˆs”«Œ`‘ä‚©‚ç‚Ì•—Œi","code":"­“ˆs”«Œ`‘ä‚©‚ç‚Ì•—Œi","status":"1","group":"a"}
+		{"id":"1","name":"æµ·å²¸æ²¿ã„ã®ä½å±…å†…","code":"æµ·å²¸æ²¿ã„ã®ä½å±…å†…","status":"1","group":"a"},
+		{"id":"2","name":"é¹¿å¶‹å¸‚å°å®®ä½œåœ°åŒº","code":"é¹¿å¶‹å¸‚å°å®®ä½œåœ°åŒº","status":"1","group":"a"},
+		{"id":"3","name":"é¹¿å¶‹å¸‚é•·æ –åœ°åŒº","code":"é¹¿å¶‹å¸‚é•·æ –åœ°åŒº","status":"1","group":"a"},
+		{"id":"4","name":"é¹¿å¶‹å¸‚å›½æœ«åœ°åŒº","code":"é¹¿å¶‹å¸‚å›½æœ«åœ°åŒº","status":"1","group":"a"},
+		{"id":"5","name":"è¾²é“ã®çŠ¶æ³","code":"è¾²é“ã®çŠ¶æ³","status":"1","group":"a"},
+		{"id":"6","name":"ä¸‹æ´¥æµ·æ°´æµ´å ´ä»˜è¿‘","code":"ä¸‹æ´¥æµ·æ°´æµ´å ´ä»˜è¿‘","status":"1","group":"a"},
+		{"id":"7","name":"æµ·æ²¿ã„ã®ä½å±…ã®çŠ¶æ…‹","code":"æµ·æ²¿ã„ã®ä½å±…ã®çŠ¶æ…‹","status":"1","group":"a"},
+		{"id":"8","name":"å¹³äº•æµ·å²¸ä»˜è¿‘","code":"å¹³äº•æµ·å²¸ä»˜è¿‘","status":"1","group":"a"},
+		{"id":"9","name":"é¹¿å¶‹å¸‚å°å®®ä½œåœ°åŒº","code":"é¹¿å¶‹å¸‚å°å®®ä½œåœ°åŒº","status":"1","group":"a"},
+		{"id":"10","name":"é¹¿å¶‹å¸‚é‰¢å½¢å°ã‹ã‚‰ã®é¢¨æ™¯","code":"é¹¿å¶‹å¸‚é‰¢å½¢å°ã‹ã‚‰ã®é¢¨æ™¯","status":"1","group":"a"}
 		],	
 		"data":[
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"‚±‚±‚ÉƒeƒLƒXƒg"
+		"comment":"ã“ã“ã«ãƒ†ã‚­ã‚¹ãƒˆ"
 	},
 	
 	"kasumigaura":{
 		"spots": [
-		{"id":"1","name":"ç‘ã“c’¡É•t‹ß","code":"ç‘ã“c’¡É•t‹ß","status":"1","group":"a"},
-		{"id":"2","name":"‚ ‚¶‚³‚¢ŠÙ","code":"ˆïéŒ§‚©‚·‚İ‚ª‚¤‚çs[’J3719-1","status":"1","group":"b"},
-		{"id":"9","name":"‚ ‚¶‚³‚¢ŠÙ","code":"ˆïéŒ§‚©‚·‚İ‚ª‚¤‚çs[’J3719-1","status":"0","group":"b"},
-		{"id":"3","name":"‚©‚·‚İ‚ª‚¤‚çs–ğŠ@ç‘ã“c’¡É","code":"ˆïéŒ§‚©‚·‚İ‚ª‚¤‚çsã“y“c461","status":"1","group":"a"},
-		{"id":"4","name":"‚©‚·‚İ‚ª‚¤‚çs–ğŠ@ç‘ã“c’¡É","code":"ˆïéŒ§‚©‚·‚İ‚ª‚¤‚çsã“y“c461","status":"1","group":"a"},
-		{"id":"5","name":"‚©‚·‚İ‚ª‚¤‚çs–ğŠ@ç‘ã“c’¡É","code":"ˆïéŒ§‚©‚·‚İ‚ª‚¤‚çsã“y“c461","status":"1","group":"a"},
-		{"id":"6","name":"‚©‚·‚İ‚ª‚¤‚çs–ğŠ@ç‘ã“c’¡É","code":"ˆïéŒ§‚©‚·‚İ‚ª‚¤‚çsã“y“c461","status":"1","group":"a"},
-		{"id":"7","name":"‚©‚·‚İ‚ª‚¤‚çs–ğŠ@ç‘ã“c’¡É","code":"ˆïéŒ§‚©‚·‚İ‚ª‚¤‚çsã“y“c461","status":"1","group":"a"},
-		{"id":"8","name":"‰àƒ–‰Y@’ç–h","code":"‰àƒ–‰Y@’ç–h","status":"1","group":"c"}
+		{"id":"1","name":"åƒä»£ç”°åºèˆä»˜è¿‘","code":"åƒä»£ç”°åºèˆä»˜è¿‘","status":"1","group":"a"},
+		{"id":"2","name":"ã‚ã˜ã•ã„é¤¨","code":"èŒ¨åŸçœŒã‹ã™ã¿ãŒã†ã‚‰å¸‚æ·±è°·3719-1","status":"1","group":"b"},
+		{"id":"9","name":"ã‚ã˜ã•ã„é¤¨","code":"èŒ¨åŸçœŒã‹ã™ã¿ãŒã†ã‚‰å¸‚æ·±è°·3719-1","status":"0","group":"b"},
+		{"id":"3","name":"ã‹ã™ã¿ãŒã†ã‚‰å¸‚å½¹æ‰€ã€€åƒä»£ç”°åºèˆ","code":"èŒ¨åŸçœŒã‹ã™ã¿ãŒã†ã‚‰å¸‚ä¸ŠåœŸç”°461","status":"1","group":"a"},
+		{"id":"4","name":"ã‹ã™ã¿ãŒã†ã‚‰å¸‚å½¹æ‰€ã€€åƒä»£ç”°åºèˆ","code":"èŒ¨åŸçœŒã‹ã™ã¿ãŒã†ã‚‰å¸‚ä¸ŠåœŸç”°461","status":"1","group":"a"},
+		{"id":"5","name":"ã‹ã™ã¿ãŒã†ã‚‰å¸‚å½¹æ‰€ã€€åƒä»£ç”°åºèˆ","code":"èŒ¨åŸçœŒã‹ã™ã¿ãŒã†ã‚‰å¸‚ä¸ŠåœŸç”°461","status":"1","group":"a"},
+		{"id":"6","name":"ã‹ã™ã¿ãŒã†ã‚‰å¸‚å½¹æ‰€ã€€åƒä»£ç”°åºèˆ","code":"èŒ¨åŸçœŒã‹ã™ã¿ãŒã†ã‚‰å¸‚ä¸ŠåœŸç”°461","status":"1","group":"a"},
+		{"id":"7","name":"ã‹ã™ã¿ãŒã†ã‚‰å¸‚å½¹æ‰€ã€€åƒä»£ç”°åºèˆ","code":"èŒ¨åŸçœŒã‹ã™ã¿ãŒã†ã‚‰å¸‚ä¸ŠåœŸç”°461","status":"1","group":"a"},
+		{"id":"8","name":"éœãƒ¶æµ¦ã€€å ¤é˜²","code":"éœãƒ¶æµ¦ã€€å ¤é˜²","status":"1","group":"c"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"‚¨–~ŠúŠÔ‚ÉA‰æ‘œ‚ğæ‚è‚É–K–â‚µ‚Ü‚µ‚½Bs–ğŠ‚Ìç‘ã“c’¡É‚ÍH–’†‚Å–w‚Ç‹@”\‚µ‚Ä‚¢‚È‚¢ó‹µ‚Å‚µ‚½B‘½‚­‚Ì‹Æ–±‚ÍŒö–¯ŠÙ‚Ås‚Á‚Ä‚¢‚é‚Æ‚¢‚¤‚±‚Æ‚Å“–‚ÌkĞ‚Ì’Ü­‚ª‚İ‚ç‚ê‚Ü‚µ‚½B‘å‚«‚È“¹˜H‚È‚Ç‚Í•’Ê‚É’Ês‚Å‚«‚Ü‚µ‚½‚ªA×‚¢•à“¹‚È‚Ç‚ÍŠ®‘S‚É’¼‚è‚«‚Á‚Ä‚¢‚È‚¢‚Æ‚±‚ë‚àŒ©ó‚¯‚ç‚êA“–‚Ì”íŠQ‚Ì‘å‚«‚³‚ğ•¨Œê‚Á‚Ä‚¢‚Ü‚µ‚½B"
+		"comment":"ãŠç›†æœŸé–“ã«ã€ç”»åƒã‚’å–ã‚Šã«è¨ªå•ã—ã¾ã—ãŸã€‚å¸‚å½¹æ‰€ã®åƒä»£ç”°åºèˆã¯å·¥äº‹ä¸­ã§æ®†ã©æ©Ÿèƒ½ã—ã¦ã„ãªã„çŠ¶æ³ã§ã—ãŸã€‚å¤šãã®æ¥­å‹™ã¯å…¬æ°‘é¤¨ã§è¡Œã£ã¦ã„ã‚‹ã¨ã„ã†ã“ã¨ã§å½“æ™‚ã®éœ‡ç½ã®çˆªç—•ãŒã¿ã‚‰ã‚Œã¾ã—ãŸã€‚å¤§ããªé“è·¯ãªã©ã¯æ™®é€šã«é€šè¡Œã§ãã¾ã—ãŸãŒã€ç´°ã„æ­©é“ãªã©ã¯å®Œå…¨ã«ç›´ã‚Šãã£ã¦ã„ãªã„ã¨ã“ã‚ã‚‚è¦‹å—ã‘ã‚‰ã‚Œã€å½“æ™‚ã®è¢«å®³ã®å¤§ãã•ã‚’ç‰©èªã£ã¦ã„ã¾ã—ãŸã€‚"
 	},
 	
 	"kawauti":{
 		"spots": [
-		{"id":"1","name":"‰Í“à’¬1","code":"‰Í“à’¬1","status":"1","group":"a"},
-		{"id":"2","name":"‰Í“à’¬2","code":"‰Í“à’¬2","status":"1","group":"a"},
-		{"id":"3","name":"‰Í“à’¬3","code":"‰Í“à’¬3","status":"1","group":"a"},
-		{"id":"4","name":"‰Í“à’¬4","code":"‰Í“à’¬4","status":"1","group":"a"},
-		{"id":"5","name":"‰Í“à’¬5","code":"‰Í“à’¬5","status":"1","group":"a"},
-		{"id":"6","name":"‰Í“à’¬6","code":"‰Í“à’¬6","status":"1","group":"a"},
-		{"id":"7","name":"‰Í“à’¬7","code":"‰Í“à’¬7","status":"1","group":"a"},
-		{"id":"8","name":"‰Í“à’¬8","code":"‰Í“à’¬8","status":"1","group":"a"},
-		{"id":"9","name":"‰Í“à’¬9","code":"‰Í“à’¬9","status":"1","group":"a"}
+		{"id":"1","name":"æ²³å†…ç”º1","code":"æ²³å†…ç”º1","status":"1","group":"a"},
+		{"id":"2","name":"æ²³å†…ç”º2","code":"æ²³å†…ç”º2","status":"1","group":"a"},
+		{"id":"3","name":"æ²³å†…ç”º3","code":"æ²³å†…ç”º3","status":"1","group":"a"},
+		{"id":"4","name":"æ²³å†…ç”º4","code":"æ²³å†…ç”º4","status":"1","group":"a"},
+		{"id":"5","name":"æ²³å†…ç”º5","code":"æ²³å†…ç”º5","status":"1","group":"a"},
+		{"id":"6","name":"æ²³å†…ç”º6","code":"æ²³å†…ç”º6","status":"1","group":"a"},
+		{"id":"7","name":"æ²³å†…ç”º7","code":"æ²³å†…ç”º7","status":"1","group":"a"},
+		{"id":"8","name":"æ²³å†…ç”º8","code":"æ²³å†…ç”º8","status":"1","group":"a"},
+		{"id":"9","name":"æ²³å†…ç”º9","code":"æ²³å†…ç”º9","status":"1","group":"a"}
 		],	
 		"data":[
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"‚±‚±‚ÉƒeƒLƒXƒg"
+		"comment":"ã“ã“ã«ãƒ†ã‚­ã‚¹ãƒˆ"
 	},
 	
 	"kitaibaraki":{
 		"spots": [
-		{"id":"1","name":"–kˆïés–ğŠ","code":"ˆïéŒ§–kˆïésˆéŒ´’¬ˆéŒ´1630","status":"1","group":"a"},
-		{"id":"2","name":"–kˆïés–ğŠ","code":"ˆïéŒ§–kˆïésˆéŒ´’¬ˆéŒ´1630","status":"1","group":"a"},
-		{"id":"3","name":"ŠCŠİ‰ˆ‚¢‚Ì—lq","code":"ˆïéŒ§–kˆïés•½Šƒ’¬","status":"1","group":"a"},
-		{"id":"4","name":"‘å’Ã‹™‹Æ‹¦“¯‘g‡","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"5","name":"ü˜H‚Ì—lq","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"6","name":"–kˆïés–hĞƒRƒ~ƒ…ƒjƒeƒBƒZƒ“ƒ^[","code":"ˆïéŒ§–kˆïésˆéŒ´’¬ˆéŒ´","status":"1","group":"a"},
-		{"id":"7","name":"ü˜H‚Ì—lq","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"8","name":"ŠCŠİ‚Ì—lq","code":"ˆïéŒ§–kˆïés•½Šƒ’¬","status":"1","group":"a"},
-		{"id":"9","name":"‹™`‚Ì—lq","code":"ˆïéŒ§–kˆïés•½Šƒ’¬","status":"1","group":"a"},
-		{"id":"10","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"11","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"12","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"13","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"14","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"15","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"16","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"17","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"18","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"19","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"20","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"21","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"22","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"23","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"}
+		{"id":"1","name":"åŒ—èŒ¨åŸå¸‚å½¹æ‰€","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”ºç£¯åŸ1630","status":"1","group":"a"},
+		{"id":"2","name":"åŒ—èŒ¨åŸå¸‚å½¹æ‰€","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”ºç£¯åŸ1630","status":"1","group":"a"},
+		{"id":"3","name":"æµ·å²¸æ²¿ã„ã®æ§˜å­","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚å¹³æ½Ÿç”º","status":"1","group":"a"},
+		{"id":"4","name":"å¤§æ´¥æ¼æ¥­å”åŒçµ„åˆ","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"5","name":"ç·šè·¯ã®æ§˜å­","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"6","name":"åŒ—èŒ¨åŸå¸‚é˜²ç½ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£ã‚»ãƒ³ã‚¿ãƒ¼","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”ºç£¯åŸ","status":"1","group":"a"},
+		{"id":"7","name":"ç·šè·¯ã®æ§˜å­","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"8","name":"æµ·å²¸ã®æ§˜å­","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚å¹³æ½Ÿç”º","status":"1","group":"a"},
+		{"id":"9","name":"æ¼æ¸¯ã®æ§˜å­","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚å¹³æ½Ÿç”º","status":"1","group":"a"},
+		{"id":"10","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"11","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"12","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"13","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"14","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"15","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"16","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"17","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"18","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"19","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"20","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"21","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"22","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"23","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"–kˆïés‚É‚Í8Œ20“ú‚É–K‚ê‚Ü‚µ‚½‚ªCkĞ“–‰‚æ‚è‚©‚È‚è•œ‹Œ‚µ‚Ä‚¢‚Ü‚µ‚½B‚µ‚©‚µC‚»‚Ì’Ü­‚ÍŠ‚éŠ‚É‚ ‚è‚Ü‚µ‚½Bs–ğŠ‚Ì— ‚Ì•û‚Å‚ÍC“¹˜H‚Ì•œ‹ŒH–‚Éì‹Æˆõ‚Ì•û‚ªˆê¶Œœ–½“­‚¢‚Ä‚¢‚Ü‚µ‚½Bs–ğŠ‚Ì’S“–Ò‚ÉkĞ“–‚ÌÊ^‚ğŒ©‚¹‚Ä‚à‚ç‚¢‚Ü‚µ‚½‚ªA’Ã”g‚Ì”íŠQ‚ª“‚­A“¯‚¶‚±‚Æ‚ª‹N‚«‚½‚çˆê‚à‘‚­”ğ“ï‚·‚é‚±‚Æ‚ÉS‚ª‚¯‚é•K—v‚ª‚ ‚é‚Æv‚¢‚Ü‚µ‚½B"
+		"comment":"åŒ—èŒ¨åŸå¸‚ã«ã¯8æœˆ20æ—¥ã«è¨ªã‚Œã¾ã—ãŸãŒï¼Œéœ‡ç½å½“åˆã‚ˆã‚Šã‹ãªã‚Šå¾©æ—§ã—ã¦ã„ã¾ã—ãŸã€‚ã—ã‹ã—ï¼Œãã®çˆªç—•ã¯è‡³ã‚‹æ‰€ã«ã‚ã‚Šã¾ã—ãŸã€‚å¸‚å½¹æ‰€ã®è£ã®æ–¹ã§ã¯ï¼Œé“è·¯ã®å¾©æ—§å·¥äº‹ã«ä½œæ¥­å“¡ã®æ–¹ãŒä¸€ç”Ÿæ‡¸å‘½åƒã„ã¦ã„ã¾ã—ãŸã€‚å¸‚å½¹æ‰€ã®æ‹…å½“è€…ã«éœ‡ç½å½“æ™‚ã®å†™çœŸã‚’è¦‹ã›ã¦ã‚‚ã‚‰ã„ã¾ã—ãŸãŒã€æ´¥æ³¢ã®è¢«å®³ãŒé…·ãã€åŒã˜ã“ã¨ãŒèµ·ããŸã‚‰ä¸€åˆ»ã‚‚æ—©ãé¿é›£ã™ã‚‹ã“ã¨ã«å¿ƒãŒã‘ã‚‹å¿…è¦ãŒã‚ã‚‹ã¨æ€ã„ã¾ã—ãŸã€‚"
 	},
 	
 	
 	"mito":{
 		"spots": [
-		{"id":"1","name":"“Œ‘äE‘“¹51†ü•t‹ß","code":"“Œ‘ä1’š–Ú","status":"1","group":"a"},
-		{"id":"8","name":"“Œ‘äE‘“¹51†•t‹ß","code":"“Œ‘ä1’š–Ú","status":"0","group":"a"},
-		{"id":"16","name":"“n•Ó®Œ`ŠO‰È(•Â‰@)","code":"ˆïéŒ§…ŒËs“Œ‘ä1’š–Ú6-1","status":"0","group":"a"},
-		{"id":"2","name":"“ŒÆ‹{","code":"ˆïéŒ§…ŒËs‹{’¬2’š–Ú5-13 ","status":"1","group":"b"},
-		{"id":"3","name":"“ŒÆ‹{","code":"ˆïéŒ§…ŒËs‹{’¬2’š–Ú5-13","status":"1","group":"b"},
-		{"id":"6","name":"…ŒË‰w–kŒû ƒoƒXæ‚èê","code":"…ŒË‰w","status":"1","group":"b"},
-		{"id":"7","name":"…ŒË‰w–kŒû ƒoƒXæ‚èê","code":"…ŒË‰w","status":"0","group":"b"},
-		{"id":"4","name":"…ŒËs–ğŠ","code":"ˆïéŒ§…ŒËs’†‰›1’š–Ú4-1 ","status":"1","group":"c"},
-		{"id":"5","name":"…ŒËs–ğŠ","code":"ˆïéŒ§…ŒËs’†‰›1’š–Ú4-1","status":"1","group":"c"},
-		{"id":"9","name":"•l“c3’š–Ú","code":"•l“c3’š–Ú","status":"0","group":"d"},
-		{"id":"10","name":"•l“c3’š–Ú","code":"•l“c3’š–Ú","status":"0","group":"d"},
-		{"id":"11","name":"•l“c3’š–Ú","code":"•l“c3’š–Ú","status":"0","group":"d"},
-		{"id":"12","name":"•l“c3’š–Ú","code":"•l“c3’š–Ú","status":"0","group":"d"},
-		{"id":"13","name":"•l“c3’š–Ú","code":"•l“c3’š–Ú","status":"0","group":"d"},
-		{"id":"14","name":"•l“c3’š–Ú","code":"•l“c3’š–Ú","status":"0","group":"d"},
-		{"id":"15","name":"•l“c3’š–Ú","code":"•l“c3’š–Ú","status":"0","group":"d"},
-		{"id":"17","name":"…ŒËs50†ƒ„ƒ}ƒ_“d‹@","code":"…ŒËsŠ}Œ´’¬209","status":"1","group":"e"},
-		{"id":"18","name":"…ŒËs50†ƒ„ƒ}ƒ_“d‹@","code":"…ŒËsŠ}Œ´’¬209","status":"1","group":"e"},
-		{"id":"22","name":"…ŒËH‹Æ‚ZA“","code":"…ŒËsŒ³‹g“c’¬1101","status":"1","group":"f"},
-		{"id":"25","name":"…ŒËH‹Æ‚ZA“","code":"…ŒËsŒ³‹g“c’¬1101","status":"1","group":"f"},
-		{"id":"26","name":"…ŒËH‹Æ‚ZA“","code":"…ŒËsŒ³‹g“c’¬1101","status":"1","group":"f"},
-		{"id":"28","name":"…ŒËH‹Æ‚ZA“","code":"…ŒËsŒ³‹g“c’¬1101","status":"1","group":"f"},
-		{"id":"29","name":"…ŒËH‹Æ‚ZE“","code":"…ŒËsŒ³‹g“c’¬1101","status":"1","group":"g"},
-		{"id":"30","name":"…ŒËH‹Æ‚ZE“","code":"…ŒËsŒ³‹g“c’¬1101","status":"1","group":"g"},
-		{"id":"31","name":"…ŒËH‹Æ‚ZE“","code":"…ŒËsŒ³‹g“c’¬1101","status":"1","group":"g"},
-		{"id":"36","name":"…ŒËH‹Æ‚ZE“","code":"…ŒËsŒ³‹g“c’¬1101","status":"1","group":"g"},
-		{"id":"43","name":"…ŒËH‹Æ‚ZE“","code":"…ŒËsŒ³‹g“c’¬1101","status":"1","group":"g"},
-		{"id":"45","name":"…ŒËH‹Æ‚ZE“","code":"…ŒËsŒ³‹g“c’¬1101","status":"1","group":"g"},
-		{"id":"50","name":"…ŒËH‹Æ‚ZE“","code":"…ŒËsŒ³‹g“c’¬1101","status":"1","group":"g"},
-		{"id":"52","name":"…ŒËH‹Æ‚ZE“","code":"…ŒËsŒ³‹g“c’¬1101","status":"1","group":"g"},
-		{"id":"60","name":"…ŒËH‹Æ‚ZE“","code":"…ŒËsŒ³‹g“c’¬1101","status":"1","group":"g"},
-		{"id":"61","name":"…ŒËs—§O‚ÌŠÛ¬","code":"…ŒËsO‚ÌŠÛ1’š–Ú6-51","status":"1","group":"h"},
-		{"id":"62","name":"…ŒËs—§O‚ÌŠÛ¬","code":"…ŒËsO‚ÌŠÛ1’š–Ú6-51","status":"1","group":"h"},
-		{"id":"63","name":"…ŒËs—§O‚ÌŠÛ¬","code":"…ŒËsO‚ÌŠÛ1’š–Ú6-51","status":"1","group":"h"},
-		{"id":"64","name":"…ŒËs—§O‚ÌŠÛ¬","code":"…ŒËsO‚ÌŠÛ1’š–Ú6-51","status":"1","group":"h"},
-		{"id":"71","name":"…ŒË“ñ‚","code":"…ŒËs‘å’¬2’š–Ú2-14","status":"1","group":"h"},
-		{"id":"72","name":"…ŒË“ñ‚","code":"…ŒËs‘å’¬2’š–Ú2-14","status":"1","group":"h"},
-		{"id":"74","name":"…ŒË“ñ‚","code":"…ŒËs‘å’¬2’š–Ú2-14","status":"1","group":"h"},
-		{"id":"76","name":"…ŒË“ñ‚","code":"…ŒËs‘å’¬2’š–Ú2-14","status":"1","group":"h"},
-		{"id":"77","name":"…ŒË“ñ‚","code":"…ŒËs‘å’¬2’š–Ú2-14","status":"1","group":"h"},
-		{"id":"65","name":"…ŒË¶ŠUŠwKƒZƒ“ƒ^[","code":"…ŒËsˆ¤“†’¬4-1","status":"1","group":"i"},
-		{"id":"66","name":"…ŒË¶ŠUŠwKƒZƒ“ƒ^[","code":"…ŒËsˆ¤“†’¬4-1","status":"1","group":"i"},
-		{"id":"67","name":"…ŒË¶ŠUŠwKƒZƒ“ƒ^[","code":"…ŒËsˆ¤“†’¬4-1","status":"1","group":"i"},
-		{"id":"69","name":"…ŒË¶ŠUŠwKƒZƒ“ƒ^[","code":"…ŒËsˆ¤“†’¬4-1","status":"1","group":"i"}
+		{"id":"1","name":"æ±å°ãƒ»å›½é“51å·ç·šä»˜è¿‘","code":"æ±å°1ä¸ç›®","status":"1","group":"a"},
+		{"id":"8","name":"æ±å°ãƒ»å›½é“51å·ä»˜è¿‘","code":"æ±å°1ä¸ç›®","status":"0","group":"a"},
+		{"id":"16","name":"æ¸¡è¾ºæ•´å½¢å¤–ç§‘(é–‰é™¢)","code":"èŒ¨åŸçœŒæ°´æˆ¸å¸‚æ±å°1ä¸ç›®6-1","status":"0","group":"a"},
+		{"id":"2","name":"æ±ç…§å®®","code":"èŒ¨åŸçœŒæ°´æˆ¸å¸‚å®®ç”º2ä¸ç›®5-13 ","status":"1","group":"b"},
+		{"id":"3","name":"æ±ç…§å®®","code":"èŒ¨åŸçœŒæ°´æˆ¸å¸‚å®®ç”º2ä¸ç›®5-13","status":"1","group":"b"},
+		{"id":"6","name":"æ°´æˆ¸é§…åŒ—å£ ãƒã‚¹ä¹—ã‚Šå ´","code":"æ°´æˆ¸é§…","status":"1","group":"b"},
+		{"id":"7","name":"æ°´æˆ¸é§…åŒ—å£ ãƒã‚¹ä¹—ã‚Šå ´","code":"æ°´æˆ¸é§…","status":"0","group":"b"},
+		{"id":"4","name":"æ°´æˆ¸å¸‚å½¹æ‰€","code":"èŒ¨åŸçœŒæ°´æˆ¸å¸‚ä¸­å¤®1ä¸ç›®4-1 ","status":"1","group":"c"},
+		{"id":"5","name":"æ°´æˆ¸å¸‚å½¹æ‰€","code":"èŒ¨åŸçœŒæ°´æˆ¸å¸‚ä¸­å¤®1ä¸ç›®4-1","status":"1","group":"c"},
+		{"id":"9","name":"æµœç”°3ä¸ç›®","code":"æµœç”°3ä¸ç›®","status":"0","group":"d"},
+		{"id":"10","name":"æµœç”°3ä¸ç›®","code":"æµœç”°3ä¸ç›®","status":"0","group":"d"},
+		{"id":"11","name":"æµœç”°3ä¸ç›®","code":"æµœç”°3ä¸ç›®","status":"0","group":"d"},
+		{"id":"12","name":"æµœç”°3ä¸ç›®","code":"æµœç”°3ä¸ç›®","status":"0","group":"d"},
+		{"id":"13","name":"æµœç”°3ä¸ç›®","code":"æµœç”°3ä¸ç›®","status":"0","group":"d"},
+		{"id":"14","name":"æµœç”°3ä¸ç›®","code":"æµœç”°3ä¸ç›®","status":"0","group":"d"},
+		{"id":"15","name":"æµœç”°3ä¸ç›®","code":"æµœç”°3ä¸ç›®","status":"0","group":"d"},
+		{"id":"17","name":"æ°´æˆ¸å¸‚50å·ãƒ¤ãƒãƒ€é›»æ©Ÿ","code":"æ°´æˆ¸å¸‚ç¬ åŸç”º209","status":"1","group":"e"},
+		{"id":"18","name":"æ°´æˆ¸å¸‚50å·ãƒ¤ãƒãƒ€é›»æ©Ÿ","code":"æ°´æˆ¸å¸‚ç¬ åŸç”º209","status":"1","group":"e"},
+		{"id":"22","name":"æ°´æˆ¸å·¥æ¥­é«˜æ ¡Aæ£Ÿ","code":"æ°´æˆ¸å¸‚å…ƒå‰ç”°ç”º1101","status":"1","group":"f"},
+		{"id":"25","name":"æ°´æˆ¸å·¥æ¥­é«˜æ ¡Aæ£Ÿ","code":"æ°´æˆ¸å¸‚å…ƒå‰ç”°ç”º1101","status":"1","group":"f"},
+		{"id":"26","name":"æ°´æˆ¸å·¥æ¥­é«˜æ ¡Aæ£Ÿ","code":"æ°´æˆ¸å¸‚å…ƒå‰ç”°ç”º1101","status":"1","group":"f"},
+		{"id":"28","name":"æ°´æˆ¸å·¥æ¥­é«˜æ ¡Aæ£Ÿ","code":"æ°´æˆ¸å¸‚å…ƒå‰ç”°ç”º1101","status":"1","group":"f"},
+		{"id":"29","name":"æ°´æˆ¸å·¥æ¥­é«˜æ ¡Eæ£Ÿ","code":"æ°´æˆ¸å¸‚å…ƒå‰ç”°ç”º1101","status":"1","group":"g"},
+		{"id":"30","name":"æ°´æˆ¸å·¥æ¥­é«˜æ ¡Eæ£Ÿ","code":"æ°´æˆ¸å¸‚å…ƒå‰ç”°ç”º1101","status":"1","group":"g"},
+		{"id":"31","name":"æ°´æˆ¸å·¥æ¥­é«˜æ ¡Eæ£Ÿ","code":"æ°´æˆ¸å¸‚å…ƒå‰ç”°ç”º1101","status":"1","group":"g"},
+		{"id":"36","name":"æ°´æˆ¸å·¥æ¥­é«˜æ ¡Eæ£Ÿ","code":"æ°´æˆ¸å¸‚å…ƒå‰ç”°ç”º1101","status":"1","group":"g"},
+		{"id":"43","name":"æ°´æˆ¸å·¥æ¥­é«˜æ ¡Eæ£Ÿ","code":"æ°´æˆ¸å¸‚å…ƒå‰ç”°ç”º1101","status":"1","group":"g"},
+		{"id":"45","name":"æ°´æˆ¸å·¥æ¥­é«˜æ ¡Eæ£Ÿ","code":"æ°´æˆ¸å¸‚å…ƒå‰ç”°ç”º1101","status":"1","group":"g"},
+		{"id":"50","name":"æ°´æˆ¸å·¥æ¥­é«˜æ ¡Eæ£Ÿ","code":"æ°´æˆ¸å¸‚å…ƒå‰ç”°ç”º1101","status":"1","group":"g"},
+		{"id":"52","name":"æ°´æˆ¸å·¥æ¥­é«˜æ ¡Eæ£Ÿ","code":"æ°´æˆ¸å¸‚å…ƒå‰ç”°ç”º1101","status":"1","group":"g"},
+		{"id":"60","name":"æ°´æˆ¸å·¥æ¥­é«˜æ ¡Eæ£Ÿ","code":"æ°´æˆ¸å¸‚å…ƒå‰ç”°ç”º1101","status":"1","group":"g"},
+		{"id":"61","name":"æ°´æˆ¸å¸‚ç«‹ä¸‰ã®ä¸¸å°","code":"æ°´æˆ¸å¸‚ä¸‰ã®ä¸¸1ä¸ç›®6-51","status":"1","group":"h"},
+		{"id":"62","name":"æ°´æˆ¸å¸‚ç«‹ä¸‰ã®ä¸¸å°","code":"æ°´æˆ¸å¸‚ä¸‰ã®ä¸¸1ä¸ç›®6-51","status":"1","group":"h"},
+		{"id":"63","name":"æ°´æˆ¸å¸‚ç«‹ä¸‰ã®ä¸¸å°","code":"æ°´æˆ¸å¸‚ä¸‰ã®ä¸¸1ä¸ç›®6-51","status":"1","group":"h"},
+		{"id":"64","name":"æ°´æˆ¸å¸‚ç«‹ä¸‰ã®ä¸¸å°","code":"æ°´æˆ¸å¸‚ä¸‰ã®ä¸¸1ä¸ç›®6-51","status":"1","group":"h"},
+		{"id":"71","name":"æ°´æˆ¸äºŒé«˜","code":"æ°´æˆ¸å¸‚å¤§ç”º2ä¸ç›®2-14","status":"1","group":"h"},
+		{"id":"72","name":"æ°´æˆ¸äºŒé«˜","code":"æ°´æˆ¸å¸‚å¤§ç”º2ä¸ç›®2-14","status":"1","group":"h"},
+		{"id":"74","name":"æ°´æˆ¸äºŒé«˜","code":"æ°´æˆ¸å¸‚å¤§ç”º2ä¸ç›®2-14","status":"1","group":"h"},
+		{"id":"76","name":"æ°´æˆ¸äºŒé«˜","code":"æ°´æˆ¸å¸‚å¤§ç”º2ä¸ç›®2-14","status":"1","group":"h"},
+		{"id":"77","name":"æ°´æˆ¸äºŒé«˜","code":"æ°´æˆ¸å¸‚å¤§ç”º2ä¸ç›®2-14","status":"1","group":"h"},
+		{"id":"65","name":"æ°´æˆ¸ç”Ÿæ¶¯å­¦ç¿’ã‚»ãƒ³ã‚¿ãƒ¼","code":"æ°´æˆ¸å¸‚æ„›å®•ç”º4-1","status":"1","group":"i"},
+		{"id":"66","name":"æ°´æˆ¸ç”Ÿæ¶¯å­¦ç¿’ã‚»ãƒ³ã‚¿ãƒ¼","code":"æ°´æˆ¸å¸‚æ„›å®•ç”º4-1","status":"1","group":"i"},
+		{"id":"67","name":"æ°´æˆ¸ç”Ÿæ¶¯å­¦ç¿’ã‚»ãƒ³ã‚¿ãƒ¼","code":"æ°´æˆ¸å¸‚æ„›å®•ç”º4-1","status":"1","group":"i"},
+		{"id":"69","name":"æ°´æˆ¸ç”Ÿæ¶¯å­¦ç¿’ã‚»ãƒ³ã‚¿ãƒ¼","code":"æ°´æˆ¸å¸‚æ„›å®•ç”º4-1","status":"1","group":"i"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§—§…ŒËH‹Æ‚“™ŠwZ î•ñ‹Zp‰È"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒç«‹æ°´æˆ¸å·¥æ¥­é«˜ç­‰å­¦æ ¡ æƒ…å ±æŠ€è¡“ç§‘"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"“–‚Í‰w‚Ì…“¹ŠÇ‚ª”j—ô‚µA\“à‚ª…Z‚µ‚É‚È‚é‚È‚Ç‚Ì”íŠQ‚ª‚ ‚è‚Ü‚µ‚½‚ª‘X‚É•œ‹Œ‚µA‰Ä‹x‚İ‚É‚ÍkĞ‘O‚Æ•Ï‚í‚è‚È‚¢‰^s‚ğ‚µ‚Ä‚¢‚Ü‚µ‚½B–¯‰Æ‚Ì‰®ª‚âƒuƒƒbƒN•»AZ‘îŠX‚Ì×‚¢“¹‚È‚Ç‚Í’¼‚Á‚Ä‚¢‚È‚¢‚Æ‚±‚ë‚àŒ©‚ç‚ê‚Ü‚µ‚½B‚µ‚©‚µA‚Ù‚Æ‚ñ‚Ç‚Ì”íŠQ‰ÓŠ‚Å‚ÍH–‚âC•œ‚Ì‘[’u‚ªæ‚ç‚ê‚Ä‚¢‚Ü‚·BƒuƒƒbƒNƒ^ƒCƒ‹‚Ì•Ü‘•‚ª•‚¢ƒAƒXƒtƒ@ƒ‹ƒg‚Ì“¹‚É‚È‚Á‚Ä‚¢‚é‚Æ‚±‚ë‚ğŒ©‚é‚ÆAkĞ“–‚Ì‚±‚Æ‚ğv‚¢o‚µ‚Ü‚·B"
+		"comment":"å½“æ™‚ã¯é§…ã®æ°´é“ç®¡ãŒç ´è£‚ã—ã€æ§‹å†…ãŒæ°´æµ¸ã—ã«ãªã‚‹ãªã©ã®è¢«å®³ãŒã‚ã‚Šã¾ã—ãŸãŒæ—©ã€…ã«å¾©æ—§ã—ã€å¤ä¼‘ã¿ã«ã¯éœ‡ç½å‰ã¨å¤‰ã‚ã‚Šãªã„é‹è¡Œã‚’ã—ã¦ã„ã¾ã—ãŸã€‚æ°‘å®¶ã®å±‹æ ¹ã‚„ãƒ–ãƒ­ãƒƒã‚¯å¡€ã€ä½å®…è¡—ã®ç´°ã„é“ãªã©ã¯ç›´ã£ã¦ã„ãªã„ã¨ã“ã‚ã‚‚è¦‹ã‚‰ã‚Œã¾ã—ãŸã€‚ã—ã‹ã—ã€ã»ã¨ã‚“ã©ã®è¢«å®³ç®‡æ‰€ã§ã¯å·¥äº‹ã‚„ä¿®å¾©ã®æªç½®ãŒå–ã‚‰ã‚Œã¦ã„ã¾ã™ã€‚ãƒ–ãƒ­ãƒƒã‚¯ã‚¿ã‚¤ãƒ«ã®èˆ—è£…ãŒé»’ã„ã‚¢ã‚¹ãƒ•ã‚¡ãƒ«ãƒˆã®é“ã«ãªã£ã¦ã„ã‚‹ã¨ã“ã‚ã‚’è¦‹ã‚‹ã¨ã€éœ‡ç½å½“æ™‚ã®ã“ã¨ã‚’æ€ã„å‡ºã—ã¾ã™ã€‚"
 	},
 	
 	
 	"moriya":{
 		"spots": [
-		{"id":"1","name":"ç’Js1","code":"ç’Js1","status":"1","group":"a"},
-		{"id":"2","name":"ç’Js2","code":"ç’Js2","status":"1","group":"a"},
-		{"id":"3","name":"ç’Js3","code":"ç’Js3","status":"1","group":"a"},
-		{"id":"4","name":"ç’Js4","code":"ç’Js4","status":"1","group":"a"},
-		{"id":"5","name":"ç’Js5","code":"ç’Js5","status":"1","group":"a"},
-		{"id":"6","name":"ç’Js6","code":"ç’Js6","status":"1","group":"a"},
-		{"id":"7","name":"ç’Js7","code":"ç’Js7","status":"1","group":"a"},
-		{"id":"8","name":"ç’Js8","code":"ç’Js8","status":"1","group":"a"},
-		{"id":"9","name":"ç’Js9","code":"ç’Js9","status":"1","group":"a"},
-		{"id":"10","name":"ç’Js10","code":"ç’Js10","status":"1","group":"a"}
+		{"id":"1","name":"å®ˆè°·å¸‚1","code":"å®ˆè°·å¸‚1","status":"1","group":"a"},
+		{"id":"2","name":"å®ˆè°·å¸‚2","code":"å®ˆè°·å¸‚2","status":"1","group":"a"},
+		{"id":"3","name":"å®ˆè°·å¸‚3","code":"å®ˆè°·å¸‚3","status":"1","group":"a"},
+		{"id":"4","name":"å®ˆè°·å¸‚4","code":"å®ˆè°·å¸‚4","status":"1","group":"a"},
+		{"id":"5","name":"å®ˆè°·å¸‚5","code":"å®ˆè°·å¸‚5","status":"1","group":"a"},
+		{"id":"6","name":"å®ˆè°·å¸‚6","code":"å®ˆè°·å¸‚6","status":"1","group":"a"},
+		{"id":"7","name":"å®ˆè°·å¸‚7","code":"å®ˆè°·å¸‚7","status":"1","group":"a"},
+		{"id":"8","name":"å®ˆè°·å¸‚8","code":"å®ˆè°·å¸‚8","status":"1","group":"a"},
+		{"id":"9","name":"å®ˆè°·å¸‚9","code":"å®ˆè°·å¸‚9","status":"1","group":"a"},
+		{"id":"10","name":"å®ˆè°·å¸‚10","code":"å®ˆè°·å¸‚10","status":"1","group":"a"}
 		],	
 		"data":[
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"‚±‚±‚ÉƒeƒLƒXƒg"
+		"comment":"ã“ã“ã«ãƒ†ã‚­ã‚¹ãƒˆ"
 	},
 	
 	"namegata":{
 		"spots": [
-		{"id":"1","name":"s•ûs1","code":"s•ûs1","status":"1","group":"a"},
-		{"id":"2","name":"s•ûs2","code":"s•ûs2","status":"1","group":"a"},
-		{"id":"3","name":"s•ûs3","code":"s•ûs3","status":"1","group":"a"},
-		{"id":"4","name":"s•ûs4","code":"s•ûs4","status":"1","group":"a"},
-		{"id":"5","name":"s•ûs5","code":"s•ûs5","status":"1","group":"a"},
-		{"id":"6","name":"s•ûs6","code":"s•ûs6","status":"1","group":"a"},
-		{"id":"7","name":"s•ûs7","code":"s•ûs7","status":"1","group":"a"},
-		{"id":"8","name":"s•ûs8","code":"s•ûs8","status":"1","group":"a"},
-		{"id":"9","name":"s•ûs9","code":"s•ûs9","status":"1","group":"a"},
-		{"id":"10","name":"s•ûs10","code":"s•ûs10","status":"1","group":"a"}
+		{"id":"1","name":"è¡Œæ–¹å¸‚1","code":"è¡Œæ–¹å¸‚1","status":"1","group":"a"},
+		{"id":"2","name":"è¡Œæ–¹å¸‚2","code":"è¡Œæ–¹å¸‚2","status":"1","group":"a"},
+		{"id":"3","name":"è¡Œæ–¹å¸‚3","code":"è¡Œæ–¹å¸‚3","status":"1","group":"a"},
+		{"id":"4","name":"è¡Œæ–¹å¸‚4","code":"è¡Œæ–¹å¸‚4","status":"1","group":"a"},
+		{"id":"5","name":"è¡Œæ–¹å¸‚5","code":"è¡Œæ–¹å¸‚5","status":"1","group":"a"},
+		{"id":"6","name":"è¡Œæ–¹å¸‚6","code":"è¡Œæ–¹å¸‚6","status":"1","group":"a"},
+		{"id":"7","name":"è¡Œæ–¹å¸‚7","code":"è¡Œæ–¹å¸‚7","status":"1","group":"a"},
+		{"id":"8","name":"è¡Œæ–¹å¸‚8","code":"è¡Œæ–¹å¸‚8","status":"1","group":"a"},
+		{"id":"9","name":"è¡Œæ–¹å¸‚9","code":"è¡Œæ–¹å¸‚9","status":"1","group":"a"},
+		{"id":"10","name":"è¡Œæ–¹å¸‚10","code":"è¡Œæ–¹å¸‚10","status":"1","group":"a"}
 		],	
 		"data":[
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"‚±‚±‚ÉƒeƒLƒXƒg"
+		"comment":"ã“ã“ã«ãƒ†ã‚­ã‚¹ãƒˆ"
 	},
 	
 	"shirosato":{
 		"spots": [
-		{"id":"005","name":"‰ºš¨’n‹æ“¹˜H","code":"‰ºš¨’n‹æ","status":"1","group":"a"},
-		{"id":"009","name":"‰ºš¨’n‹æ“¹˜H","code":"‰ºš¨’n‹æ","status":"0","group":"a"},
-		{"id":"006","name":"ˆ¢”gR’n‹æ“¹˜H","code":"ˆ¢”gR2277","status":"1","group":"b"},
-		{"id":"010","name":"ˆ¢”gR’n‹æ“¹˜H","code":"ˆ¢”gR2277","status":"0","group":"b"},
-		{"id":"007","name":"“¹–Ø‹´’n‹æ","code":"“¹–Ø‹´’n‹æ","status":"1","group":"c"},
-		{"id":"011","name":"“¹–Ø‹´’n‹æ","code":"“¹–Ø‹´’n‹æ","status":"0","group":"c"},
-		{"id":"008","name":"“¡ˆäìƒ_ƒ€‹´","code":"é—¢’¬‰ºŒÃ“à182","status":"1","group":"d"},
-		{"id":"012","name":"“¡ˆäìƒ_ƒ€‹´","code":"é—¢’¬‰ºŒÃ“à182","status":"0","group":"d"},
-		{"id":"013","name":"ƒRƒ~ƒ…ƒjƒeƒBƒZƒ“ƒ^[","code":"é—¢’¬Î’Ë","status":"1","group":"e"},
-		{"id":"003","name":"–ğê–]˜O","code":"é—¢’¬Î’Ë","status":"1","group":"e"},
-		{"id":"002","name":"–ğê–]˜O“P‹ì‹Æ","code":"é—¢’¬Î’Ë","status":"1","group":"e"},
-		{"id":"004","name":"–ğêü•Ó“¹˜H","code":"é—¢’¬Î’Ë","status":"1","group":"e"},
-		{"id":"000","name":"–ğê’“Ôê","code":"é—¢’¬Î’Ë","status":"1","group":"e"},
-		{"id":"001","name":"”ğ“ïŠŒf¦”Â","code":"”ğ“ïŠ","status":"1","group":"f"}
+		{"id":"005","name":"ä¸‹åœ·åœ°åŒºé“è·¯","code":"ä¸‹åœ·åœ°åŒº","status":"1","group":"a"},
+		{"id":"009","name":"ä¸‹åœ·åœ°åŒºé“è·¯","code":"ä¸‹åœ·åœ°åŒº","status":"0","group":"a"},
+		{"id":"006","name":"é˜¿æ³¢å±±åœ°åŒºé“è·¯","code":"é˜¿æ³¢å±±2277","status":"1","group":"b"},
+		{"id":"010","name":"é˜¿æ³¢å±±åœ°åŒºé“è·¯","code":"é˜¿æ³¢å±±2277","status":"0","group":"b"},
+		{"id":"007","name":"é“æœ¨æ©‹åœ°åŒº","code":"é“æœ¨æ©‹åœ°åŒº","status":"1","group":"c"},
+		{"id":"011","name":"é“æœ¨æ©‹åœ°åŒº","code":"é“æœ¨æ©‹åœ°åŒº","status":"0","group":"c"},
+		{"id":"008","name":"è—¤äº•å·ãƒ€ãƒ æ©‹","code":"åŸé‡Œç”ºä¸‹å¤å†…182","status":"1","group":"d"},
+		{"id":"012","name":"è—¤äº•å·ãƒ€ãƒ æ©‹","code":"åŸé‡Œç”ºä¸‹å¤å†…182","status":"0","group":"d"},
+		{"id":"013","name":"ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£ã‚»ãƒ³ã‚¿ãƒ¼","code":"åŸé‡Œç”ºçŸ³å¡š","status":"1","group":"e"},
+		{"id":"003","name":"å½¹å ´æœ›æ¥¼","code":"åŸé‡Œç”ºçŸ³å¡š","status":"1","group":"e"},
+		{"id":"002","name":"å½¹å ´æœ›æ¥¼æ’¤å»ä½œæ¥­","code":"åŸé‡Œç”ºçŸ³å¡š","status":"1","group":"e"},
+		{"id":"004","name":"å½¹å ´å‘¨è¾ºé“è·¯","code":"åŸé‡Œç”ºçŸ³å¡š","status":"1","group":"e"},
+		{"id":"000","name":"å½¹å ´é§è»Šå ´","code":"åŸé‡Œç”ºçŸ³å¡š","status":"1","group":"e"},
+		{"id":"001","name":"é¿é›£æ‰€æ²ç¤ºæ¿","code":"é¿é›£æ‰€","status":"1","group":"f"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"é—¢’¬–ğê"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"åŸé‡Œç”ºå½¹å ´"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"é—¢’¬‚Å‚Í’¬–ğê‚ª‘å‚«‚È”íŠQ‚ğó‚¯A8Œ‚É–K‚ê‚½Û‚Í‰¼‚Ì{İ‚ÅE–±‚ğs‚È‚Á‚Ä‚¢‚Ü‚µ‚½B•œ‹Œ‚Í‚©‚È‚èi‚ñ‚Å‚¢‚é‚ÆŠ´‚¶‚Ü‚µ‚½B–ğê‚Ì’S“–Ò‚Ì•û‚Í¢–hĞˆÓ¯‚ğ‚‚ß‚Ä—~‚µ‚¢£‚Æ‚¨‚Á‚µ‚á‚Á‚Ä‚¢‚Ü‚µ‚½B"
+		"comment":"åŸé‡Œç”ºã§ã¯ç”ºå½¹å ´ãŒå¤§ããªè¢«å®³ã‚’å—ã‘ã€8æœˆã«è¨ªã‚ŒãŸéš›ã¯ä»®ã®æ–½è¨­ã§è·å‹™ã‚’è¡Œãªã£ã¦ã„ã¾ã—ãŸã€‚å¾©æ—§ã¯ã‹ãªã‚Šé€²ã‚“ã§ã„ã‚‹ã¨æ„Ÿã˜ã¾ã—ãŸã€‚å½¹å ´ã®æ‹…å½“è€…ã®æ–¹ã¯ã€Œé˜²ç½æ„è­˜ã‚’é«˜ã‚ã¦æ¬²ã—ã„ã€ã¨ãŠã£ã—ã‚ƒã£ã¦ã„ã¾ã—ãŸã€‚"
 	},
 	
 	"simotuma":{
 		"spots": [
-		{"id":"1","name":"ç‘ãì’¡É","code":"ˆïéŒ§‰ºÈs‹S“{230","status":"0","group":"a"},
-		{"id":"1a","name":"ç‘ãì’¡É","code":"ˆïéŒ§‰ºÈs‹S“{230","status":"1","group":"a"},
-		{"id":"2","name":"Š™’ë“¹˜H‰ˆ‚¢","code":"ˆïéŒ§‰ºÈsŠ™’ë139-2","status":"0","group":"a"},
-		{"id":"2a","name":"Š™’ë“¹˜H‰ˆ‚¢","code":"ˆïéŒ§‰ºÈsŠ™’ë139-2","status":"1","group":"a"},
-		{"id":"3","name":"‚«‚ÊƒAƒNƒAƒXƒe[ƒVƒ‡ƒ“‘O","code":"ˆïéŒ§‰ºÈs’†‹w933-1","status":"0","group":"a"},
-		{"id":"3a","name":"‚«‚ÊƒAƒNƒAƒXƒe[ƒVƒ‡ƒ“‘O","code":"ˆïéŒ§‰ºÈs’†‹w933-1","status":"1","group":"a"},
-		{"id":"7","name":"Š™’ë“¹˜H‰ˆ‚¢","code":"ˆïéŒ§‰ºÈsŠ™’ë139-2","status":"0","group":"a"},
-		{"id":"7a","name":"Š™’ë“¹˜H‰ˆ‚¢","code":"ˆïéŒ§‰ºÈsŠ™’ë139-2","status":"1","group":"a"},
-		{"id":"4","name":"“¹‚Ì‰w‚µ‚à‚Â‚Ü","code":"ˆïéŒ§‰ºÈs”{140","status":"0","group":"b"},
-		{"id":"4a","name":"“¹‚Ì‰w‚µ‚à‚Â‚Ü","code":"ˆïéŒ§‰ºÈs”{140","status":"1","group":"b"},
-		{"id":"5","name":"¬ŠLì‚Ó‚ê‚ ‚¢Œö‰€‹ß‚­","code":"ˆïéŒ§‰ºÈs–x˜U1650-1","status":"0","group":"c"},
-		{"id":"5a","name":"¬ŠLì‚Ó‚ê‚ ‚¢Œö‰€‹ß‚­","code":"ˆïéŒ§‰ºÈs–x˜U1650-1","status":"1","group":"c"},
-		{"id":"6","name":"â“Œs–ğŠŠâˆä’¡É","code":"ˆïéŒ§‰ºÈs”¼’J724-1","status":"0","group":"d"},
-		{"id":"6a","name":"â“Œs–ğŠŠâˆä’¡É","code":"ˆïéŒ§‰ºÈs”¼’J724-1","status":"1","group":"d"},
-		{"id":"8","name":"RK“¹˜H‰ˆ‚¢","code":"ˆïéŒ§‰ºÈsRK47","status":"0","group":"e"},
-		{"id":"8a","name":"RK“¹˜H‰ˆ‚¢","code":"ˆïéŒ§‰ºÈsRK47","status":"1","group":"e"}
+		{"id":"1","name":"åƒä»£å·åºèˆ","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚é¬¼æ€’230","status":"0","group":"a"},
+		{"id":"1a","name":"åƒä»£å·åºèˆ","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚é¬¼æ€’230","status":"1","group":"a"},
+		{"id":"2","name":"éŒåº­é“è·¯æ²¿ã„","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚éŒåº­139-2","status":"0","group":"a"},
+		{"id":"2a","name":"éŒåº­é“è·¯æ²¿ã„","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚éŒåº­139-2","status":"1","group":"a"},
+		{"id":"3","name":"ãã¬ã‚¢ã‚¯ã‚¢ã‚¹ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³å‰","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚ä¸­å±…æŒ‡933-1","status":"0","group":"a"},
+		{"id":"3a","name":"ãã¬ã‚¢ã‚¯ã‚¢ã‚¹ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³å‰","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚ä¸­å±…æŒ‡933-1","status":"1","group":"a"},
+		{"id":"7","name":"éŒåº­é“è·¯æ²¿ã„","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚éŒåº­139-2","status":"0","group":"a"},
+		{"id":"7a","name":"éŒåº­é“è·¯æ²¿ã„","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚éŒåº­139-2","status":"1","group":"a"},
+		{"id":"4","name":"é“ã®é§…ã—ã‚‚ã¤ã¾","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚æ•°é ˆ140","status":"0","group":"b"},
+		{"id":"4a","name":"é“ã®é§…ã—ã‚‚ã¤ã¾","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚æ•°é ˆ140","status":"1","group":"b"},
+		{"id":"5","name":"å°è²å·ãµã‚Œã‚ã„å…¬åœ’è¿‘ã","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚å €ç¯­1650-1","status":"0","group":"c"},
+		{"id":"5a","name":"å°è²å·ãµã‚Œã‚ã„å…¬åœ’è¿‘ã","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚å €ç¯­1650-1","status":"1","group":"c"},
+		{"id":"6","name":"å‚æ±å¸‚å½¹æ‰€å²©äº•åºèˆ","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚åŠè°·724-1","status":"0","group":"d"},
+		{"id":"6a","name":"å‚æ±å¸‚å½¹æ‰€å²©äº•åºèˆ","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚åŠè°·724-1","status":"1","group":"d"},
+		{"id":"8","name":"å±±å°»é“è·¯æ²¿ã„","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚å±±å°»47","status":"0","group":"e"},
+		{"id":"8a","name":"å±±å°»é“è·¯æ²¿ã„","code":"èŒ¨åŸçœŒä¸‹å¦»å¸‚å±±å°»47","status":"1","group":"e"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"„‚ÍC8Œ19“ú‚É‰ºÈs‚És‚Á‚ÄæŞ‚ğ‚µ‚Ä‚«‚Ü‚µ‚½B‰ºÈs‚ÌkĞ‚ÌÊ^‚ğŒ©‚½‚Æ‚«“¹˜H‚È‚Ç‚Ì’nŠ„‚ê‚Ì”íŠQ‚ª‘å‚«‚¢‚Æv‚¢‚Ü‚µ‚½‚ªC–w‚Ç‚ÌêŠ‚ª¡‚Á‚Ä‚¨‚èC‚Ç‚±‚ª‰ó‚ê‚Ä‚¢‚½‚Ì‚©•ª‚©‚ç‚È‚¢‚­‚ç‚¢Œ³’Ê‚è‚ÌãY—í‚Èó‘Ô‚É‚È‚Á‚Ä‚¢‚Ü‚µ‚½Bˆê•”—§‚¿“ü‚è‹Ö~‚Æ‚È‚Á‚Ä‚¢‚é‚Æ‚±‚ë‚àáŠ±‚ ‚è‚Ü‚µ‚½B"
+		"comment":"ç§ã¯ï¼Œ8æœˆ19æ—¥ã«ä¸‹å¦»å¸‚ã«è¡Œã£ã¦å–æã‚’ã—ã¦ãã¾ã—ãŸã€‚ä¸‹å¦»å¸‚ã®éœ‡ç½æ™‚ã®å†™çœŸã‚’è¦‹ãŸã¨ãé“è·¯ãªã©ã®åœ°å‰²ã‚Œã®è¢«å®³ãŒå¤§ãã„ã¨æ€ã„ã¾ã—ãŸãŒï¼Œæ®†ã©ã®å ´æ‰€ãŒæ²»ã£ã¦ãŠã‚Šï¼Œã©ã“ãŒå£Šã‚Œã¦ã„ãŸã®ã‹åˆ†ã‹ã‚‰ãªã„ãã‚‰ã„å…ƒé€šã‚Šã®ç¶ºéº—ãªçŠ¶æ…‹ã«ãªã£ã¦ã„ã¾ã—ãŸã€‚ä¸€éƒ¨ç«‹ã¡å…¥ã‚Šç¦æ­¢ã¨ãªã£ã¦ã„ã‚‹ã¨ã“ã‚ã‚‚è‹¥å¹²ã‚ã‚Šã¾ã—ãŸã€‚"
 	},
 	
 	
 	"takahagi":{
 		"spots": [
-		{"id":"1","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"2","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"3","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"4","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"5","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"6","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"7","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"8","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"9","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"10","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"11","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"12","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"13","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"14","name":"‘å’Ã`•t‹ß","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"15","name":"‹ŒˆéŒ´•t‹ß","code":"ˆïéŒ§–kˆïés","status":"1","group":"a"},
-		{"id":"16","name":"‹ŒˆéŒ´•t‹ß","code":"ˆïéŒ§–kˆïés","status":"1","group":"a"},
-		{"id":"17","name":"‹ŒˆéŒ´•t‹ß","code":"ˆïéŒ§–kˆïés","status":"1","group":"a"},
-		{"id":"18","name":"Œ•l‚Ì“’‘O","code":"ˆïéŒ§–kˆïésˆéŒ´’¬ˆéŒ´200-3","status":"1","group":"a"},
-		{"id":"19","name":"Œ•l‚Ì“’‘O","code":"ˆïéŒ§–kˆïésˆéŒ´’¬ˆéŒ´200-3","status":"1","group":"a"},
-		{"id":"20","name":"Œ•l‚Ì“’‘O","code":"ˆïéŒ§–kˆïésˆéŒ´’¬ˆéŒ´200-3","status":"1","group":"a"},
-		{"id":"21","name":"Œ•l‚Ì“’‘O","code":"ˆïéŒ§–kˆïésˆéŒ´’¬ˆéŒ´200-3","status":"1","group":"a"},
-		{"id":"22","name":"Œ•l‚Ì“’˜e˜H’n‚©‚ç‘¾•½—m‚Ö‚Ì“¹","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"23","name":"Œ•l‚Ì“’˜e˜H’n‚©‚ç‘¾•½—m‚Ö‚Ì“¹","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"24","name":"Œ•l‚Ì“’˜e˜H’n‚©‚ç‘¾•½—m‚Ö‚Ì“¹","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"25","name":"Œ•l‚Ì“’˜e˜H’n‚©‚ç‘¾•½—m‚Ö‚Ì“¹","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"26","name":"Œ•l‚Ì“’˜e˜H’n‚©‚ç‘¾•½—m‚Ö‚Ì“¹","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"27","name":"Œ•l‚Ì“’˜e˜H’n‚©‚ç‘¾•½—m‚Ö‚Ì“¹","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"28","name":"Œ•l‚Ì“’˜e˜H’n‚©‚ç‘¾•½—m‚Ö‚Ì“¹","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"29","name":"Œ•l‚Ì“’˜e˜H’n‚©‚ç‘¾•½—m‚Ö‚Ì“¹","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"30","name":"Œ•l‚Ì“’˜e˜H’n‚©‚ç‘¾•½—m‚Ö‚Ì“¹","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"31","name":"Œ•l‚Ì“’˜e˜H’n‚©‚ç‘¾•½—m‚Ö‚Ì“¹","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"32","name":"Œ•l‚Ì“’˜e˜H’n‚©‚ç‘¾•½—m‚Ö‚Ì“¹","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"33","name":"Œ•l‚Ì“’˜e˜H’n‚©‚ç‘¾•½—m‚Ö‚Ì“¹","code":"ˆïéŒ§–kˆïésˆéŒ´’¬","status":"1","group":"a"},
-		{"id":"34","name":"’†‹½‰w•t‹ß","code":"ˆïéŒ§–kˆïés’†‹½’¬","status":"1","group":"a"},
-		{"id":"35","name":"”ü–P‘O","code":"ˆïéŒ§–kˆïés’†‹½’¬‘«ôŠCŠİ375","status":"1","group":"a"}
+		{"id":"1","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"2","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"3","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"4","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"5","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"6","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"7","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"8","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"9","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"10","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"11","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"12","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"13","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"14","name":"å¤§æ´¥æ¸¯ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"15","name":"æ—§ç£¯åŸä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚","status":"1","group":"a"},
+		{"id":"16","name":"æ—§ç£¯åŸä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚","status":"1","group":"a"},
+		{"id":"17","name":"æ—§ç£¯åŸä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚","status":"1","group":"a"},
+		{"id":"18","name":"æœˆæµœã®æ¹¯å‰","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”ºç£¯åŸ200-3","status":"1","group":"a"},
+		{"id":"19","name":"æœˆæµœã®æ¹¯å‰","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”ºç£¯åŸ200-3","status":"1","group":"a"},
+		{"id":"20","name":"æœˆæµœã®æ¹¯å‰","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”ºç£¯åŸ200-3","status":"1","group":"a"},
+		{"id":"21","name":"æœˆæµœã®æ¹¯å‰","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”ºç£¯åŸ200-3","status":"1","group":"a"},
+		{"id":"22","name":"æœˆæµœã®æ¹¯è„‡è·¯åœ°ã‹ã‚‰å¤ªå¹³æ´‹ã¸ã®é“","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"23","name":"æœˆæµœã®æ¹¯è„‡è·¯åœ°ã‹ã‚‰å¤ªå¹³æ´‹ã¸ã®é“","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"24","name":"æœˆæµœã®æ¹¯è„‡è·¯åœ°ã‹ã‚‰å¤ªå¹³æ´‹ã¸ã®é“","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"25","name":"æœˆæµœã®æ¹¯è„‡è·¯åœ°ã‹ã‚‰å¤ªå¹³æ´‹ã¸ã®é“","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"26","name":"æœˆæµœã®æ¹¯è„‡è·¯åœ°ã‹ã‚‰å¤ªå¹³æ´‹ã¸ã®é“","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"27","name":"æœˆæµœã®æ¹¯è„‡è·¯åœ°ã‹ã‚‰å¤ªå¹³æ´‹ã¸ã®é“","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"28","name":"æœˆæµœã®æ¹¯è„‡è·¯åœ°ã‹ã‚‰å¤ªå¹³æ´‹ã¸ã®é“","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"29","name":"æœˆæµœã®æ¹¯è„‡è·¯åœ°ã‹ã‚‰å¤ªå¹³æ´‹ã¸ã®é“","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"30","name":"æœˆæµœã®æ¹¯è„‡è·¯åœ°ã‹ã‚‰å¤ªå¹³æ´‹ã¸ã®é“","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"31","name":"æœˆæµœã®æ¹¯è„‡è·¯åœ°ã‹ã‚‰å¤ªå¹³æ´‹ã¸ã®é“","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"32","name":"æœˆæµœã®æ¹¯è„‡è·¯åœ°ã‹ã‚‰å¤ªå¹³æ´‹ã¸ã®é“","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"33","name":"æœˆæµœã®æ¹¯è„‡è·¯åœ°ã‹ã‚‰å¤ªå¹³æ´‹ã¸ã®é“","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ç£¯åŸç”º","status":"1","group":"a"},
+		{"id":"34","name":"ä¸­éƒ·é§…ä»˜è¿‘","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ä¸­éƒ·ç”º","status":"1","group":"a"},
+		{"id":"35","name":"ç¾é³³å‰","code":"èŒ¨åŸçœŒåŒ—èŒ¨åŸå¸‚ä¸­éƒ·ç”ºè¶³æ´—æµ·å²¸375","status":"1","group":"a"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"‚”‹s‚É‚Í8Œ20“ú‚É–K‚ê‚Ü‚µ‚½Bs–ğŠ‚ÌŒš•¨‚Í’nk‚Ì‰e‹¿‚Åg‚¦‚È‚­‚È‚Á‚Ä‚¨‚èAEˆõ‚Ì•û‚ÍƒvƒŒƒnƒu‚Ì’†‚Åd–‚ğ‚µ‚Ä‚¢‚Ü‚µ‚½B‚»‚Ìü•Ó‚Í‚©‚È‚è•œ‹Œ‚µ‚Ä‚¨‚èA‘‚­Z–¯‚Ì•ûX‚ªˆÀS‚µ‚Ä¶Šˆ‚Å‚«‚éŠÂ‹«‚É‚È‚ê‚Î‚¢‚¢‚È‚Æv‚¢‚Ü‚µ‚½B"
+		"comment":"é«˜è©å¸‚ã«ã¯8æœˆ20æ—¥ã«è¨ªã‚Œã¾ã—ãŸã€‚å¸‚å½¹æ‰€ã®å»ºç‰©ã¯åœ°éœ‡ã®å½±éŸ¿ã§ä½¿ãˆãªããªã£ã¦ãŠã‚Šã€è·å“¡ã®æ–¹ã¯ãƒ—ãƒ¬ãƒãƒ–ã®ä¸­ã§ä»•äº‹ã‚’ã—ã¦ã„ã¾ã—ãŸã€‚ãã®å‘¨è¾ºã¯ã‹ãªã‚Šå¾©æ—§ã—ã¦ãŠã‚Šã€æ—©ãä½æ°‘ã®æ–¹ã€…ãŒå®‰å¿ƒã—ã¦ç”Ÿæ´»ã§ãã‚‹ç’°å¢ƒã«ãªã‚Œã°ã„ã„ãªã¨æ€ã„ã¾ã—ãŸã€‚"
 	},
 	
 	"tikusei":{
 		"spots": [
-		{"id":"1","name":"‘æ3ŒõLƒrƒ‹","code":"ˆïéŒ§’}¼s‰³965","status":"1","group":"a"},
-		{"id":"1a","name":"‘æ3ŒõLƒrƒ‹","code":"ˆïéŒ§’}¼s‰³965","status":"0","group":"a"},
-		{"id":"2","name":"357†ü‰ˆ‚¢","code":"ˆïéŒ§’}¼sŠ“à357†ü‰ˆ‚¢","status":"1","group":"b"},
-		{"id":"2a","name":"357†ü‰ˆ‚¢","code":"ˆïéŒ§’}¼sŠ“à357†ü‰ˆ‚¢","status":"0","group":"b"},
-		{"id":"3","name":"ŠÖéxŠ“ì","code":"ˆïéŒ§’}¼sŠÖ–{‰º1943-1•t‹ß“¹˜H","status":"1","group":"c"},
-		{"id":"3a","name":"ŠÖéxŠ“ì","code":"ˆïéŒ§’}¼sŠÖ–{‰º1943-1•t‹ß“¹˜H","status":"0","group":"c"},
-		{"id":"5","name":"’}¼s–¯•a‰@","code":"ˆïéŒ§’}¼s‹ÊŒË1658","status":"1","group":"d"},
-		{"id":"5a","name":"’}¼s–¯•a‰@","code":"ˆïéŒ§’}¼s‹ÊŒË1658","status":"0","group":"d"},
-		{"id":"6","name":"’}¼s–¯•a‰@","code":"ˆïéŒ§’}¼s‹ÊŒË1658","status":"1","group":"d"},
-		{"id":"7","name":"’}¼s–¯•a‰@","code":"ˆïéŒ§’}¼s‹ÊŒË1658","status":"1","group":"d"},
-		{"id":"8","name":"’}¼s—§–¾–ì}‘ŠÙ","code":"ˆïéŒ§’}¼sŠC˜Vƒ–“‡2120-7","status":"1","group":"e"},
-		{"id":"8a","name":"’}¼s—§–¾–ì}‘ŠÙ","code":"ˆïéŒ§’}¼sŠC˜Vƒ–“‡2120-7","status":"0","group":"e"},
-		{"id":"9","name":"’}¼s—§–¾–ì}‘ŠÙ","code":"ˆïéŒ§’}¼sŠC˜Vƒ–“‡2120-7","status":"1","group":"e"},
-		{"id":"9a","name":"’}¼s—§–¾–ì}‘ŠÙ","code":"ˆïéŒ§’}¼sŠC˜Vƒ–“‡2120-7","status":"0","group":"e"},
-		{"id":"10","name":"’}¼s—§–¾–ì}‘ŠÙ","code":"ˆïéŒ§’}¼sŠC˜Vƒ–“‡2120-7","status":"1","group":"e"},
-		{"id":"10a","name":"’}¼s—§–¾–ì}‘ŠÙ","code":"ˆïéŒ§’}¼sŠC˜Vƒ–“‡2120-7","status":"0","group":"e"}
+		{"id":"1","name":"ç¬¬3å…‰ä¼¸ãƒ“ãƒ«","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚ä¹™965","status":"1","group":"a"},
+		{"id":"1a","name":"ç¬¬3å…‰ä¼¸ãƒ“ãƒ«","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚ä¹™965","status":"0","group":"a"},
+		{"id":"2","name":"357å·ç·šæ²¿ã„","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚æ¢¶å†…357å·ç·šæ²¿ã„","status":"1","group":"b"},
+		{"id":"2a","name":"357å·ç·šæ²¿ã„","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚æ¢¶å†…357å·ç·šæ²¿ã„","status":"0","group":"b"},
+		{"id":"3","name":"é–¢åŸæ”¯æ‰€å—","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚é–¢æœ¬ä¸‹1943-1ä»˜è¿‘é“è·¯","status":"1","group":"c"},
+		{"id":"3a","name":"é–¢åŸæ”¯æ‰€å—","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚é–¢æœ¬ä¸‹1943-1ä»˜è¿‘é“è·¯","status":"0","group":"c"},
+		{"id":"5","name":"ç­‘è¥¿å¸‚æ°‘ç—…é™¢","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚ç‰æˆ¸1658","status":"1","group":"d"},
+		{"id":"5a","name":"ç­‘è¥¿å¸‚æ°‘ç—…é™¢","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚ç‰æˆ¸1658","status":"0","group":"d"},
+		{"id":"6","name":"ç­‘è¥¿å¸‚æ°‘ç—…é™¢","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚ç‰æˆ¸1658","status":"1","group":"d"},
+		{"id":"7","name":"ç­‘è¥¿å¸‚æ°‘ç—…é™¢","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚ç‰æˆ¸1658","status":"1","group":"d"},
+		{"id":"8","name":"ç­‘è¥¿å¸‚ç«‹æ˜é‡å›³æ›¸é¤¨","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚æµ·è€ãƒ¶å³¶2120-7","status":"1","group":"e"},
+		{"id":"8a","name":"ç­‘è¥¿å¸‚ç«‹æ˜é‡å›³æ›¸é¤¨","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚æµ·è€ãƒ¶å³¶2120-7","status":"0","group":"e"},
+		{"id":"9","name":"ç­‘è¥¿å¸‚ç«‹æ˜é‡å›³æ›¸é¤¨","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚æµ·è€ãƒ¶å³¶2120-7","status":"1","group":"e"},
+		{"id":"9a","name":"ç­‘è¥¿å¸‚ç«‹æ˜é‡å›³æ›¸é¤¨","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚æµ·è€ãƒ¶å³¶2120-7","status":"0","group":"e"},
+		{"id":"10","name":"ç­‘è¥¿å¸‚ç«‹æ˜é‡å›³æ›¸é¤¨","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚æµ·è€ãƒ¶å³¶2120-7","status":"1","group":"e"},
+		{"id":"10a","name":"ç­‘è¥¿å¸‚ç«‹æ˜é‡å›³æ›¸é¤¨","code":"èŒ¨åŸçœŒç­‘è¥¿å¸‚æµ·è€ãƒ¶å³¶2120-7","status":"0","group":"e"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"„‚ÍC8Œ19“ú‚É’}¼s‚És‚Á‚ÄæŞ‚ğ‚µ‚Ä‚«‚Ü‚µ‚½B’}¼s‚Å‚ÍC•a‰@‚È‚Ç‚ÌŒš•¨‚ª”íŠQ‚ª‘å‚«‚©‚Á‚½‚ç‚µ‚­C“–5ŠKŒš‚Ä‚¾‚Á‚½‚à‚Ì‚ª2ŠKŒš‚Ä‚É‚È‚Á‚Ä‚¢‚Ü‚µ‚½B‘¼‚É‚à”íŠQ‚ª‘å‚«‚©‚Á‚½“¹˜H‚È‚Ç‚ÍãY—í‚É•Ü‘•‚³‚êA’}¼s‚Å‚Í•œ‹»‚à‚Ù‚ÚŠ®—¹‚µ‚ÄŒ³’Ê‚è‚Ì¶Šˆ‚ğ‘—‚Á‚Ä‚¢‚é‚æ‚¤‚ÉŠ´‚¶‚Ü‚µ‚½B"
+		"comment":"ç§ã¯ï¼Œ8æœˆ19æ—¥ã«ç­‘è¥¿å¸‚ã«è¡Œã£ã¦å–æã‚’ã—ã¦ãã¾ã—ãŸã€‚ç­‘è¥¿å¸‚ã§ã¯ï¼Œç—…é™¢ãªã©ã®å»ºç‰©ãŒè¢«å®³ãŒå¤§ãã‹ã£ãŸã‚‰ã—ãï¼Œå½“æ™‚5éšå»ºã¦ã ã£ãŸã‚‚ã®ãŒ2éšå»ºã¦ã«ãªã£ã¦ã„ã¾ã—ãŸã€‚ä»–ã«ã‚‚è¢«å®³ãŒå¤§ãã‹ã£ãŸé“è·¯ãªã©ã¯ç¶ºéº—ã«èˆ—è£…ã•ã‚Œã€ç­‘è¥¿å¸‚ã§ã¯å¾©èˆˆã‚‚ã»ã¼å®Œäº†ã—ã¦å…ƒé€šã‚Šã®ç”Ÿæ´»ã‚’é€ã£ã¦ã„ã‚‹ã‚ˆã†ã«æ„Ÿã˜ã¾ã—ãŸã€‚"
 	},
 	
 	
 	"tukubamirai":{
 		"spots": [
-		{"id":"1","name":"‚Â‚­‚Î‚İ‚ç‚¢s1","code":"‚Â‚­‚Î‚İ‚ç‚¢s1","status":"1","group":"a"},
-		{"id":"2","name":"‚Â‚­‚Î‚İ‚ç‚¢s2","code":"‚Â‚­‚Î‚İ‚ç‚¢s2","status":"1","group":"a"},
-		{"id":"3","name":"‚Â‚­‚Î‚İ‚ç‚¢s3","code":"‚Â‚­‚Î‚İ‚ç‚¢s3","status":"1","group":"a"},
-		{"id":"4","name":"‚Â‚­‚Î‚İ‚ç‚¢s4","code":"‚Â‚­‚Î‚İ‚ç‚¢s4","status":"1","group":"a"},
-		{"id":"5","name":"‚Â‚­‚Î‚İ‚ç‚¢s5","code":"‚Â‚­‚Î‚İ‚ç‚¢s5","status":"1","group":"a"},
-		{"id":"6","name":"‚Â‚­‚Î‚İ‚ç‚¢s6","code":"‚Â‚­‚Î‚İ‚ç‚¢s6","status":"1","group":"a"},
-		{"id":"7","name":"‚Â‚­‚Î‚İ‚ç‚¢s7","code":"‚Â‚­‚Î‚İ‚ç‚¢s7","status":"1","group":"a"},
-		{"id":"8","name":"‚Â‚­‚Î‚İ‚ç‚¢s8","code":"‚Â‚­‚Î‚İ‚ç‚¢s8","status":"1","group":"a"},
-		{"id":"9","name":"‚Â‚­‚Î‚İ‚ç‚¢s9","code":"‚Â‚­‚Î‚İ‚ç‚¢s9","status":"1","group":"a"},
-		{"id":"10","name":"‚Â‚­‚Î‚İ‚ç‚¢s10","code":"‚Â‚­‚Î‚İ‚ç‚¢s10","status":"1","group":"a"}
+		{"id":"1","name":"ã¤ãã°ã¿ã‚‰ã„å¸‚1","code":"ã¤ãã°ã¿ã‚‰ã„å¸‚1","status":"1","group":"a"},
+		{"id":"2","name":"ã¤ãã°ã¿ã‚‰ã„å¸‚2","code":"ã¤ãã°ã¿ã‚‰ã„å¸‚2","status":"1","group":"a"},
+		{"id":"3","name":"ã¤ãã°ã¿ã‚‰ã„å¸‚3","code":"ã¤ãã°ã¿ã‚‰ã„å¸‚3","status":"1","group":"a"},
+		{"id":"4","name":"ã¤ãã°ã¿ã‚‰ã„å¸‚4","code":"ã¤ãã°ã¿ã‚‰ã„å¸‚4","status":"1","group":"a"},
+		{"id":"5","name":"ã¤ãã°ã¿ã‚‰ã„å¸‚5","code":"ã¤ãã°ã¿ã‚‰ã„å¸‚5","status":"1","group":"a"},
+		{"id":"6","name":"ã¤ãã°ã¿ã‚‰ã„å¸‚6","code":"ã¤ãã°ã¿ã‚‰ã„å¸‚6","status":"1","group":"a"},
+		{"id":"7","name":"ã¤ãã°ã¿ã‚‰ã„å¸‚7","code":"ã¤ãã°ã¿ã‚‰ã„å¸‚7","status":"1","group":"a"},
+		{"id":"8","name":"ã¤ãã°ã¿ã‚‰ã„å¸‚8","code":"ã¤ãã°ã¿ã‚‰ã„å¸‚8","status":"1","group":"a"},
+		{"id":"9","name":"ã¤ãã°ã¿ã‚‰ã„å¸‚9","code":"ã¤ãã°ã¿ã‚‰ã„å¸‚9","status":"1","group":"a"},
+		{"id":"10","name":"ã¤ãã°ã¿ã‚‰ã„å¸‚10","code":"ã¤ãã°ã¿ã‚‰ã„å¸‚10","status":"1","group":"a"}
 		],	
 		"data":[
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"‚±‚±‚ÉƒeƒLƒXƒg"
+		"comment":"ã“ã“ã«ãƒ†ã‚­ã‚¹ãƒˆ"
 	},
 	
 	"tutiura":{
 		"spots": [
-		{"id":"3","name":"‹TéŒö‰€","code":"ˆïéŒ§“y‰Ys’†‰›‚P’š–Ú‚P‚R|‚S‚W","status":"1","group":"a"},
-		{"id":"7","name":"‹TéŒö‰€","code":"ˆïéŒ§“y‰Ys’†‰›‚P’š–Ú‚P‚R|‚S‚W","status":"1","group":"a"},
-		{"id":"11","name":"‹TéŒö‰€","code":"ˆïéŒ§“y‰Ys’†‰›‚P’š–Ú‚P‚R|‚S‚W","status":"1","group":"b"},
-		{"id":"1","name":"“y‰Ys—§“y‰Y‘æˆê’†ŠwZ","code":"“y‰Ys•¶‹’¬3-8","status":"1","group":"a"},
-		{"id":"2","name":"‰³ŒËÀŒö‰€","code":"“y‰Ys‰³ŒË“ì‚Q’š–Ú","status":"1","group":"a"},
-		{"id":"4","name":"‘“¹125†ü÷ì‹´–k","code":"“y‰Ys÷’¬‚P’š–Ú","status":"1","group":"a"},
-		{"id":"5","name":"­“‡_Ğ","code":"^“ç4’š–Ú3-6 ","status":"1","group":"a"},
-		{"id":"6","name":"…‹½‘ÌˆçŠÙ","code":"“y‰Ys‘åŠâ“c1651","status":"1","group":"a"},
-		{"id":"8","name":"Œ§“¹¬–ì“y‰Yü“¡‘ò’c’n˜e","code":"“y‰Ys“¡‘ò","status":"1","group":"a"},
-		{"id":"9","name":"­“‡_Ğ","code":"^“ç4’š–Ú3-6 ­“‡_Ğ","status":"1","group":"b"},
-		{"id":"10","name":"‹TéŒö‰€•t‹ß","code":"ˆïéŒ§“y‰Ys’†‰›","status":"1","group":"b"},
-		{"id":"12","name":"‹TéŒö‰€•t‹ß","code":"ˆïéŒ§“y‰Ys’†‰›","status":"1","group":"b"},
-		{"id":"13","name":"‹TéŒö‰€•t‹ß","code":"ˆïéŒ§“y‰Ys’†‰›","status":"1","group":"b"},
-		{"id":"14","name":"‹TéŒö‰€•t‹ß","code":"’†‰›‚P’š–Ú ’†é’Ê‚è","status":"1","group":"b"},
-		{"id":"15","name":"“¡‘ò Œ§“¹¬–ì“y‰Yü“¡‘ò’c’n˜e","code":"“y‰Ys“¡‘ò","status":"1","group":"b"}
+		{"id":"3","name":"äº€åŸå…¬åœ’","code":"èŒ¨åŸçœŒåœŸæµ¦å¸‚ä¸­å¤®ï¼‘ä¸ç›®ï¼‘ï¼“âˆ’ï¼”ï¼˜","status":"1","group":"a"},
+		{"id":"7","name":"äº€åŸå…¬åœ’","code":"èŒ¨åŸçœŒåœŸæµ¦å¸‚ä¸­å¤®ï¼‘ä¸ç›®ï¼‘ï¼“âˆ’ï¼”ï¼˜","status":"1","group":"a"},
+		{"id":"11","name":"äº€åŸå…¬åœ’","code":"èŒ¨åŸçœŒåœŸæµ¦å¸‚ä¸­å¤®ï¼‘ä¸ç›®ï¼‘ï¼“âˆ’ï¼”ï¼˜","status":"1","group":"b"},
+		{"id":"1","name":"åœŸæµ¦å¸‚ç«‹åœŸæµ¦ç¬¬ä¸€ä¸­å­¦æ ¡","code":"åœŸæµ¦å¸‚æ–‡äº¬ç”º3-8","status":"1","group":"a"},
+		{"id":"2","name":"ä¹™æˆ¸æ²¼å…¬åœ’","code":"åœŸæµ¦å¸‚ä¹™æˆ¸å—ï¼’ä¸ç›®","status":"1","group":"a"},
+		{"id":"4","name":"å›½é“125å·ç·šæ¡œå·æ©‹åŒ—","code":"åœŸæµ¦å¸‚æ¡œç”ºï¼‘ä¸ç›®","status":"1","group":"a"},
+		{"id":"5","name":"é¹¿å³¶ç¥ç¤¾","code":"çœŸé‹4ä¸ç›®3-6 ","status":"1","group":"a"},
+		{"id":"6","name":"æ°´éƒ·ä½“è‚²é¤¨","code":"åœŸæµ¦å¸‚å¤§å²©ç”°1651","status":"1","group":"a"},
+		{"id":"8","name":"çœŒé“å°é‡åœŸæµ¦ç·šè—¤æ²¢å›£åœ°è„‡","code":"åœŸæµ¦å¸‚è—¤æ²¢","status":"1","group":"a"},
+		{"id":"9","name":"é¹¿å³¶ç¥ç¤¾","code":"çœŸé‹4ä¸ç›®3-6 é¹¿å³¶ç¥ç¤¾","status":"1","group":"b"},
+		{"id":"10","name":"äº€åŸå…¬åœ’ä»˜è¿‘","code":"èŒ¨åŸçœŒåœŸæµ¦å¸‚ä¸­å¤®","status":"1","group":"b"},
+		{"id":"12","name":"äº€åŸå…¬åœ’ä»˜è¿‘","code":"èŒ¨åŸçœŒåœŸæµ¦å¸‚ä¸­å¤®","status":"1","group":"b"},
+		{"id":"13","name":"äº€åŸå…¬åœ’ä»˜è¿‘","code":"èŒ¨åŸçœŒåœŸæµ¦å¸‚ä¸­å¤®","status":"1","group":"b"},
+		{"id":"14","name":"äº€åŸå…¬åœ’ä»˜è¿‘","code":"ä¸­å¤®ï¼‘ä¸ç›® ä¸­åŸé€šã‚Š","status":"1","group":"b"},
+		{"id":"15","name":"è—¤æ²¢ çœŒé“å°é‡åœŸæµ¦ç·šè—¤æ²¢å›£åœ°è„‡","code":"åœŸæµ¦å¸‚è—¤æ²¢","status":"1","group":"b"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"‚±‚Ì’n‹æ‚ÌkĞó‹µ‚Å‚·‚ªA’nŒ³‚Ì•ûX‚É“–‚Ì–‚È‚Ç•·‚«‚Ü‚µ‚½‚ªC‚â‚Í‚èAŠX‚ÌlX‚Í‹Á‚­‚Ù‚Ç‹ê˜J‚³‚ê‚½‚æ‚¤‚Å‚·B‚±‚Ì’n‹æ‚àC–l‚ªl‚¦‚Ä‚¢‚½ˆÈã‚É’nk‚Ì”íŠQ‚Í‘å‚«‚­CÄ”­‚µ‚½‚Æ‚«‚É—âÃ‚És“®‚Å‚«‚é‚æ‚¤SŠ|‚¯‚é‚×‚«‚¾‚Æv‚¢‚Ü‚µ‚½B"
+		"comment":"ã“ã®åœ°åŒºã®éœ‡ç½çŠ¶æ³ã§ã™ãŒã€åœ°å…ƒã®æ–¹ã€…ã«å½“æ™‚ã®äº‹ãªã©èãã¾ã—ãŸãŒï¼Œã‚„ã¯ã‚Šã€è¡—ã®äººã€…ã¯é©šãã»ã©è‹¦åŠ´ã•ã‚ŒãŸã‚ˆã†ã§ã™ã€‚ã“ã®åœ°åŒºã‚‚ï¼Œåƒ•ãŒè€ƒãˆã¦ã„ãŸä»¥ä¸Šã«åœ°éœ‡ã®è¢«å®³ã¯å¤§ããï¼Œå†ç™ºã—ãŸã¨ãã«å†·é™ã«è¡Œå‹•ã§ãã‚‹ã‚ˆã†å¿ƒæ›ã‘ã‚‹ã¹ãã ã¨æ€ã„ã¾ã—ãŸã€‚"
 	},
 	
 	"sakuragawa":{
 		"spots": [
-		{"id":"008","name":"^•Ç‚Ì—ğj“IŒš‘¢•¨","code":"^•Ç213-1","status":"1","group":"a"},
-		{"id":"017","name":"^•Ç‚Ì—ğj“IŒš‘¢•¨","code":"^•Ç213-1","status":"0","group":"a"},
-		{"id":"013","name":"^•Ç‚ÌŒš‘¢•¨","code":"^•Ç232","status":"1","group":"a"},
-		{"id":"016","name":"^•Ç‚ÌŒš‘¢•¨","code":"^•Ç232","status":"0","group":"a"},
-		{"id":"015","name":"^•Ç‚Ì—ğj“IŒš‘¢•¨","code":"^•Ç189","status":"1","group":"a"},
-		{"id":"020","name":"^•Ç‚Ì—ğj“IŒš‘¢•¨","code":"^•Ç189","status":"0","group":"a"},
-		{"id":"009","name":"^•Ç‚Ì—ğj“IŒš‘¢•¨","code":"^•Ç200","status":"1","group":"a"},
-		{"id":"019","name":"^•Ç‚Ì—ğj“IŒš‘¢•¨","code":"^•Ç200","status":"0","group":"a"},
-		{"id":"011","name":"s“¹","code":"“Œ–îŠL318-3","status":"1","group":"a"},
-		{"id":"000","name":"s“¹","code":"“Œ–îŠL318-3","status":"0","group":"a"},
-		{"id":"007","name":"‘å˜a‰w","code":"‚X’n‹æ","status":"1","group":"b"},
-		{"id":"001","name":"‘å˜a‰w","code":"‚X’n‹æ","status":"0","group":"b"},
-		{"id":"014","name":"‚X’n‹æƒuƒƒbƒN•»","code":"‚X717","status":"1","group":"b"},
-		{"id":"002","name":"‚X’n‹æƒuƒƒbƒN•»","code":"‚X717","status":"0","group":"b"},
-		{"id":"012","name":"÷ìŒö‰€","code":"ˆé•”667","status":"1","group":"c"},
-		{"id":"003","name":"÷ìŒö‰€","code":"ˆé•”667","status":"0","group":"c"},
-		{"id":"006","name":"¼¬”·’n‹æZ‘î","code":"¼¬”·683","status":"1","group":"d"},
-		{"id":"004","name":"¼¬”·’n‹æZ‘î","code":"¼¬”·683","status":"0","group":"d"},
-		{"id":"005","name":"¼¬”·’n‹æ“¹˜H","code":"¼¬”·683","status":"1","group":"d"},
-		{"id":"010","name":"¼¬”·’n‹æ“¹˜H","code":"¼¬”·683","status":"0","group":"d"}
+		{"id":"008","name":"çœŸå£ã®æ­´å²çš„å»ºé€ ç‰©","code":"çœŸå£213-1","status":"1","group":"a"},
+		{"id":"017","name":"çœŸå£ã®æ­´å²çš„å»ºé€ ç‰©","code":"çœŸå£213-1","status":"0","group":"a"},
+		{"id":"013","name":"çœŸå£ã®å»ºé€ ç‰©","code":"çœŸå£232","status":"1","group":"a"},
+		{"id":"016","name":"çœŸå£ã®å»ºé€ ç‰©","code":"çœŸå£232","status":"0","group":"a"},
+		{"id":"015","name":"çœŸå£ã®æ­´å²çš„å»ºé€ ç‰©","code":"çœŸå£189","status":"1","group":"a"},
+		{"id":"020","name":"çœŸå£ã®æ­´å²çš„å»ºé€ ç‰©","code":"çœŸå£189","status":"0","group":"a"},
+		{"id":"009","name":"çœŸå£ã®æ­´å²çš„å»ºé€ ç‰©","code":"çœŸå£200","status":"1","group":"a"},
+		{"id":"019","name":"çœŸå£ã®æ­´å²çš„å»ºé€ ç‰©","code":"çœŸå£200","status":"0","group":"a"},
+		{"id":"011","name":"å¸‚é“","code":"æ±çŸ¢è²318-3","status":"1","group":"a"},
+		{"id":"000","name":"å¸‚é“","code":"æ±çŸ¢è²318-3","status":"0","group":"a"},
+		{"id":"007","name":"å¤§å’Œé§…","code":"é«˜æ£®åœ°åŒº","status":"1","group":"b"},
+		{"id":"001","name":"å¤§å’Œé§…","code":"é«˜æ£®åœ°åŒº","status":"0","group":"b"},
+		{"id":"014","name":"é«˜æ£®åœ°åŒºãƒ–ãƒ­ãƒƒã‚¯å¡€","code":"é«˜æ£®717","status":"1","group":"b"},
+		{"id":"002","name":"é«˜æ£®åœ°åŒºãƒ–ãƒ­ãƒƒã‚¯å¡€","code":"é«˜æ£®717","status":"0","group":"b"},
+		{"id":"012","name":"æ¡œå·å…¬åœ’","code":"ç£¯éƒ¨667","status":"1","group":"c"},
+		{"id":"003","name":"æ¡œå·å…¬åœ’","code":"ç£¯éƒ¨667","status":"0","group":"c"},
+		{"id":"006","name":"è¥¿å°å¡™åœ°åŒºä½å®…","code":"è¥¿å°å¡™683","status":"1","group":"d"},
+		{"id":"004","name":"è¥¿å°å¡™åœ°åŒºä½å®…","code":"è¥¿å°å¡™683","status":"0","group":"d"},
+		{"id":"005","name":"è¥¿å°å¡™åœ°åŒºé“è·¯","code":"è¥¿å°å¡™683","status":"1","group":"d"},
+		{"id":"010","name":"è¥¿å°å¡™åœ°åŒºé“è·¯","code":"è¥¿å°å¡™683","status":"0","group":"d"}
 		],	
 		"data":[
-			{"donor":"ŒÂlB‰e"},
-			{"donor":"ˆïéŒ§‹³ˆç’¡‘–±‰Û"}
+			{"donor":"å€‹äººæ’®å½±"},
+			{"donor":"èŒ¨åŸçœŒæ•™è‚²åºç·å‹™èª²"}
 		],
-		"comment":"÷ìs‚Å‚Í—ğj“I‚ÈŒš‘¢•¨‚ª‘½‚­”íŠQ‚ğó‚¯‚½‚æ‚¤‚Å‚·‚ªA‚»‚ê‚ç‚Í‚Ü‚¾C•œ‚ªŠ®—¹‚µ‚Ä‚¢‚È‚¢‚à‚Ì‚ª–w‚Ç‚Å‚µ‚½BŒš•¨‚ÌƒuƒƒbƒN‚È‚Ç‚Ì“|‰ó‚ª‘½‚­Œ©‚ç‚êA’nk‚ª‹N‚±‚Á‚½Û‚É‚Í“|‰ó‚µ‚»‚¤‚È‚à‚Ì‚©‚ç‚·‚®‚É—£‚ê‚é‚×‚«‚¾‚ÆŠ´‚¶‚Ü‚µ‚½B"
+		"comment":"æ¡œå·å¸‚ã§ã¯æ­´å²çš„ãªå»ºé€ ç‰©ãŒå¤šãè¢«å®³ã‚’å—ã‘ãŸã‚ˆã†ã§ã™ãŒã€ãã‚Œã‚‰ã¯ã¾ã ä¿®å¾©ãŒå®Œäº†ã—ã¦ã„ãªã„ã‚‚ã®ãŒæ®†ã©ã§ã—ãŸã€‚å»ºç‰©ã®ãƒ–ãƒ­ãƒƒã‚¯ãªã©ã®å€’å£ŠãŒå¤šãè¦‹ã‚‰ã‚Œã€åœ°éœ‡ãŒèµ·ã“ã£ãŸéš›ã«ã¯å€’å£Šã—ãã†ãªã‚‚ã®ã‹ã‚‰ã™ãã«é›¢ã‚Œã‚‹ã¹ãã ã¨æ„Ÿã˜ã¾ã—ãŸã€‚"
 	},
 	
 	"minamisanriku":{
 		"spots": [
-		{"id":"1","name":"“ìO—¤’¬1","code":"“ìO—¤’¬1","status":"1","group":"a"},
-		{"id":"2","name":"“ìO—¤’¬2","code":"“ìO—¤’¬2","status":"1","group":"a"},
-		{"id":"3","name":"“ìO—¤’¬3","code":"“ìO—¤’¬3","status":"1","group":"a"},
-		{"id":"4","name":"“ìO—¤’¬4","code":"“ìO—¤’¬4","status":"1","group":"a"},
-		{"id":"5","name":"“ìO—¤’¬5","code":"“ìO—¤’¬5","status":"1","group":"a"},
-		{"id":"6","name":"“ìO—¤’¬6","code":"“ìO—¤’¬6","status":"1","group":"a"},
-		{"id":"7","name":"“ìO—¤’¬7","code":"“ìO—¤’¬7","status":"1","group":"a"},
-		{"id":"8","name":"“ìO—¤’¬8","code":"“ìO—¤’¬8","status":"1","group":"a"},
-		{"id":"9","name":"“ìO—¤’¬9","code":"“ìO—¤’¬9","status":"1","group":"a"},
-		{"id":"10","name":"“ìO—¤’¬10","code":"“ìO—¤’¬10","status":"1","group":"a"},
-		{"id":"11","name":"“ìO—¤’¬11","code":"“ìO—¤’¬11","status":"1","group":"a"},
-		{"id":"12","name":"“ìO—¤’¬12","code":"“ìO—¤’¬12","status":"1","group":"a"},
-		{"id":"13","name":"“ìO—¤’¬13","code":"“ìO—¤’¬13","status":"1","group":"a"},
-		{"id":"14","name":"“ìO—¤’¬14","code":"“ìO—¤’¬14","status":"1","group":"a"},
-		{"id":"15","name":"“ìO—¤’¬11","code":"“ìO—¤’¬11","status":"1","group":"a"},
-		{"id":"16","name":"“ìO—¤’¬12","code":"“ìO—¤’¬12","status":"1","group":"a"},
-		{"id":"17","name":"“ìO—¤’¬13","code":"“ìO—¤’¬13","status":"1","group":"a"},
-		{"id":"18","name":"“ìO—¤’¬14","code":"“ìO—¤’¬14","status":"1","group":"a"},
-		{"id":"19","name":"“ìO—¤’¬11","code":"“ìO—¤’¬11","status":"1","group":"a"},
-		{"id":"20","name":"“ìO—¤’¬12","code":"“ìO—¤’¬12","status":"1","group":"a"},
-		{"id":"21","name":"“ìO—¤’¬13","code":"“ìO—¤’¬13","status":"1","group":"a"},
-		{"id":"22","name":"“ìO—¤’¬14","code":"“ìO—¤’¬14","status":"1","group":"a"},
-		{"id":"23","name":"“ìO—¤’¬10","code":"“ìO—¤’¬10","status":"1","group":"a"},
-		{"id":"24","name":"“ìO—¤’¬11","code":"“ìO—¤’¬11","status":"1","group":"a"},
-		{"id":"25","name":"“ìO—¤’¬12","code":"“ìO—¤’¬12","status":"1","group":"a"},
-		{"id":"26","name":"“ìO—¤’¬13","code":"“ìO—¤’¬13","status":"1","group":"a"},
-		{"id":"27","name":"“ìO—¤’¬14","code":"“ìO—¤’¬14","status":"1","group":"a"},
-		{"id":"28","name":"“ìO—¤’¬11","code":"“ìO—¤’¬11","status":"1","group":"a"},
-		{"id":"29","name":"“ìO—¤’¬12","code":"“ìO—¤’¬12","status":"1","group":"a"},
-		{"id":"30","name":"“ìO—¤’¬13","code":"“ìO—¤’¬13","status":"1","group":"a"},
-		{"id":"31","name":"“ìO—¤’¬14","code":"“ìO—¤’¬14","status":"1","group":"a"},
-		{"id":"32","name":"“ìO—¤’¬11","code":"“ìO—¤’¬11","status":"1","group":"a"},
-		{"id":"33","name":"“ìO—¤’¬12","code":"“ìO—¤’¬12","status":"1","group":"a"},
-		{"id":"34","name":"“ìO—¤’¬13","code":"“ìO—¤’¬13","status":"1","group":"a"},
-		{"id":"35","name":"“ìO—¤’¬14","code":"“ìO—¤’¬14","status":"1","group":"a"},
-		{"id":"36","name":"“ìO—¤’¬10","code":"“ìO—¤’¬10","status":"1","group":"a"},
-		{"id":"37","name":"“ìO—¤’¬11","code":"“ìO—¤’¬11","status":"1","group":"a"},
-		{"id":"38","name":"“ìO—¤’¬12","code":"“ìO—¤’¬12","status":"1","group":"a"},
-		{"id":"39","name":"“ìO—¤’¬13","code":"“ìO—¤’¬13","status":"1","group":"a"},
-		{"id":"40","name":"“ìO—¤’¬14","code":"“ìO—¤’¬14","status":"1","group":"a"},
-		{"id":"41","name":"“ìO—¤’¬11","code":"“ìO—¤’¬11","status":"1","group":"a"}
+		{"id":"1","name":"å—ä¸‰é™¸ç”º1","code":"å—ä¸‰é™¸ç”º1","status":"1","group":"a"},
+		{"id":"2","name":"å—ä¸‰é™¸ç”º2","code":"å—ä¸‰é™¸ç”º2","status":"1","group":"a"},
+		{"id":"3","name":"å—ä¸‰é™¸ç”º3","code":"å—ä¸‰é™¸ç”º3","status":"1","group":"a"},
+		{"id":"4","name":"å—ä¸‰é™¸ç”º4","code":"å—ä¸‰é™¸ç”º4","status":"1","group":"a"},
+		{"id":"5","name":"å—ä¸‰é™¸ç”º5","code":"å—ä¸‰é™¸ç”º5","status":"1","group":"a"},
+		{"id":"6","name":"å—ä¸‰é™¸ç”º6","code":"å—ä¸‰é™¸ç”º6","status":"1","group":"a"},
+		{"id":"7","name":"å—ä¸‰é™¸ç”º7","code":"å—ä¸‰é™¸ç”º7","status":"1","group":"a"},
+		{"id":"8","name":"å—ä¸‰é™¸ç”º8","code":"å—ä¸‰é™¸ç”º8","status":"1","group":"a"},
+		{"id":"9","name":"å—ä¸‰é™¸ç”º9","code":"å—ä¸‰é™¸ç”º9","status":"1","group":"a"},
+		{"id":"10","name":"å—ä¸‰é™¸ç”º10","code":"å—ä¸‰é™¸ç”º10","status":"1","group":"a"},
+		{"id":"11","name":"å—ä¸‰é™¸ç”º11","code":"å—ä¸‰é™¸ç”º11","status":"1","group":"a"},
+		{"id":"12","name":"å—ä¸‰é™¸ç”º12","code":"å—ä¸‰é™¸ç”º12","status":"1","group":"a"},
+		{"id":"13","name":"å—ä¸‰é™¸ç”º13","code":"å—ä¸‰é™¸ç”º13","status":"1","group":"a"},
+		{"id":"14","name":"å—ä¸‰é™¸ç”º14","code":"å—ä¸‰é™¸ç”º14","status":"1","group":"a"},
+		{"id":"15","name":"å—ä¸‰é™¸ç”º11","code":"å—ä¸‰é™¸ç”º11","status":"1","group":"a"},
+		{"id":"16","name":"å—ä¸‰é™¸ç”º12","code":"å—ä¸‰é™¸ç”º12","status":"1","group":"a"},
+		{"id":"17","name":"å—ä¸‰é™¸ç”º13","code":"å—ä¸‰é™¸ç”º13","status":"1","group":"a"},
+		{"id":"18","name":"å—ä¸‰é™¸ç”º14","code":"å—ä¸‰é™¸ç”º14","status":"1","group":"a"},
+		{"id":"19","name":"å—ä¸‰é™¸ç”º11","code":"å—ä¸‰é™¸ç”º11","status":"1","group":"a"},
+		{"id":"20","name":"å—ä¸‰é™¸ç”º12","code":"å—ä¸‰é™¸ç”º12","status":"1","group":"a"},
+		{"id":"21","name":"å—ä¸‰é™¸ç”º13","code":"å—ä¸‰é™¸ç”º13","status":"1","group":"a"},
+		{"id":"22","name":"å—ä¸‰é™¸ç”º14","code":"å—ä¸‰é™¸ç”º14","status":"1","group":"a"},
+		{"id":"23","name":"å—ä¸‰é™¸ç”º10","code":"å—ä¸‰é™¸ç”º10","status":"1","group":"a"},
+		{"id":"24","name":"å—ä¸‰é™¸ç”º11","code":"å—ä¸‰é™¸ç”º11","status":"1","group":"a"},
+		{"id":"25","name":"å—ä¸‰é™¸ç”º12","code":"å—ä¸‰é™¸ç”º12","status":"1","group":"a"},
+		{"id":"26","name":"å—ä¸‰é™¸ç”º13","code":"å—ä¸‰é™¸ç”º13","status":"1","group":"a"},
+		{"id":"27","name":"å—ä¸‰é™¸ç”º14","code":"å—ä¸‰é™¸ç”º14","status":"1","group":"a"},
+		{"id":"28","name":"å—ä¸‰é™¸ç”º11","code":"å—ä¸‰é™¸ç”º11","status":"1","group":"a"},
+		{"id":"29","name":"å—ä¸‰é™¸ç”º12","code":"å—ä¸‰é™¸ç”º12","status":"1","group":"a"},
+		{"id":"30","name":"å—ä¸‰é™¸ç”º13","code":"å—ä¸‰é™¸ç”º13","status":"1","group":"a"},
+		{"id":"31","name":"å—ä¸‰é™¸ç”º14","code":"å—ä¸‰é™¸ç”º14","status":"1","group":"a"},
+		{"id":"32","name":"å—ä¸‰é™¸ç”º11","code":"å—ä¸‰é™¸ç”º11","status":"1","group":"a"},
+		{"id":"33","name":"å—ä¸‰é™¸ç”º12","code":"å—ä¸‰é™¸ç”º12","status":"1","group":"a"},
+		{"id":"34","name":"å—ä¸‰é™¸ç”º13","code":"å—ä¸‰é™¸ç”º13","status":"1","group":"a"},
+		{"id":"35","name":"å—ä¸‰é™¸ç”º14","code":"å—ä¸‰é™¸ç”º14","status":"1","group":"a"},
+		{"id":"36","name":"å—ä¸‰é™¸ç”º10","code":"å—ä¸‰é™¸ç”º10","status":"1","group":"a"},
+		{"id":"37","name":"å—ä¸‰é™¸ç”º11","code":"å—ä¸‰é™¸ç”º11","status":"1","group":"a"},
+		{"id":"38","name":"å—ä¸‰é™¸ç”º12","code":"å—ä¸‰é™¸ç”º12","status":"1","group":"a"},
+		{"id":"39","name":"å—ä¸‰é™¸ç”º13","code":"å—ä¸‰é™¸ç”º13","status":"1","group":"a"},
+		{"id":"40","name":"å—ä¸‰é™¸ç”º14","code":"å—ä¸‰é™¸ç”º14","status":"1","group":"a"},
+		{"id":"41","name":"å—ä¸‰é™¸ç”º11","code":"å—ä¸‰é™¸ç”º11","status":"1","group":"a"}
 		],	
 		"data":[
-			{"donor":"‰¡R“dH"}
+			{"donor":"æ¨ªå±±é›»å·¥"}
 		],
-		"comment":"‚±‚±‚ÉƒeƒLƒXƒg"
+		"comment":"ã“ã“ã«ãƒ†ã‚­ã‚¹ãƒˆ"
 	},
 	
 	"sendai":{
 		"spots": [
-		{"id":"1","name":"å‘äs1","code":"å‘äs1","status":"1","group":"b"},
-		{"id":"2","name":"å‘äs2","code":"å‘äs2","status":"1","group":"b"},
-		{"id":"3","name":"å‘äs3","code":"å‘äs3","status":"1","group":"b"},
-		{"id":"4","name":"å‘äs4","code":"å‘äs4","status":"1","group":"b"},
-		{"id":"5","name":"å‘äs5","code":"å‘äs5","status":"1","group":"b"},
-		{"id":"6","name":"å‘äs6","code":"å‘äs6","status":"1","group":"b"},
-		{"id":"7","name":"å‘äs7","code":"å‘äs7","status":"1","group":"b"},
-		{"id":"8","name":"å‘äs8","code":"å‘äs8","status":"1","group":"b"},
-		{"id":"9","name":"å‘äs9","code":"å‘äs9","status":"1","group":"b"},
-		{"id":"10","name":"å‘äs10","code":"å‘äs10","status":"1","group":"b"},
-		{"id":"11","name":"å‘äs11","code":"å‘äs11","status":"1","group":"b"},
-		{"id":"12","name":"å‘äs12","code":"å‘äs12","status":"1","group":"b"},
-		{"id":"13","name":"å‘äs13","code":"å‘äs13","status":"1","group":"b"},
-		{"id":"14","name":"å‘äs14","code":"å‘äs14","status":"1","group":"b"},
-		{"id":"15","name":"å‘äs11","code":"å‘äs11","status":"1","group":"b"},
-		{"id":"16","name":"å‘äs12","code":"å‘äs12","status":"1","group":"b"},
-		{"id":"17","name":"å‘äs13","code":"å‘äs13","status":"1","group":"b"},
-		{"id":"18","name":"å‘äs14","code":"å‘äs14","status":"1","group":"b"},
-		{"id":"19","name":"å‘äs11","code":"å‘äs11","status":"1","group":"b"},
-		{"id":"20","name":"å‘äs12","code":"å‘äs12","status":"1","group":"b"},
-		{"id":"21","name":"å‘äs13","code":"å‘äs13","status":"1","group":"b"},
-		{"id":"22","name":"å‘äs14","code":"å‘äs14","status":"1","group":"b"},
-		{"id":"23","name":"å‘äs10","code":"å‘äs10","status":"1","group":"b"},
-		{"id":"24","name":"å‘äs11","code":"å‘äs11","status":"1","group":"b"},
-		{"id":"25","name":"å‘äs12","code":"å‘äs12","status":"1","group":"b"},
-		{"id":"26","name":"å‘äs13","code":"å‘äs13","status":"1","group":"b"}
+		{"id":"1","name":"ä»™å°å¸‚1","code":"ä»™å°å¸‚1","status":"1","group":"b"},
+		{"id":"2","name":"ä»™å°å¸‚2","code":"ä»™å°å¸‚2","status":"1","group":"b"},
+		{"id":"3","name":"ä»™å°å¸‚3","code":"ä»™å°å¸‚3","status":"1","group":"b"},
+		{"id":"4","name":"ä»™å°å¸‚4","code":"ä»™å°å¸‚4","status":"1","group":"b"},
+		{"id":"5","name":"ä»™å°å¸‚5","code":"ä»™å°å¸‚5","status":"1","group":"b"},
+		{"id":"6","name":"ä»™å°å¸‚6","code":"ä»™å°å¸‚6","status":"1","group":"b"},
+		{"id":"7","name":"ä»™å°å¸‚7","code":"ä»™å°å¸‚7","status":"1","group":"b"},
+		{"id":"8","name":"ä»™å°å¸‚8","code":"ä»™å°å¸‚8","status":"1","group":"b"},
+		{"id":"9","name":"ä»™å°å¸‚9","code":"ä»™å°å¸‚9","status":"1","group":"b"},
+		{"id":"10","name":"ä»™å°å¸‚10","code":"ä»™å°å¸‚10","status":"1","group":"b"},
+		{"id":"11","name":"ä»™å°å¸‚11","code":"ä»™å°å¸‚11","status":"1","group":"b"},
+		{"id":"12","name":"ä»™å°å¸‚12","code":"ä»™å°å¸‚12","status":"1","group":"b"},
+		{"id":"13","name":"ä»™å°å¸‚13","code":"ä»™å°å¸‚13","status":"1","group":"b"},
+		{"id":"14","name":"ä»™å°å¸‚14","code":"ä»™å°å¸‚14","status":"1","group":"b"},
+		{"id":"15","name":"ä»™å°å¸‚11","code":"ä»™å°å¸‚11","status":"1","group":"b"},
+		{"id":"16","name":"ä»™å°å¸‚12","code":"ä»™å°å¸‚12","status":"1","group":"b"},
+		{"id":"17","name":"ä»™å°å¸‚13","code":"ä»™å°å¸‚13","status":"1","group":"b"},
+		{"id":"18","name":"ä»™å°å¸‚14","code":"ä»™å°å¸‚14","status":"1","group":"b"},
+		{"id":"19","name":"ä»™å°å¸‚11","code":"ä»™å°å¸‚11","status":"1","group":"b"},
+		{"id":"20","name":"ä»™å°å¸‚12","code":"ä»™å°å¸‚12","status":"1","group":"b"},
+		{"id":"21","name":"ä»™å°å¸‚13","code":"ä»™å°å¸‚13","status":"1","group":"b"},
+		{"id":"22","name":"ä»™å°å¸‚14","code":"ä»™å°å¸‚14","status":"1","group":"b"},
+		{"id":"23","name":"ä»™å°å¸‚10","code":"ä»™å°å¸‚10","status":"1","group":"b"},
+		{"id":"24","name":"ä»™å°å¸‚11","code":"ä»™å°å¸‚11","status":"1","group":"b"},
+		{"id":"25","name":"ä»™å°å¸‚12","code":"ä»™å°å¸‚12","status":"1","group":"b"},
+		{"id":"26","name":"ä»™å°å¸‚13","code":"ä»™å°å¸‚13","status":"1","group":"b"}
 		],	
 		"data":[
-			{"donor":"‰¡R“dH"}
+			{"donor":"æ¨ªå±±é›»å·¥"}
 		],
-		"comment":"‚±‚±‚ÉƒeƒLƒXƒg"
+		"comment":"ã“ã“ã«ãƒ†ã‚­ã‚¹ãƒˆ"
 	},
 	
 	"kesennuma":{
 		"spots": [
-		{"id":"1","name":"‹CåÀs1","code":"‹CåÀs1","status":"1","group":"c"},
-		{"id":"2","name":"‹CåÀs2","code":"‹CåÀs2","status":"1","group":"c"},
-		{"id":"3","name":"‹CåÀs3","code":"‹CåÀs3","status":"1","group":"c"},
-		{"id":"4","name":"‹CåÀs4","code":"‹CåÀs4","status":"1","group":"c"},
-		{"id":"5","name":"‹CåÀs5","code":"‹CåÀs5","status":"1","group":"c"},
-		{"id":"6","name":"‹CåÀs6","code":"‹CåÀs6","status":"1","group":"c"},
-		{"id":"7","name":"‹CåÀs7","code":"‹CåÀs7","status":"1","group":"c"},
-		{"id":"8","name":"‹CåÀs8","code":"‹CåÀs8","status":"1","group":"c"},
-		{"id":"9","name":"‹CåÀs9","code":"‹CåÀs9","status":"1","group":"c"},
-		{"id":"10","name":"‹CåÀs10","code":"‹CåÀs10","status":"1","group":"c"},
-		{"id":"11","name":"‹CåÀs11","code":"‹CåÀs11","status":"1","group":"c"},
-		{"id":"12","name":"‹CåÀs12","code":"‹CåÀs12","status":"1","group":"c"},
-		{"id":"13","name":"‹CåÀs13","code":"‹CåÀs13","status":"1","group":"c"},
-		{"id":"14","name":"‹CåÀs14","code":"‹CåÀs14","status":"1","group":"c"},
-		{"id":"15","name":"‹CåÀs10","code":"‹CåÀs10","status":"1","group":"c"},
-		{"id":"16","name":"‹CåÀs11","code":"‹CåÀs11","status":"1","group":"c"},
-		{"id":"17","name":"‹CåÀs12","code":"‹CåÀs12","status":"1","group":"c"},
-		{"id":"18","name":"‹CåÀs13","code":"‹CåÀs13","status":"1","group":"c"},
-		{"id":"19","name":"‹CåÀs14","code":"‹CåÀs14","status":"1","group":"c"},
-		{"id":"20","name":"‹CåÀs10","code":"‹CåÀs10","status":"1","group":"c"},
-		{"id":"21","name":"‹CåÀs11","code":"‹CåÀs11","status":"1","group":"c"}
+		{"id":"1","name":"æ°—ä»™æ²¼å¸‚1","code":"æ°—ä»™æ²¼å¸‚1","status":"1","group":"c"},
+		{"id":"2","name":"æ°—ä»™æ²¼å¸‚2","code":"æ°—ä»™æ²¼å¸‚2","status":"1","group":"c"},
+		{"id":"3","name":"æ°—ä»™æ²¼å¸‚3","code":"æ°—ä»™æ²¼å¸‚3","status":"1","group":"c"},
+		{"id":"4","name":"æ°—ä»™æ²¼å¸‚4","code":"æ°—ä»™æ²¼å¸‚4","status":"1","group":"c"},
+		{"id":"5","name":"æ°—ä»™æ²¼å¸‚5","code":"æ°—ä»™æ²¼å¸‚5","status":"1","group":"c"},
+		{"id":"6","name":"æ°—ä»™æ²¼å¸‚6","code":"æ°—ä»™æ²¼å¸‚6","status":"1","group":"c"},
+		{"id":"7","name":"æ°—ä»™æ²¼å¸‚7","code":"æ°—ä»™æ²¼å¸‚7","status":"1","group":"c"},
+		{"id":"8","name":"æ°—ä»™æ²¼å¸‚8","code":"æ°—ä»™æ²¼å¸‚8","status":"1","group":"c"},
+		{"id":"9","name":"æ°—ä»™æ²¼å¸‚9","code":"æ°—ä»™æ²¼å¸‚9","status":"1","group":"c"},
+		{"id":"10","name":"æ°—ä»™æ²¼å¸‚10","code":"æ°—ä»™æ²¼å¸‚10","status":"1","group":"c"},
+		{"id":"11","name":"æ°—ä»™æ²¼å¸‚11","code":"æ°—ä»™æ²¼å¸‚11","status":"1","group":"c"},
+		{"id":"12","name":"æ°—ä»™æ²¼å¸‚12","code":"æ°—ä»™æ²¼å¸‚12","status":"1","group":"c"},
+		{"id":"13","name":"æ°—ä»™æ²¼å¸‚13","code":"æ°—ä»™æ²¼å¸‚13","status":"1","group":"c"},
+		{"id":"14","name":"æ°—ä»™æ²¼å¸‚14","code":"æ°—ä»™æ²¼å¸‚14","status":"1","group":"c"},
+		{"id":"15","name":"æ°—ä»™æ²¼å¸‚10","code":"æ°—ä»™æ²¼å¸‚10","status":"1","group":"c"},
+		{"id":"16","name":"æ°—ä»™æ²¼å¸‚11","code":"æ°—ä»™æ²¼å¸‚11","status":"1","group":"c"},
+		{"id":"17","name":"æ°—ä»™æ²¼å¸‚12","code":"æ°—ä»™æ²¼å¸‚12","status":"1","group":"c"},
+		{"id":"18","name":"æ°—ä»™æ²¼å¸‚13","code":"æ°—ä»™æ²¼å¸‚13","status":"1","group":"c"},
+		{"id":"19","name":"æ°—ä»™æ²¼å¸‚14","code":"æ°—ä»™æ²¼å¸‚14","status":"1","group":"c"},
+		{"id":"20","name":"æ°—ä»™æ²¼å¸‚10","code":"æ°—ä»™æ²¼å¸‚10","status":"1","group":"c"},
+		{"id":"21","name":"æ°—ä»™æ²¼å¸‚11","code":"æ°—ä»™æ²¼å¸‚11","status":"1","group":"c"}
 		],	
 		"data":[
-			{"donor":"‰¡R“dH"}
+			{"donor":"æ¨ªå±±é›»å·¥"}
 		],
-		"comment":"‚±‚±‚ÉƒeƒLƒXƒg"
+		"comment":"ã“ã“ã«ãƒ†ã‚­ã‚¹ãƒˆ"
 	}
 	
 };
@@ -1123,16 +1123,16 @@ var json =
 
 
 /*
-enwritehead:Headerî•ñ‚ğo—Í
+enwritehead:Headeræƒ…å ±ã‚’å‡ºåŠ›
 ---------------------------------------*/
 function enwritehead(){
 keyNumber=keyNumber-3;
 	document.write('<h1>'+enjson.list[keyNumber].jname+'</h1><br>');
 	document.write('<div class="left">');
 	if( enjson.list[keyNumber].by != 'none'){
-	document.write('<br><div class="face">ReporterF('+enjson.list[keyNumber].byj+')<table><tr>');
+	document.write('<br><div class="face">Reporterï¼š('+enjson.list[keyNumber].byj+')<table><tr>');
 	document.write('<td><img src="img/face/'+enjson.list[keyNumber].by+'.jpg" width="120" height="170" ></td><td>');
-		document.write('Image courtesy ofFQuantity '+eval("enjson."+key+".spots.length")+'<br>');
+		document.write('Image courtesy ofï¼šQuantity '+eval("enjson."+key+".spots.length")+'<br>');
 	for(var i=0; i<eval("enjson."+key+".data.length");i++){
 		document.write('<li>'+eval("enjson."+key+".data[i].donor")+'</li>');
 	}
@@ -1142,7 +1142,7 @@ keyNumber=keyNumber-3;
 }
 
 /*
-enwriteImggrid:‰æ‘œGrid‚ğo—Í
+enwriteImggrid:ç”»åƒGridã‚’å‡ºåŠ›
 ---------------------------------------*/
 function enwriteImggrid(){
 	var status;
@@ -1154,7 +1154,7 @@ function enwriteImggrid(){
 			}else{
 				status = 'Current';
 			}
-	document.write('<a class="fancy" data-fancybox-type="image" data-fancybox-group="'+spot.group+'" href="img/photo/'+enjson.list[keyNumber].name+'/'+spot.id+'.jpg" title="'+spot.code+'@'+spot.name+' '+status+'">');
+	document.write('<a class="fancy" data-fancybox-type="image" data-fancybox-group="'+spot.group+'" href="img/photo/'+enjson.list[keyNumber].name+'/'+spot.id+'.jpg" title="'+spot.code+'ã€€'+spot.name+' '+status+'">');
 	document.write('<div class="photgrid">');
 	document.write('<div class="cap">');
 	document.write('<img src="img/photo/'+enjson.list[keyNumber].name+'/' + spot.id + '.jpg" width="239" height="210"/>');
@@ -1166,7 +1166,7 @@ function enwriteImggrid(){
 }
 
 /*
-enwritelist:s’¬‘ºƒŠƒXƒg‚ğo—Í
+enwritelist:å¸‚ç”ºæ‘ãƒªã‚¹ãƒˆã‚’å‡ºåŠ›
 ---------------------------------------*/
 function enwritelist(){
 	var count_img = 0;
@@ -1177,15 +1177,15 @@ function enwritelist(){
 		document.write('<a href="en_photo_'+enjson.list[i].name+'.html"><div class="content_menu">');
 		document.write('<h2>'+enjson.list[i].jname+'</h2><div>');
 		if(i <  20 ){
-		document.write('ReportersF'+enjson.list[i].byj+'@');
+		document.write('Reportersï¼š'+enjson.list[i].byj+'ã€€');
 		}
-		document.write('Pictures F'+eval("enjson."+enjson.list[i].name+".spots.length")+'</div>');
+		document.write('Pictures ï¼š'+eval("enjson."+enjson.list[i].name+".spots.length")+'</div>');
 		document.write('</div>');
 		document.write('</a><hr>');
 		count_img = count_img + eval("enjson."+enjson.list[i].name+".spots.length");
 	}
-	document.getElementById('imgcounter').innerHTML= 'Total number of images F'+count_img;
-	document.getElementById('imgcontent').innerHTML= 'Regions F'+json.list.length;
+	document.getElementById('imgcounter').innerHTML= 'Total number of images ï¼š'+count_img;
+	document.getElementById('imgcontent').innerHTML= 'Regions ï¼š'+json.list.length;
 }
 
 
@@ -1196,33 +1196,33 @@ var enjson =
 	"list":
 		[
 		
-		{"jname":"Inashiki@City","name":"inasiki","by":"1_kamihara","byj":"Takumi.K."},
-		{"jname":"Ibaraki@Town","name":"ibarakimati","by":"2_suzuki","byj":"Yumi.S."},
-		{"jname":"Oarai@Town","name":"oarai","by":"3_kobayashi","byj":"Masaki.K."},
-		{"jname":"Kasama@@City","name":"kasama","by":"2_suzuki","byj":"Yumi.S."},
-		{"jname":"Kasumigaura@City","name":"kasumigaura","by":"2_suzuki","byj":"Yumi.S."},
-		{"jname":"Kitaibaraki@@City","name":"kitaibaraki","by":"1_minami","byj":"Kaori.M."},
-		{"jname":"Sakuragawa@City","name":"sakuragawa","by":"1_kobayashi","byj":"Masamune.K."},
-		{"jname":"Shimotsuma@City","name":"simotuma","by":"1_suzuki","byj":"Kyouka.S."},
-		{"jname":"Joso@City","name":"jyoso","by":"1_suzuki","byj":"Kyouka.S."},
-		{"jname":"Shirosato@Town","name":"shirosato","by":"1_kobayashi","byj":"Masamune.K."},
-		{"jname":"Takahagi@City","name":"takahagi","by":"1_minami","byj":"Kaori.M."},
-		{"jname":"Chikusei@City","name":"tikusei","by":"1_suzuki","byj":"Kyouka.S."},
-		{"jname":"Tsuchiura@City","name":"tutiura","by":"1_kamihara","byj":"Takumi.K."},
-		{"jname":"Bando@City","name":"bandou","by":"1_suzuki","byj":"Kyouka.S."},
-		{"jname":"Hitachi@City","name":"hitati","by":"1_suzuki","byj":"Kyouka.S."},
-		{"jname":"Hitachiota@City","name":"hitachioota","by":"1_minami","byj":"Kaori.M."},
-		{"jname":"Hitachi Omiya@City","name":"hitatioomiya","by":"1_minami","byj":"Kaori.M."},
-		{"jname":"Hitachinaka@City","name":"hitachinaka","by":"1_kobayashi","byj":"Masamune.K."},
-		{"jname":"Hokota@City","name":"hokota","by":"1_kobayashi","byj":"Masamune.K."},
-		{"jname":"Mito@City","name":"mito","by":"2_suzuki","byj":"Yumi.S."},
+		{"jname":"Inashikiã€€City","name":"inasiki","by":"1_kamihara","byj":"Takumi.K."},
+		{"jname":"Ibarakiã€€Town","name":"ibarakimati","by":"2_suzuki","byj":"Yumi.S."},
+		{"jname":"Oaraiã€€Town","name":"oarai","by":"3_kobayashi","byj":"Masaki.K."},
+		{"jname":"Kasamaã€€ã€€City","name":"kasama","by":"2_suzuki","byj":"Yumi.S."},
+		{"jname":"Kasumigauraã€€City","name":"kasumigaura","by":"2_suzuki","byj":"Yumi.S."},
+		{"jname":"Kitaibarakiã€€ã€€City","name":"kitaibaraki","by":"1_minami","byj":"Kaori.M."},
+		{"jname":"Sakuragawaã€€City","name":"sakuragawa","by":"1_kobayashi","byj":"Masamune.K."},
+		{"jname":"Shimotsumaã€€City","name":"simotuma","by":"1_suzuki","byj":"Kyouka.S."},
+		{"jname":"Josoã€€City","name":"jyoso","by":"1_suzuki","byj":"Kyouka.S."},
+		{"jname":"Shirosatoã€€Town","name":"shirosato","by":"1_kobayashi","byj":"Masamune.K."},
+		{"jname":"Takahagiã€€City","name":"takahagi","by":"1_minami","byj":"Kaori.M."},
+		{"jname":"Chikuseiã€€City","name":"tikusei","by":"1_suzuki","byj":"Kyouka.S."},
+		{"jname":"Tsuchiuraã€€City","name":"tutiura","by":"1_kamihara","byj":"Takumi.K."},
+		{"jname":"Bandoã€€City","name":"bandou","by":"1_suzuki","byj":"Kyouka.S."},
+		{"jname":"Hitachiã€€City","name":"hitati","by":"1_suzuki","byj":"Kyouka.S."},
+		{"jname":"Hitachiotaã€€City","name":"hitachioota","by":"1_minami","byj":"Kaori.M."},
+		{"jname":"Hitachi Omiyaã€€City","name":"hitatioomiya","by":"1_minami","byj":"Kaori.M."},
+		{"jname":"Hitachinakaã€€City","name":"hitachinaka","by":"1_kobayashi","byj":"Masamune.K."},
+		{"jname":"Hokotaã€€City","name":"hokota","by":"1_kobayashi","byj":"Masamune.K."},
+		{"jname":"Mitoã€€City","name":"mito","by":"2_suzuki","byj":"Yumi.S."},
 		
-		{"jname":"Ami@Town","name":"ami","by":"none","byj":"none"},
-		{"jname":"Kashima@City","name":"kasima","by":"none","byj":"none"},
-		{"jname":"Kawauti@Town","name":"kawauti","by":"none","byj":"none"},
-		{"jname":"Tukubamirai@City","name":"tukubamirai","by":"none","byj":"none"},
-		{"jname":"Namegata@City","name":"namegata","by":"none","byj":"none"},	
-		{"jname":"Moriya@City","name":"moriya","by":"none","byj":"none"}
+		{"jname":"Amiã€€Town","name":"ami","by":"none","byj":"none"},
+		{"jname":"Kashimaã€€City","name":"kasima","by":"none","byj":"none"},
+		{"jname":"Kawautiã€€Town","name":"kawauti","by":"none","byj":"none"},
+		{"jname":"Tukubamiraiã€€City","name":"tukubamirai","by":"none","byj":"none"},
+		{"jname":"Namegataã€€City","name":"namegata","by":"none","byj":"none"},	
+		{"jname":"Moriyaã€€City","name":"moriya","by":"none","byj":"none"}
 		],
 
 
@@ -1282,15 +1282,15 @@ var enjson =
 
 	"ami":{
 		"spots": [
-		{"id":"1","name":"Ami@Town@1","code":"Ami@Town@1","status":"1","group":"a"},
-		{"id":"2","name":"Ami@Town@2","code":"Ami@Town@2","status":"1","group":"a"},
-		{"id":"3","name":"Ami@Town@3","code":"Ami@Town@3","status":"1","group":"a"},
-		{"id":"4","name":"Ami@Town@4","code":"Ami@Town@4","status":"1","group":"a"},
-		{"id":"5","name":"Ami@Town@5","code":"Ami@Town@5","status":"1","group":"a"},
-		{"id":"6","name":"Ami@Town@6","code":"Ami@Town@6","status":"1","group":"a"},
-		{"id":"7","name":"Ami@Town@7","code":"Ami@Town@7","status":"1","group":"a"},
-		{"id":"8","name":"Ami@Town@8","code":"Ami@Town@8","status":"1","group":"a"},
-		{"id":"9","name":"Ami@Town@9","code":"Ami@Town@9","status":"1","group":"a"}
+		{"id":"1","name":"Amiã€€Townã€€1","code":"Amiã€€Townã€€1","status":"1","group":"a"},
+		{"id":"2","name":"Amiã€€Townã€€2","code":"Amiã€€Townã€€2","status":"1","group":"a"},
+		{"id":"3","name":"Amiã€€Townã€€3","code":"Amiã€€Townã€€3","status":"1","group":"a"},
+		{"id":"4","name":"Amiã€€Townã€€4","code":"Amiã€€Townã€€4","status":"1","group":"a"},
+		{"id":"5","name":"Amiã€€Townã€€5","code":"Amiã€€Townã€€5","status":"1","group":"a"},
+		{"id":"6","name":"Amiã€€Townã€€6","code":"Amiã€€Townã€€6","status":"1","group":"a"},
+		{"id":"7","name":"Amiã€€Townã€€7","code":"Amiã€€Townã€€7","status":"1","group":"a"},
+		{"id":"8","name":"Amiã€€Townã€€8","code":"Amiã€€Townã€€8","status":"1","group":"a"},
+		{"id":"9","name":"Amiã€€Townã€€9","code":"Amiã€€Townã€€9","status":"1","group":"a"}
 		],	
 		"data":[
 			{"donor":"General Affairs Division Office of Education, Ibaraki"}
@@ -1602,15 +1602,15 @@ var enjson =
 	
 	"kawauti":{
 		"spots": [
-		{"id":"1","name":"Kawachi@1","code":"Kawachi@1","status":"1","group":"a"},
-		{"id":"2","name":"Kawachi@2","code":"Kawachi@2","status":"1","group":"a"},
-		{"id":"3","name":"Kawachi@3","code":"Kawachi@3","status":"1","group":"a"},
-		{"id":"4","name":"Kawachi@4","code":"Kawachi@4","status":"1","group":"a"},
-		{"id":"5","name":"Kawachi@5","code":"Kawachi@5","status":"1","group":"a"},
-		{"id":"6","name":"Kawachi@6","code":"Kawachi@6","status":"1","group":"a"},
-		{"id":"7","name":"Kawachi@7","code":"Kawachi@7","status":"1","group":"a"},
-		{"id":"8","name":"Kawachi@8","code":"Kawachi@8","status":"1","group":"a"},
-		{"id":"9","name":"Kawachi@9","code":"Kawachi@9","status":"1","group":"a"}
+		{"id":"1","name":"Kawachiã€€1","code":"Kawachiã€€1","status":"1","group":"a"},
+		{"id":"2","name":"Kawachiã€€2","code":"Kawachiã€€2","status":"1","group":"a"},
+		{"id":"3","name":"Kawachiã€€3","code":"Kawachiã€€3","status":"1","group":"a"},
+		{"id":"4","name":"Kawachiã€€4","code":"Kawachiã€€4","status":"1","group":"a"},
+		{"id":"5","name":"Kawachiã€€5","code":"Kawachiã€€5","status":"1","group":"a"},
+		{"id":"6","name":"Kawachiã€€6","code":"Kawachiã€€6","status":"1","group":"a"},
+		{"id":"7","name":"Kawachiã€€7","code":"Kawachiã€€7","status":"1","group":"a"},
+		{"id":"8","name":"Kawachiã€€8","code":"Kawachiã€€8","status":"1","group":"a"},
+		{"id":"9","name":"Kawachiã€€9","code":"Kawachiã€€9","status":"1","group":"a"}
 		],	
 		"data":[
 			{"donor":"General Affairs Division Office of Education, Ibaraki"}
@@ -1707,16 +1707,16 @@ var enjson =
 	
 	"moriya":{
 		"spots": [
-		{"id":"1","name":"Moriya@City@1","code":"Moriya@City@1","status":"1","group":"a"},
-		{"id":"2","name":"Moriya@City@2","code":"Moriya@City@2","status":"1","group":"a"},
-		{"id":"3","name":"Moriya@City@3","code":"Moriya@City@3","status":"1","group":"a"},
-		{"id":"4","name":"Moriya@City@4","code":"Moriya@City@4","status":"1","group":"a"},
-		{"id":"5","name":"Moriya@City@5","code":"Moriya@City@5","status":"1","group":"a"},
-		{"id":"6","name":"Moriya@City@6","code":"Moriya@City@6","status":"1","group":"a"},
-		{"id":"7","name":"Moriya@City@7","code":"Moriya@City@7","status":"1","group":"a"},
-		{"id":"8","name":"Moriya@City@8","code":"Moriya@City@8","status":"1","group":"a"},
-		{"id":"9","name":"Moriya@City@9","code":"Moriya@City@9","status":"1","group":"a"},
-		{"id":"10","name":"Moriya@City@10","code":"Moriya@City@10","status":"1","group":"a"}
+		{"id":"1","name":"Moriyaã€€Cityã€€1","code":"Moriyaã€€Cityã€€1","status":"1","group":"a"},
+		{"id":"2","name":"Moriyaã€€Cityã€€2","code":"Moriyaã€€Cityã€€2","status":"1","group":"a"},
+		{"id":"3","name":"Moriyaã€€Cityã€€3","code":"Moriyaã€€Cityã€€3","status":"1","group":"a"},
+		{"id":"4","name":"Moriyaã€€Cityã€€4","code":"Moriyaã€€Cityã€€4","status":"1","group":"a"},
+		{"id":"5","name":"Moriyaã€€Cityã€€5","code":"Moriyaã€€Cityã€€5","status":"1","group":"a"},
+		{"id":"6","name":"Moriyaã€€Cityã€€6","code":"Moriyaã€€Cityã€€6","status":"1","group":"a"},
+		{"id":"7","name":"Moriyaã€€Cityã€€7","code":"Moriyaã€€Cityã€€7","status":"1","group":"a"},
+		{"id":"8","name":"Moriyaã€€Cityã€€8","code":"Moriyaã€€Cityã€€8","status":"1","group":"a"},
+		{"id":"9","name":"Moriyaã€€Cityã€€9","code":"Moriyaã€€Cityã€€9","status":"1","group":"a"},
+		{"id":"10","name":"Moriyaã€€Cityã€€10","code":"Moriyaã€€Cityã€€10","status":"1","group":"a"}
 		],	
 		"data":[
 			{"donor":"General Affairs Division Office of Education, Ibaraki"}
@@ -1725,7 +1725,7 @@ var enjson =
 	
 	"namegata":{
 		"spots": [
-		{"id":"1","name":"Namegata City@1","code":"Namegata City 1","status":"1","group":"a"},
+		{"id":"1","name":"Namegata Cityã€€1","code":"Namegata City 1","status":"1","group":"a"},
 		{"id":"2","name":"Namegata City 2","code":"Namegata City 2","status":"1","group":"a"},
 		{"id":"3","name":"Namegata City 3","code":"Namegata City 3","status":"1","group":"a"},
 		{"id":"4","name":"Namegata City 4","code":"Namegata City 4","status":"1","group":"a"},
@@ -1760,7 +1760,7 @@ var enjson =
 		],	
 		"data":[
 			{"donor":"Individual shooting"},
-			{"donor":"Town hall@Shirosato"},
+			{"donor":"Town hallã€€Shirosato"},
 			{"donor":"General Affairs Division Office of Education, Ibaraki"}
 		]
 	},

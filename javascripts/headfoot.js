@@ -4,7 +4,7 @@ function header(){
 document.write('<link rel="shortcut icon" href="favicon.ico">\
 <div class="nine columns centered row max"  id="top">\
 <div class="twelve columns row">\
-<h1><a href="index.html"  class="headtext">’nk‚É‚Â‚¢‚Äl‚¦‚éƒTƒCƒg</a></h1>\
+<h1><a href="index.html"  class="headtext">åœ°éœ‡ã«ã¤ã„ã¦è€ƒãˆã‚‹ã‚µã‚¤ãƒˆ</a></h1>\
 </div>\
 ');
 }
@@ -39,22 +39,22 @@ function footer(){
 document.write('\
 <div class="twelve columns row max"><br>\
 <div class="twelve columns"><div class="four columns centered" id="footer_menu">\
-<a href="javascript:history.go(-1)" class="four columns mobile-one footleft"><img src="img/back.png" @title="1‚Â‘O‚Ìƒy[ƒW‚ÉˆÚ“®‚µ‚Ü‚·"></a>\
-<a href="index.html" class="four columns  mobile-two"><img src="img/home.png"  @title="Topƒy[ƒW‚ÉˆÚ“®"></a>\
-<a href="#top" class="four columns  mobile-one footright"><img src="img/top.png"  @title="‚±‚Ìƒy[ƒW‚Ìˆê”Ôã‚ÉˆÚ“®‚µ‚Ü‚·"></a>\
+<a href="javascript:history.go(-1)" class="four columns mobile-one footleft"><img src="img/back.png" ã€€title="1ã¤å‰ã®ãƒšãƒ¼ã‚¸ã«ç§»å‹•ã—ã¾ã™"></a>\
+<a href="index.html" class="four columns  mobile-two"><img src="img/home.png"  ã€€title="Topãƒšãƒ¼ã‚¸ã«ç§»å‹•"></a>\
+<a href="#top" class="four columns  mobile-one footright"><img src="img/top.png"  ã€€title="ã“ã®ãƒšãƒ¼ã‚¸ã®ä¸€ç•ªä¸Šã«ç§»å‹•ã—ã¾ã™"></a>\
 </div></div>\
 <div class="seven columns">\
-<p class="copyright">Copyright ’nk‚É‚Â‚¢‚Äl‚¦‚éƒTƒCƒg 2012 All Rights Reserved.</p>\
+<p class="copyright">Copyright åœ°éœ‡ã«ã¤ã„ã¦è€ƒãˆã‚‹ã‚µã‚¤ãƒˆ 2012 All Rights Reserved.</p>\
 </div>\
 <div class="five columns">\
          <ul class="inline-list right">\
-			<li class="footlist"><a href="howto.html">‚±‚ÌƒTƒCƒg‚É‚Â‚¢‚Ä</a></li>\
+			<li class="footlist"><a href="howto.html">ã“ã®ã‚µã‚¤ãƒˆã«ã¤ã„ã¦</a></li>\
 			<li class="footlist"><a href="en_index.html">English</a></li>\
 			<li class="footlist"><a href="sitemap.html">SiteMap</a></li>\
           </ul>\
 </div>\
 <div class="twelve columns">\
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://zisinn-kangaeru.makkysnote.org/" data-text=""  data-size="small" data-hashtags="ˆïéŒ§—§…ŒËH‹Æ‚“™ŠwZ">@</a>\
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://zisinn-kangaeru.makkysnote.org/" data-text=""  data-size="small" data-hashtags="èŒ¨åŸçœŒç«‹æ°´æˆ¸å·¥æ¥­é«˜ç­‰å­¦æ ¡">ã€€</a>\
 <a class="g-plusone" data-size="medium" data-href="http://zisinn-kangaeru.makkysnote.org/"></a>\
 <a class="fb-like" data-href="http://zisinn-kangaeru.makkysnote.org/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></a><br><br>\
 </div>\
@@ -83,12 +83,12 @@ function enfooter(){
 document.write('\
 <div class="twelve columns row max"><br>\
 <div class="twelve columns"><div class="four columns centered" id="footer_menu">\
-<a href="javascript:history.go(-1)" class="four columns mobile-one footleft"><img src="img/back.png" @title="1‚Â‘O‚Ìƒy[ƒW‚ÉˆÚ“®‚µ‚Ü‚·"></a>\
-<a href="index.html" class="four columns  mobile-two"><img src="img/home.png"  @title="Topƒy[ƒW‚ÉˆÚ“®"></a>\
-<a href="#top" class="four columns  mobile-one footright"><img src="img/top.png"  @title="‚±‚Ìƒy[ƒW‚Ìˆê”Ôã‚ÉˆÚ“®‚µ‚Ü‚·"></a>\
+<a href="javascript:history.go(-1)" class="four columns mobile-one footleft"><img src="img/back.png" ã€€title="1ã¤å‰ã®ãƒšãƒ¼ã‚¸ã«ç§»å‹•ã—ã¾ã™"></a>\
+<a href="index.html" class="four columns  mobile-two"><img src="img/home.png"  ã€€title="Topãƒšãƒ¼ã‚¸ã«ç§»å‹•"></a>\
+<a href="#top" class="four columns  mobile-one footright"><img src="img/top.png"  ã€€title="ã“ã®ãƒšãƒ¼ã‚¸ã®ä¸€ç•ªä¸Šã«ç§»å‹•ã—ã¾ã™"></a>\
 </div></div>\
 <div class="seven columns">\
-<p class="copyright">Copyright ’nk‚É‚Â‚¢‚Äl‚¦‚éƒTƒCƒg 2012 All Rights Reserved.</p>\
+<p class="copyright">Copyright åœ°éœ‡ã«ã¤ã„ã¦è€ƒãˆã‚‹ã‚µã‚¤ãƒˆ 2012 All Rights Reserved.</p>\
 </div>\
 <div class="five columns">\
          <ul class="inline-list right">\
@@ -98,7 +98,7 @@ document.write('\
           </ul>\
 </div>\
 <div class="twelve columns">\
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://zisinn-kangaeru.makkysnote.org/" data-text=""  data-size="small" data-hashtags="ˆïéŒ§—§…ŒËH‹Æ‚“™ŠwZ">@</a>\
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://zisinn-kangaeru.makkysnote.org/" data-text=""  data-size="small" data-hashtags="èŒ¨åŸçœŒç«‹æ°´æˆ¸å·¥æ¥­é«˜ç­‰å­¦æ ¡">ã€€</a>\
 <a class="g-plusone" data-size="medium" data-href="http://zisinn-kangaeru.makkysnote.org/"></a>\
 <a class="fb-like" data-href="http://zisinn-kangaeru.makkysnote.org/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></a><br><br>\
 </div>\
